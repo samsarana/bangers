@@ -467,19 +467,11 @@
         block.appendChild(qme);
       }
     } else {
+      // Build-time external fetch failed (deleted, private, or otherwise
+      // unreachable). The x.com link would 404 anyway, so we just say so.
       const label = document.createElement("div");
       label.className = "quoted-fallback";
-      const link = document.createElement("a");
-      link.className = "x-link";
-      link.href = `https://x.com/i/status/${t.quoted_tweet_id}`;
-      link.target = "_blank";
-      link.rel = "noopener";
-      link.textContent = "Quoting a tweet ↗";
-      const plain = document.createElement("span");
-      plain.className = "x-link-text";
-      plain.textContent = "Quoting a tweet";
-      plain.style.display = "none";
-      label.append(link, plain);
+      label.textContent = "Quoted tweet unavailable";
       block.appendChild(label);
     }
     card.appendChild(block);
