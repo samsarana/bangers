@@ -23,7 +23,7 @@
   const METRIC_LABEL = {
     rt:    "retweets",
     likes: "likes",
-    qt:    "quote-tweets",
+    qt:    "quote tweets",
   };
 
   // ---------------------------------------------------------------- state
@@ -485,7 +485,7 @@
     const items = [
       { key: "likes", glyph: "♥", label: "likes",        n: t.favorite_count },
       { key: "rt",    glyph: "↻", label: "retweets",     n: t.retweet_count },
-      { key: "qt",    glyph: "❝", label: "quote-tweets", n: t.qt_count },
+      { key: "qt",    glyph: "❝", label: "quote tweets", n: t.qt_count },
     ];
     for (const it of items) {
       const span = document.createElement("span");

@@ -9,11 +9,11 @@
      globally — this is what makes embedded videos play. -->
 <meta name="referrer" content="no-referrer">
 <title>Book of Bangers — an anthology of TPOT</title>
-<meta name="description" content="A browsable anthology of top tweets from the TPOT community, ranked by likes, retweets, and quote-tweets.">
+<meta name="description" content="A browsable anthology of top tweets from the TPOT community, ranked by likes, retweets, and quote tweets.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,300;8..60,400;8..60,600;8..60,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css?v=6">
+<link rel="stylesheet" href="css/style.css?v=7">
 </head>
 <body>
 
@@ -28,10 +28,13 @@
 <div class="controls" id="controls">
   <div class="controls-inner">
 
-    <div class="control-group metric-group" role="tablist" aria-label="Ranking metric">
-      <button class="metric-btn" data-metric="rt" data-tip="Tweets worth signal-boosting" role="tab" aria-selected="true">Re-tweets</button>
-      <button class="metric-btn" data-metric="likes" data-tip="Tweets users wanted to see more of" role="tab" aria-selected="false">Likes</button>
-      <button class="metric-btn" data-metric="qt" data-tip="Tweets users wanted to respond to or build on" role="tab" aria-selected="false">Quote-tweets</button>
+    <div class="control-group order-by">
+      <span class="control-label" id="order-by-label">Order by</span>
+      <div class="metric-group" role="tablist" aria-labelledby="order-by-label">
+        <button class="metric-btn" data-metric="rt" data-tip="Tweets worth signal-boosting" role="tab" aria-selected="true">Retweets</button>
+        <button class="metric-btn" data-metric="likes" data-tip="Tweets users wanted to see more of" role="tab" aria-selected="false">Likes</button>
+        <button class="metric-btn" data-metric="qt" data-tip="Tweets users wanted to respond to or build on" role="tab" aria-selected="false">Quote tweets</button>
+      </div>
     </div>
 
     <div class="control-group">
@@ -87,21 +90,21 @@
     <p>Every tweet here is drawn from the <a href="https://www.community-archive.org/" target="_blank" rel="noopener">Community Archive</a> — an open, public-domain archive of TPOT-adjacent accounts initiated by <a href="https://x.com/exgenesis" target="_blank" rel="noopener">@exgenesis</a> (xiq). The snapshot used for this site was taken in May 2026 and covers around 340 archived accounts. Counts shown are point-in-time at the moment of the snapshot.</p>
 
     <h3>The three metrics</h3>
-    <p>Likes, retweets and quote-tweets each surface a different kind of tweet. They are not interchangeable.</p>
+    <p>Likes, retweets and quote tweets each surface a different kind of tweet. They are not interchangeable.</p>
     <ul>
       <li><strong>Likes</strong> — tweets people wanted to see more of. The broadest signal of resonance, and a direct input to each user's algorithmic feed.</li>
       <li><strong>Retweets</strong> — tweets worth signal-boosting. An explicit, public endorsement to one's followers.</li>
-      <li><strong>Quote-tweets</strong> — tweets people wanted to respond to or build on. The noisiest of the three: it captures generativity, but also disagreement, and tweets that explicitly ask for QTs.</li>
+      <li><strong>Quote tweets</strong> — tweets people wanted to respond to or build on. The noisiest of the three: it captures generativity, but also disagreement, and tweets that explicitly ask for QTs.</li>
     </ul>
-    <p>Empirically, likes and retweets correlate strongly across this corpus (Pearson 0.81); both are nearly uncorrelated with quote-tweet count (0.10 and 0.09). The three lists overlap less than you might expect — quote-tweets in particular surface a distinctly different slice of the archive.</p>
+    <p>Empirically, likes and retweets correlate strongly across this corpus (Pearson 0.81); both are nearly uncorrelated with quote tweet count (0.10 and 0.09). The three lists overlap less than you might expect — quote tweets in particular surface a distinctly different slice of the archive.</p>
 
     <h3>About the QT metric in particular</h3>
-    <p>Quote-tweet count tracks <em>notable enough to respond to publicly</em>. That overlaps substantially with <em>worth including in an anthology of insight</em>, but the two are not identical. Expect to find ideas generative enough to inspire responses, but also things that provoked enough disagreement to warrant a public rebuttal, and the occasional <em>"quote this with your…"</em> prompt.</p>
+    <p>Quote tweet count tracks <em>notable enough to respond to publicly</em>. That overlaps substantially with <em>worth including in an anthology of insight</em>, but the two are not identical. Expect to find ideas generative enough to inspire responses, but also things that provoked enough disagreement to warrant a public rebuttal, and the occasional <em>"quote this with your…"</em> prompt.</p>
 
     <h3>Caveats</h3>
     <ul>
       <li>Counts are a snapshot, not live.</li>
-      <li>QT counts are <em>corpus-internal</em> lower bounds: they only count quote-tweets present in the archive itself.</li>
+      <li>QT counts are <em>corpus-internal</em> lower bounds: they only count quote tweets present in the archive itself.</li>
       <li>Self-quotes are excluded from QT counts.</li>
       <li>Retweets ("RT @…") by archive accounts are excluded from the primary set; only original tweets and replies are ranked.</li>
     </ul>
@@ -114,6 +117,6 @@
   </article>
 </dialog>
 
-<script src="js/app.js?v=6" defer></script>
+<script src="js/app.js?v=7" defer></script>
 </body>
 </html>

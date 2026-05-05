@@ -114,6 +114,19 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 600; letter-spacing: -0.005
 
 .control-group { display: flex; align-items: center; gap: 0.5rem; }
 
+/* Quiet uppercase label sat to the left of a control. Same typographic
+   register as the rank labels and "Showing X of Y" — keeps the chrome
+   consistent without competing with the pills themselves. */
+.control-label {
+  font-size: 0.7rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  white-space: nowrap;
+}
+
+.order-by { gap: 0.6rem; }
+
 .metric-group {
   border: 1px solid var(--rule);
   border-radius: var(--radius);
