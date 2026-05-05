@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- video.twimg.com (and some other twimg endpoints) return 403 if a Referer
+     header points anywhere other than twitter.com / x.com. We don't need
+     Referer to be sent for any request from this site, so strip it
+     globally — this is what makes embedded videos play. -->
+<meta name="referrer" content="no-referrer">
+<title>Book of Bangers — an anthology of TPOT</title>
+<meta name="description" content="A browsable anthology of top tweets from the TPOT community, ranked by likes, retweets, and quote-tweets.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,300;8..60,400;8..60,600;8..60,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css?v=5">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead-inner">
+    <h1 class="title"><a href="#">Book of Bangers</a></h1>
+    <p class="tagline">An anthology of TPOT, ranked by the crowd.</p>
+    <nav><a href="#" id="about-link">About</a></nav>
+  </div>
+</header>
+
+<div class="controls" id="controls">
+  <div class="controls-inner">
+
+    <div class="control-group metric-group" role="tablist" aria-label="Ranking metric">
+      <button class="metric-btn" data-metric="rt" data-tip="Tweets worth signal-boosting" role="tab" aria-selected="true">Re-tweets</button>
+      <button class="metric-btn" data-metric="likes" data-tip="Tweets users wanted to see more of" role="tab" aria-selected="false">Likes</button>
+      <button class="metric-btn" data-metric="qt" data-tip="Tweets users wanted to respond to or build on" role="tab" aria-selected="false">Quote-tweets</button>
+    </div>
+
+    <div class="control-group">
+      <label class="visually-hidden" for="year-select">Year</label>
+      <select id="year-select" aria-label="Filter by year">
+        <option value="all">All time</option>
+      </select>
+    </div>
+
+    <div class="control-group search-group">
+      <label class="visually-hidden" for="search">Search</label>
+      <input type="search" id="search" placeholder="Search text or @username…" autocomplete="off">
+    </div>
+
+    <div class="control-group toggles">
+      <button class="toggle-btn" id="toggle-mode" aria-pressed="false" data-tip="Reading mode: hide avatars, names and dates">
+        <span class="toggle-icon" data-state="social" aria-hidden="true">☺</span>
+        <span class="toggle-icon" data-state="reading" aria-hidden="true">❦</span>
+        <span class="visually-hidden">Toggle reading mode</span>
+      </button>
+      <button class="toggle-btn" id="toggle-links" aria-pressed="true" data-tip="Hide links to x.com">
+        <span class="toggle-icon" data-state="on" aria-hidden="true">↗</span>
+        <span class="toggle-icon" data-state="off" aria-hidden="true">·</span>
+        <span class="visually-hidden">Toggle external links</span>
+      </button>
+    </div>
+
+    <div class="count" id="count" aria-live="polite">Loading…</div>
+
+  </div>
+</div>
+
+<main class="feed" id="feed" aria-busy="true">
+  <p class="placeholder" id="placeholder">Loading the anthology…</p>
+</main>
+
+<div class="load-more-wrap">
+  <button id="load-more" class="load-more" hidden></button>
+</div>
+
+<footer class="colophon">
+  <p>An anthology drawn from the <a href="https://www.community-archive.org/" target="_blank" rel="noopener">Community Archive</a>. <a href="#" id="about-link-2">About this site</a>.</p>
+</footer>
+
+<dialog id="about-dialog" class="about">
+  <article>
+    <button class="close" data-close-about aria-label="Close">×</button>
+    <h2>About <em>Book of Bangers</em></h2>
+
+    <p><em>Book of Bangers</em> is a quiet reading room for some of the best writing from <strong>TPOT</strong> — <em>This Part of Twitter</em> — a loose network of accounts that have been thinking out loud together for the better part of a decade. It is an anthology, not a feed. Browse it the way you would a printed collection: pick a metric, scroll until something catches you, sit with it.</p>
+
+    <h3>Where the data comes from</h3>
+    <p>Every tweet here is drawn from the <a href="https://www.community-archive.org/" target="_blank" rel="noopener">Community Archive</a> — an open, public-domain archive of TPOT-adjacent accounts initiated by <a href="https://x.com/exgenesis" target="_blank" rel="noopener">@exgenesis</a> (xiq). The snapshot used for this site was taken in May 2026 and covers around 340 archived accounts. Counts shown are point-in-time at the moment of the snapshot.</p>
+
+    <h3>The three metrics</h3>
+    <p>Likes, retweets and quote-tweets each surface a different kind of tweet. They are not interchangeable.</p>
+    <ul>
+      <li><strong>Likes</strong> — tweets people wanted to see more of. The broadest signal of resonance, and a direct input to each user's algorithmic feed.</li>
+      <li><strong>Retweets</strong> — tweets worth signal-boosting. An explicit, public endorsement to one's followers.</li>
+      <li><strong>Quote-tweets</strong> — tweets people wanted to respond to or build on. The noisiest of the three: it captures generativity, but also disagreement, and tweets that explicitly ask for QTs.</li>
+    </ul>
+    <p>Empirically, likes and retweets correlate strongly across this corpus (Pearson 0.81); both are nearly uncorrelated with quote-tweet count (0.10 and 0.09). The three lists overlap less than you might expect — quote-tweets in particular surface a distinctly different slice of the archive.</p>
+
+    <h3>About the QT metric in particular</h3>
+    <p>Quote-tweet count tracks <em>notable enough to respond to publicly</em>. That overlaps substantially with <em>worth including in an anthology of insight</em>, but the two are not identical. Expect to find ideas generative enough to inspire responses, but also things that provoked enough disagreement to warrant a public rebuttal, and the occasional <em>"quote this with your…"</em> prompt.</p>
+
+    <h3>Caveats</h3>
+    <ul>
+      <li>Counts are a snapshot, not live.</li>
+      <li>QT counts are <em>corpus-internal</em> lower bounds: they only count quote-tweets present in the archive itself.</li>
+      <li>Self-quotes are excluded from QT counts.</li>
+      <li>Retweets ("RT @…") by archive accounts are excluded from the primary set; only original tweets and replies are ranked.</li>
+    </ul>
+
+    <h3>Display options</h3>
+    <p>Two toggles in the header. <strong>Reading mode</strong> hides avatars, names and dates, leaving only the text and the metrics — useful if you want to read without the social layer. The <strong>links toggle</strong> hides every outbound link to x.com and renders in-text URLs as plain text, so the anthology stays self-contained.</p>
+
+    <h3>Credits</h3>
+    <p>Built by Sam Clarke. Data from the Community Archive — thanks to xiq for the export and the conversation.</p>
+  </article>
+</dialog>
+
+<script src="js/app.js?v=5" defer></script>
+</body>
+</html>
