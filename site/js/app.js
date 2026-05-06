@@ -304,16 +304,15 @@
     // right column: meta, body, media, metrics
     const meta = document.createElement("div");
     meta.className = "meta";
-    const dn = document.createElement("span");
-    dn.className = "display-name";
-    dn.textContent = t.account_display_name || t.username || "";
+    // Display names in the archive are often years out of date; @handle is the
+    // canonical, persistent identity. Show only the handle.
     const handle = document.createElement("span");
     handle.className = "handle";
     handle.textContent = "@" + (t.username || "");
     const date = document.createElement("span");
     date.className = "date";
     date.textContent = formatDate(t.created_at);
-    meta.append(dn, handle, date);
+    meta.append(handle, date);
     card.appendChild(meta);
 
     // reply context
@@ -413,13 +412,10 @@
       ctx.className = `context-tweet depth-${depth}`;
       const m = document.createElement("div");
       m.className = "ctx-meta";
-      const dn = document.createElement("span");
-      dn.className = "display-name";
-      dn.textContent = tweet.account_display_name || tweet.username || "";
       const handle = document.createElement("span");
       handle.className = "handle";
-      handle.textContent = " @" + (tweet.username || "");
-      m.append(dn, handle);
+      handle.textContent = "@" + (tweet.username || "");
+      m.append(handle);
       ctx.appendChild(m);
       const b = document.createElement("div");
       b.className = "ctx-body";
@@ -449,12 +445,10 @@
     if (quoted) {
       const m = document.createElement("div");
       m.className = "ctx-meta";
-      const dn = document.createElement("span");
-      dn.className = "display-name";
-      dn.textContent = quoted.account_display_name || quoted.username || "";
       const handle = document.createElement("span");
-      handle.textContent = " @" + (quoted.username || "");
-      m.append(dn, handle);
+      handle.className = "handle";
+      handle.textContent = "@" + (quoted.username || "");
+      m.append(handle);
       block.appendChild(m);
       const b = document.createElement("div");
       b.className = "ctx-body";
