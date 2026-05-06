@@ -345,8 +345,21 @@
     // body
     const body = document.createElement("div");
     body.className = "body";
+    const rawLen = (t.full_text || "").length;
+    if (rawLen > 400) body.classList.add("body--collapsed");
     body.appendChild(renderText(t.full_text || "", t.url_expansions, t.media_tcos));
     card.appendChild(body);
+
+    if (rawLen > 400) {
+      const btn = document.createElement("button");
+      btn.className = "expand-btn";
+      btn.textContent = "Show full tweet";
+      btn.addEventListener("click", () => {
+        body.classList.remove("body--collapsed");
+        btn.remove();
+      });
+      card.appendChild(btn);
+    }
 
     // media
     const media = t.media || [];

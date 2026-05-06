@@ -398,6 +398,38 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 600; letter-spacing: -0.005
 }
 .card .body a { color: var(--accent); }
 
+.card .body--collapsed {
+  max-height: 9.6rem;
+  overflow: hidden;
+  position: relative;
+}
+.card .body--collapsed::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3rem;
+  background: linear-gradient(to bottom, transparent, var(--bg));
+  pointer-events: none;
+}
+
+.card .expand-btn {
+  grid-column: 2;
+  align-self: start;
+  background: none;
+  border: none;
+  padding: 0;
+  margin-top: 0.4rem;
+  font-family: var(--serif);
+  font-size: 0.9rem;
+  font-style: italic;
+  color: var(--ink-mute);
+  cursor: pointer;
+  text-align: left;
+}
+.card .expand-btn:hover { color: var(--accent); }
+
 .card .media {
   grid-column: 2;
   margin-top: 0.85rem;
@@ -550,6 +582,7 @@ body.content-only .card { grid-template-columns: 1fr; }
 body.content-only .card .body,
 body.content-only .card .media,
 body.content-only .card .metrics,
+body.content-only .card .expand-btn,
 body.content-only .context-stack,
 body.content-only .quoted-block { grid-column: 1; }
 
