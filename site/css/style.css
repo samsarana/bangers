@@ -178,14 +178,15 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 600; letter-spacing: -0.005
 }
 #search:focus { outline: 2px solid var(--accent-soft); outline-offset: -1px; }
 
-.toggles { gap: 0.35rem; }
-.toggle-btn {
+/* ----------------------------- settings (cog) ------------------------- */
+
+.settings-wrap { position: relative; display: flex; align-items: center; }
+
+.settings-btn {
   appearance: none;
   border: 1px solid var(--rule);
   background: var(--bg-card);
   color: var(--ink-soft);
-  font-family: var(--serif);
-  font-size: 1.05rem;
   width: 2.1rem;
   height: 2.1rem;
   display: inline-flex;
@@ -193,15 +194,93 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 600; letter-spacing: -0.005
   justify-content: center;
   cursor: pointer;
   border-radius: var(--radius);
-  position: relative;
-  transition: color 0.12s ease, border-color 0.12s ease, background 0.12s ease;
+  transition: color 0.12s ease, border-color 0.12s ease, transform 0.4s ease;
 }
-.toggle-btn:hover { color: var(--ink); border-color: var(--ink-mute); }
-.toggle-btn .toggle-icon { display: none; line-height: 1; }
-#toggle-mode[aria-pressed="false"] .toggle-icon[data-state="social"]  { display: inline; }
-#toggle-mode[aria-pressed="true"]  .toggle-icon[data-state="reading"] { display: inline; color: var(--accent); }
-#toggle-links[aria-pressed="true"]  .toggle-icon[data-state="on"]  { display: inline; }
-#toggle-links[aria-pressed="false"] .toggle-icon[data-state="off"] { display: inline; color: var(--accent); }
+.settings-btn:hover { color: var(--ink); border-color: var(--ink-mute); }
+.settings-btn:hover svg { transform: rotate(45deg); }
+.settings-btn svg { transition: transform 0.4s ease; }
+.settings-btn[aria-expanded="true"] {
+  color: var(--ink);
+  border-color: var(--ink-mute);
+  background: var(--bg);
+}
+.settings-btn[aria-expanded="true"] svg { transform: rotate(45deg); }
+
+.settings-panel {
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  right: 0;
+  min-width: 19rem;
+  max-width: calc(100vw - 1.5rem);
+  background: var(--bg-card);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  padding: 0.4rem 0.75rem;
+  z-index: 30;
+  box-shadow: 0 8px 28px rgba(33, 29, 24, 0.12);
+  font-family: var(--sans);
+}
+.settings-panel[hidden] { display: none; }
+
+.settings-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.25rem;
+  padding: 0.7rem 0;
+  cursor: pointer;
+}
+.settings-row + .settings-row { border-top: 1px solid var(--rule-soft); }
+.settings-row--disabled { cursor: not-allowed; }
+.settings-row--disabled .settings-label { color: var(--ink-mute); }
+.settings-row--disabled .settings-hint  { font-style: italic; }
+
+.settings-text { display: flex; flex-direction: column; gap: 0.15rem; line-height: 1.3; }
+.settings-label { font-size: 0.88rem; color: var(--ink); font-weight: 500; }
+.settings-hint  { font-size: 0.74rem; color: var(--ink-mute); }
+
+/* The switch — quiet, monochromatic, accent only when on. */
+.switch {
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  width: 2.4rem;
+  height: 1.3rem;
+}
+.switch input {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.switch input:disabled { cursor: not-allowed; }
+.switch-track {
+  position: absolute;
+  inset: 0;
+  background: var(--rule);
+  border-radius: 999px;
+  transition: background 0.18s ease;
+}
+.switch-knob {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: calc(1.3rem - 4px);
+  height: calc(1.3rem - 4px);
+  background: var(--bg-card);
+  border-radius: 50%;
+  box-shadow: 0 1px 2px rgba(33, 29, 24, 0.2);
+  transition: transform 0.18s ease, background 0.18s ease;
+}
+.switch input:checked + .switch-track { background: var(--accent); }
+.switch input:checked + .switch-track .switch-knob {
+  transform: translateX(calc(2.4rem - 1.3rem));
+  background: #fff;
+}
+.switch input:disabled + .switch-track { opacity: 0.45; }
 
 .count {
   margin-left: auto;
@@ -418,7 +497,7 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 600; letter-spacing: -0.005
   margin-bottom: 0.6rem;
 }
 .reply-label { display: block; grid-column: 2; }
-body.reading-mode .reply-label { grid-column: 1; }
+body.content-only .reply-label { grid-column: 1; }
 
 .quoted-block {
   grid-column: 2;
@@ -460,18 +539,18 @@ body.reading-mode .reply-label { grid-column: 1; }
 /* Reading mode hides the social layer ONLY: avatars, names, dates.
    It must NOT hide the "open on x" link — that lives on the links toggle. */
 
-body.reading-mode .card .avatar,
-body.reading-mode .card .meta,
-body.reading-mode .context-tweet .ctx-meta,
-body.reading-mode .quoted-block .ctx-meta {
+body.content-only .card .avatar,
+body.content-only .card .meta,
+body.content-only .context-tweet .ctx-meta,
+body.content-only .quoted-block .ctx-meta {
   display: none;
 }
-body.reading-mode .card { grid-template-columns: 1fr; }
-body.reading-mode .card .body,
-body.reading-mode .card .media,
-body.reading-mode .card .metrics,
-body.reading-mode .context-stack,
-body.reading-mode .quoted-block { grid-column: 1; }
+body.content-only .card { grid-template-columns: 1fr; }
+body.content-only .card .body,
+body.content-only .card .media,
+body.content-only .card .metrics,
+body.content-only .context-stack,
+body.content-only .quoted-block { grid-column: 1; }
 
 /* ----------------------------- links off mode ------------------------- */
 /* When links are off: hide every outbound x.com link, including the
@@ -583,7 +662,9 @@ dialog.about .close:hover { color: var(--ink); }
   .masthead { padding: 3rem 1rem 1.5rem; }
   .controls-inner { padding: 0.55rem 0.85rem; gap: 0.45rem 0.7rem; font-size: 0.82rem; }
   .search-group { order: 5; flex-basis: 100%; }
-  .count { order: 6; flex-basis: 100%; margin-left: 0; text-align: right; }
+  .count { order: 6; flex-basis: auto; margin-left: 0; text-align: right; flex: 1; }
+  .settings-wrap { order: 7; }
+  .settings-panel { right: 0; left: auto; }
   .feed { padding: 1.5rem 1rem 0; }
   .card { grid-template-columns: 2.2rem 1fr; gap: 0 0.7rem; padding: 1.5rem 0 1.75rem; }
   .card .open-x { top: 0.5rem; }

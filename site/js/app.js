@@ -42,41 +42,53 @@
   const $year       = document.getElementById("year-select");
   const $search     = document.getElementById("search");
   const $loadMore   = document.getElementById("load-more");
-  const $modeBtn    = document.getElementById("toggle-mode");
-  const $linksBtn   = document.getElementById("toggle-links");
   const $aboutDlg   = document.getElementById("about-dialog");
+  const $settingsBtn   = document.getElementById("settings-btn");
+  const $settingsPanel = document.getElementById("settings-panel");
+  const $contentOnly   = document.getElementById("set-content-only");
+  const $hideLinks     = document.getElementById("set-hide-links");
 
   // ---------------------------------------------------------------- init
 
-  initToggles();
+  initSettings();
   bindControls();
   loadMetric(state.metric).then(render);
 
-  // ---------------------------------------------------------------- toggles
+  // ---------------------------------------------------------------- settings
 
-  function initToggles() {
-    const reading = localStorage.getItem("bob.readingMode") === "1";
-    const linksOff = localStorage.getItem("bob.linksOff") === "1";
-    setMode(reading);
-    setLinks(!linksOff);
+  /** Persisted display settings, applied as classes on <body>:
+   *   .content-only — hide avatars, handles, dates (renamed from reading-mode)
+   *   .no-links     — hide outbound x.com links and "Open on X" affordances
+   * Read once on load, applied to body, and bound to the panel checkboxes. */
+  function initSettings() {
+    const contentOnly = localStorage.getItem("bob.contentOnly") === "1";
+    const hideLinks   = localStorage.getItem("bob.hideLinks") === "1";
+    setContentOnly(contentOnly);
+    setHideLinks(hideLinks);
+    $contentOnly.checked = contentOnly;
+    $hideLinks.checked   = hideLinks;
   }
 
-  function setMode(reading) {
-    document.body.classList.toggle("reading-mode", reading);
-    $modeBtn.setAttribute("aria-pressed", reading ? "true" : "false");
-    $modeBtn.setAttribute("data-tip", reading
-      ? "Social mode: show avatars, names and dates"
-      : "Reading mode: hide avatars, names and dates");
-    localStorage.setItem("bob.readingMode", reading ? "1" : "0");
+  function setContentOnly(on) {
+    document.body.classList.toggle("content-only", on);
+    localStorage.setItem("bob.contentOnly", on ? "1" : "0");
   }
 
-  function setLinks(on) {
-    document.body.classList.toggle("no-links", !on);
-    $linksBtn.setAttribute("aria-pressed", on ? "true" : "false");
-    $linksBtn.setAttribute("data-tip", on
-      ? "Hide links to x.com"
-      : "Show links to x.com");
-    localStorage.setItem("bob.linksOff", on ? "0" : "1");
+  function setHideLinks(on) {
+    document.body.classList.toggle("no-links", on);
+    localStorage.setItem("bob.hideLinks", on ? "1" : "0");
+  }
+
+  function openSettings() {
+    $settingsPanel.hidden = false;
+    $settingsBtn.setAttribute("aria-expanded", "true");
+  }
+  function closeSettings() {
+    $settingsPanel.hidden = true;
+    $settingsBtn.setAttribute("aria-expanded", "false");
+  }
+  function toggleSettings() {
+    if ($settingsPanel.hidden) openSettings(); else closeSettings();
   }
 
   // ---------------------------------------------------------------- bindings
@@ -122,13 +134,25 @@
       render({ preserveScroll: true });
     });
 
-    $modeBtn.addEventListener("click", () => {
-      const next = !document.body.classList.contains("reading-mode");
-      setMode(next);
+    // Settings cog: toggle the panel; checkboxes inside drive each setting.
+    $settingsBtn.addEventListener("click", e => {
+      e.stopPropagation();
+      toggleSettings();
     });
-    $linksBtn.addEventListener("click", () => {
-      const next = document.body.classList.contains("no-links"); // currently off → turn on
-      setLinks(next);
+    $contentOnly.addEventListener("change", () => setContentOnly($contentOnly.checked));
+    $hideLinks.addEventListener("change",   () => setHideLinks($hideLinks.checked));
+
+    // Click outside the panel (and not on the cog) closes it.
+    document.addEventListener("click", e => {
+      if ($settingsPanel.hidden) return;
+      if ($settingsPanel.contains(e.target) || $settingsBtn.contains(e.target)) return;
+      closeSettings();
+    });
+    document.addEventListener("keydown", e => {
+      if (e.key === "Escape" && !$settingsPanel.hidden) {
+        closeSettings();
+        $settingsBtn.focus();
+      }
     });
 
     // About dialog

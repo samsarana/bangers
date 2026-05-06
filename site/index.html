@@ -13,7 +13,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,300;8..60,400;8..60,600;8..60,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css?v=10">
+<link rel="stylesheet" href="css/style.css?v=11">
 </head>
 <body>
 
@@ -49,20 +49,57 @@
       <input type="search" id="search" placeholder="Search text or @username…" autocomplete="off">
     </div>
 
-    <div class="control-group toggles">
-      <button class="toggle-btn" id="toggle-mode" aria-pressed="false" data-tip="Reading mode: hide avatars, names and dates">
-        <span class="toggle-icon" data-state="social" aria-hidden="true">☺</span>
-        <span class="toggle-icon" data-state="reading" aria-hidden="true">❦</span>
-        <span class="visually-hidden">Toggle reading mode</span>
-      </button>
-      <button class="toggle-btn" id="toggle-links" aria-pressed="true" data-tip="Hide links to x.com">
-        <span class="toggle-icon" data-state="on" aria-hidden="true">↗</span>
-        <span class="toggle-icon" data-state="off" aria-hidden="true">·</span>
-        <span class="visually-hidden">Toggle external links</span>
-      </button>
-    </div>
-
     <div class="count" id="count" aria-live="polite">Loading…</div>
+
+    <div class="settings-wrap">
+      <button class="settings-btn" id="settings-btn"
+              aria-haspopup="true" aria-expanded="false"
+              aria-controls="settings-panel"
+              data-tip="Display options">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none"
+             stroke="currentColor" stroke-width="1.6"
+             stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="3"/>
+          <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+        </svg>
+        <span class="visually-hidden">Display options</span>
+      </button>
+
+      <div class="settings-panel" id="settings-panel" role="menu" hidden>
+        <label class="settings-row" for="set-content-only">
+          <span class="settings-text">
+            <span class="settings-label">Content only</span>
+            <span class="settings-hint">Hide avatars, handles and dates</span>
+          </span>
+          <span class="switch">
+            <input type="checkbox" id="set-content-only">
+            <span class="switch-track"><span class="switch-knob"></span></span>
+          </span>
+        </label>
+
+        <label class="settings-row" for="set-hide-links">
+          <span class="settings-text">
+            <span class="settings-label">Hide links</span>
+            <span class="settings-hint">In-text URLs become plain text; "Open on X" is hidden</span>
+          </span>
+          <span class="switch">
+            <input type="checkbox" id="set-hide-links">
+            <span class="switch-track"><span class="switch-knob"></span></span>
+          </span>
+        </label>
+
+        <label class="settings-row settings-row--disabled" aria-disabled="true">
+          <span class="settings-text">
+            <span class="settings-label">Dark mode</span>
+            <span class="settings-hint">Coming soon</span>
+          </span>
+          <span class="switch">
+            <input type="checkbox" disabled>
+            <span class="switch-track"><span class="switch-knob"></span></span>
+          </span>
+        </label>
+      </div>
+    </div>
 
   </div>
 </div>
@@ -117,6 +154,6 @@
   </article>
 </dialog>
 
-<script src="js/app.js?v=10" defer></script>
+<script src="js/app.js?v=11" defer></script>
 </body>
 </html>
