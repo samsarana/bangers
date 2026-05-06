@@ -295,7 +295,12 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 600; letter-spacing: -0.005
   gap: 0.3rem 0.55rem;
   font-family: var(--sans);
   font-size: 0.84rem;
-  margin-bottom: 0.7rem;
+  /* The meta cell shares row 2 with the 2.5rem-tall avatar. Without this,
+     a single-line @handle+date pins to the top and a chunk of empty space
+     opens up between it and the body. Center it against the avatar so the
+     body starts immediately under the avatar. */
+  align-self: center;
+  margin-bottom: 0.35rem;
   line-height: 1.3;
 }
 .card .handle { font-weight: 600; color: var(--ink); }
