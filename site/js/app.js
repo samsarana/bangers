@@ -426,8 +426,9 @@
     const stack = document.createElement("div");
     stack.className = "context-stack";
 
-    // If the highest ancestor we have *also* has a reply_to_tweet_id we couldn't find,
-    // show an "Earlier in thread" hint at the very top.
+    // Always show an "Earlier in thread" label at the top of the chain.
+    // If the chain is cut off (the oldest ancestor also has a parent we couldn't load),
+    // make it a link to X; otherwise render it as a plain structural label.
     const top = chain[chain.length - 1].tweet;
     if (top.reply_to_tweet_id) {
       const link = document.createElement("a");
@@ -438,9 +439,14 @@
       link.textContent = "Earlier in thread →";
       const plain = document.createElement("span");
       plain.className = "thread-link x-link-text";
-      plain.textContent = "Earlier in thread…";
+      plain.textContent = "Earlier in thread";
       plain.style.display = "none";
       stack.append(link, plain);
+    } else {
+      const label = document.createElement("span");
+      label.className = "thread-label";
+      label.textContent = "Earlier in thread";
+      stack.appendChild(label);
     }
 
     // Render ancestors top-down (oldest at top)
