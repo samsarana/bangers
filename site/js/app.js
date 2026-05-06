@@ -357,7 +357,31 @@
     body.className = "body";
     const rawLen = (t.full_text || "").length;
     if (rawLen > 400) body.classList.add("body--collapsed");
-    body.appendChild(renderText(t.full_text || "", t.url_expansions, t.media_tcos));
+    // Strip the auto-appended t.co link to the quoted tweet, since we render
+    // it inline. Try url_expansions first; fall back to stripping the trailing
+    // t.co in the text (Twitter always appends the quote link last).
+    const qtcoExtras = [];
+    if (t.quoted_tweet_id) {
+      const fromExp = (t.url_expansions || [])
+        .filter(e => e && e.url && e.expanded_url && e.expanded_url.includes(t.quoted_tweet_id))
+        .map(e => e.url);
+      if (fromExp.length) {
+        qtcoExtras.push(...fromExp);
+      } else {
+        // Twitter appends: [text] [qt_tco] [media_tco …]
+        // Grab the whole trailing cluster of t.co links, then pick the last
+        // one that isn't a known media tco — that's the quote link.
+        const knownMedia = new Set(t.media_tcos || []);
+        const clusterMatch = (t.full_text || "").trimEnd().match(/(?:(?:^|\s)https?:\/\/t\.co\/\S+)+$/);
+        if (clusterMatch) {
+          const tcos = clusterMatch[0].trim().split(/\s+/);
+          for (let j = tcos.length - 1; j >= 0; j--) {
+            if (!knownMedia.has(tcos[j])) { qtcoExtras.push(tcos[j]); break; }
+          }
+        }
+      }
+    }
+    body.appendChild(renderText(t.full_text || "", t.url_expansions, (t.media_tcos || []).concat(qtcoExtras)));
     card.appendChild(body);
 
     if (rawLen > 400) {
