@@ -712,6 +712,30 @@ dialog.about .close {
 }
 dialog.about .close:hover { color: var(--ink); }
 
+/* ----------------------------- dark mode --------------------------------- */
+
+body.dark-mode {
+  --bg:        #1c1814;
+  --bg-card:   #242018;
+  --bg-sticky: rgba(28, 24, 20, 0.94);
+  --ink:       #e6ddd0;
+  --ink-soft:  #b0a898;
+  --ink-mute:  #706860;
+  --rule:      #38332e;
+  --rule-soft: #2c2822;
+  --accent:    #c05a47;
+  --accent-soft: #9a4035;
+  --quote-bg:  #201d14;
+}
+
+body.dark-mode #year-select {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'><path fill='none' stroke='%23b0a898' stroke-width='1.4' d='M1 1l4 4 4-4'/></svg>");
+}
+
+body.dark-mode dialog.about {
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5);
+}
+
 /* ----------------------------- mobile --------------------------------- */
 
 @media (max-width: 640px) {

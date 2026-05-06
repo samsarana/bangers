@@ -47,6 +47,7 @@
   const $settingsPanel = document.getElementById("settings-panel");
   const $contentOnly   = document.getElementById("set-content-only");
   const $hideLinks     = document.getElementById("set-hide-links");
+  const $darkMode      = document.getElementById("set-dark-mode");
 
   // ---------------------------------------------------------------- init
 
@@ -63,10 +64,13 @@
   function initSettings() {
     const contentOnly = localStorage.getItem("bob.contentOnly") === "1";
     const hideLinks   = localStorage.getItem("bob.hideLinks") === "1";
+    const darkMode    = localStorage.getItem("bob.darkMode") === "1";
     setContentOnly(contentOnly);
     setHideLinks(hideLinks);
+    setDarkMode(darkMode);
     $contentOnly.checked = contentOnly;
     $hideLinks.checked   = hideLinks;
+    $darkMode.checked    = darkMode;
   }
 
   function setContentOnly(on) {
@@ -77,6 +81,11 @@
   function setHideLinks(on) {
     document.body.classList.toggle("no-links", on);
     localStorage.setItem("bob.hideLinks", on ? "1" : "0");
+  }
+
+  function setDarkMode(on) {
+    document.body.classList.toggle("dark-mode", on);
+    localStorage.setItem("bob.darkMode", on ? "1" : "0");
   }
 
   function openSettings() {
@@ -141,6 +150,7 @@
     });
     $contentOnly.addEventListener("change", () => setContentOnly($contentOnly.checked));
     $hideLinks.addEventListener("change",   () => setHideLinks($hideLinks.checked));
+    $darkMode.addEventListener("change",    () => setDarkMode($darkMode.checked));
 
     // Click outside the panel (and not on the cog) closes it.
     document.addEventListener("click", e => {
