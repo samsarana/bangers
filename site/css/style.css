@@ -541,6 +541,7 @@ body.content-only .reply-label { grid-column: 1; }
 
 body.content-only .card .avatar,
 body.content-only .card .meta,
+body.content-only .card .metrics,
 body.content-only .context-tweet .ctx-meta,
 body.content-only .quoted-block .ctx-meta {
   display: none;
