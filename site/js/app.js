@@ -31,6 +31,7 @@
     metric: "rt",
     year: "all",
     search: "",
+    tiebreak: "rt",     // secondary sort metric; if == primary, tertiary is used instead
     visible: PAGE_SIZE,
     cache: {},          // {metric: {primary: [...], byId: Map}}
     loading: new Set(),
@@ -48,6 +49,7 @@
   const $contentOnly   = document.getElementById("set-content-only");
   const $hideLinks     = document.getElementById("set-hide-links");
   const $darkMode      = document.getElementById("set-dark-mode");
+  const $tiebreak      = document.getElementById("set-tiebreak");
 
   // ---------------------------------------------------------------- init
 
@@ -65,12 +67,15 @@
     const contentOnly = localStorage.getItem("bob.contentOnly") === "1";
     const hideLinks   = localStorage.getItem("bob.hideLinks") === "1";
     const darkMode    = localStorage.getItem("bob.darkMode") === "1";
+    const tiebreak    = localStorage.getItem("bob.tiebreak") || "rt";
     setContentOnly(contentOnly);
     setHideLinks(hideLinks);
     setDarkMode(darkMode);
     $contentOnly.checked = contentOnly;
     $hideLinks.checked   = hideLinks;
     $darkMode.checked    = darkMode;
+    state.tiebreak = tiebreak;
+    rebuildTiebreakOptions();
   }
 
   function setContentOnly(on) {
@@ -86,6 +91,29 @@
   function setDarkMode(on) {
     document.body.classList.toggle("dark-mode", on);
     localStorage.setItem("bob.darkMode", on ? "1" : "0");
+  }
+
+  function setTiebreak(val) {
+    state.tiebreak = val;
+    localStorage.setItem("bob.tiebreak", val);
+    render();
+  }
+
+  /** Rebuild the tiebreak <select> to exclude the current primary metric.
+   * If the stored tiebreak equals the primary, reset it to the first available
+   * option using the fallback preference order. */
+  function rebuildTiebreakOptions() {
+    const primary  = state.metric;
+    const fallback = ["rt", "qt", "likes"];
+    const available = fallback.filter(m => m !== primary);
+    if (!available.includes(state.tiebreak)) {
+      state.tiebreak = available[0];
+      localStorage.setItem("bob.tiebreak", state.tiebreak);
+    }
+    const labelOf = { rt: "Retweets", likes: "Likes", qt: "Quote tweets" };
+    $tiebreak.innerHTML = available
+      .map(m => `<option value="${m}"${m === state.tiebreak ? " selected" : ""}>${labelOf[m]}</option>`)
+      .join("");
   }
 
   function openSettings() {
@@ -109,6 +137,7 @@
         if (m === state.metric) return;
         state.metric = m;
         state.visible = PAGE_SIZE;
+        rebuildTiebreakOptions();
         document.querySelectorAll(".metric-btn").forEach(b =>
           b.setAttribute("aria-selected", b.dataset.metric === m ? "true" : "false")
         );
@@ -151,6 +180,7 @@
     $contentOnly.addEventListener("change", () => setContentOnly($contentOnly.checked));
     $hideLinks.addEventListener("change",   () => setHideLinks($hideLinks.checked));
     $darkMode.addEventListener("change",    () => setDarkMode($darkMode.checked));
+    $tiebreak.addEventListener("change",    () => setTiebreak($tiebreak.value));
 
     // Click outside the panel (and not on the cog) closes it.
     document.addEventListener("click", e => {
@@ -233,6 +263,22 @@
 
   // ---------------------------------------------------------------- filtering
 
+  /** Return [primary, secondary, tertiary] metric keys with no duplicates.
+   * When state.tiebreak matches the primary metric it is skipped; the fixed
+   * fallback order ["rt","qt","likes"] fills the remaining slots so there is
+   * always a fully-determined tertiary tiebreaker. */
+  function getSortOrder() {
+    const primary = state.metric;
+    const pref    = state.tiebreak;
+    const fallback = ["rt", "qt", "likes"];
+    const order = [primary];
+    if (pref !== primary) order.push(pref);
+    for (const m of fallback) {
+      if (!order.includes(m)) order.push(m);
+    }
+    return order; // always length 3
+  }
+
   function getFiltered() {
     const c = state.cache[state.metric];
     if (!c) return [];
@@ -253,7 +299,14 @@
         (t.account_display_name && t.account_display_name.toLowerCase().includes(q))
       );
     }
-    return arr;
+    const order = getSortOrder();
+    return arr.slice().sort((a, b) => {
+      for (const m of order) {
+        const d = (b[METRIC_FIELD[m]] || 0) - (a[METRIC_FIELD[m]] || 0);
+        if (d !== 0) return d;
+      }
+      return 0;
+    });
   }
 
   // ---------------------------------------------------------------- render

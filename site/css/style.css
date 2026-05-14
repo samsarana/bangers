@@ -732,6 +732,27 @@ body.dark-mode #year-select {
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'><path fill='none' stroke='%23b0a898' stroke-width='1.4' d='M1 1l4 4 4-4'/></svg>");
 }
 
+.settings-select {
+  appearance: none;
+  -webkit-appearance: none;
+  border: 1px solid var(--rule);
+  background: var(--bg-card);
+  color: var(--ink);
+  font: inherit;
+  font-size: 0.82rem;
+  padding: 0.3rem 1.6rem 0.3rem 0.6rem;
+  border-radius: var(--radius);
+  cursor: pointer;
+  flex-shrink: 0;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'><path fill='none' stroke='%234a443c' stroke-width='1.4' d='M1 1l4 4 4-4'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 0.45rem center;
+}
+
+body.dark-mode .settings-select {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'><path fill='none' stroke='%23b0a898' stroke-width='1.4' d='M1 1l4 4 4-4'/></svg>");
+}
+
 body.dark-mode dialog.about {
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5);
 }
