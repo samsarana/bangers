@@ -761,7 +761,8 @@ dialog.about h2 {
   font-style: italic;
   margin: 0 0 1rem;
 }
-dialog.about h3 {
+dialog.about h3,
+.page-main h3 {
   font-family: var(--sans);
   font-size: 0.78rem;
   letter-spacing: 0.16em;
@@ -770,7 +771,16 @@ dialog.about h3 {
   margin: 1.8rem 0 0.4rem;
   font-weight: 600;
 }
-dialog.about p { line-height: 1.6; margin: 0.5rem 0 0.8rem; }
+dialog.about p,
+.page-main p { line-height: 1.6; margin: 0.5rem 0 0.8rem; }
+
+/* Static subpages (metrics.html): dialog typography on a plain column. */
+.page-main {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 0.5rem 1.25rem 3rem;
+}
+.page-main a { color: var(--accent); }
 dialog.about ul { padding-left: 1.2rem; margin: 0.5rem 0 0.8rem; }
 dialog.about li { margin: 0.3rem 0; }
 dialog.about .close {
