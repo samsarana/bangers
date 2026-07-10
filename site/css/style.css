@@ -750,7 +750,10 @@ dialog.about {
   padding: 0;
   border-radius: var(--radius);
   box-shadow: 0 12px 40px rgba(33, 29, 24, 0.18);
+  overscroll-behavior: contain;
 }
+/* Set while the dialog is open: the page behind a modal must not scroll. */
+body.modal-open { overflow: hidden; }
 dialog.about::backdrop { background: rgba(33, 29, 24, 0.4); backdrop-filter: blur(2px); }
 dialog.about article { padding: 2.5rem 2.5rem 3rem; }
 dialog.about h2 {

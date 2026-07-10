@@ -199,8 +199,14 @@
       }
     });
 
-    // About dialog
-    const open = e => { e.preventDefault(); if (typeof $aboutDlg.showModal === "function") $aboutDlg.showModal(); else $aboutDlg.setAttribute("open", ""); };
+    // About dialog. body.modal-open locks the page scroll behind the modal —
+    // without it, wheel/touch past the dialog's own scroll ends moves the feed.
+    const open = e => {
+      e.preventDefault();
+      if (typeof $aboutDlg.showModal === "function") $aboutDlg.showModal(); else $aboutDlg.setAttribute("open", "");
+      document.body.classList.add("modal-open");
+    };
+    $aboutDlg.addEventListener("close", () => document.body.classList.remove("modal-open"));
     document.getElementById("about-link")?.addEventListener("click", open);
     document.getElementById("about-link-2")?.addEventListener("click", open);
     $aboutDlg.querySelector("[data-close-about]")?.addEventListener("click", () => $aboutDlg.close());
