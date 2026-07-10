@@ -166,6 +166,74 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 600; letter-spacing: -0.005
   background-position: right 0.55rem center;
 }
 
+/* ----------------------------- tag filter ----------------------------- */
+
+.tags-btn {
+  appearance: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  border: 1px solid var(--rule);
+  background: var(--bg-card);
+  color: var(--ink);
+  font: inherit;
+  padding: 0.4rem 0.7rem;
+  border-radius: var(--radius);
+  cursor: pointer;
+}
+.tags-btn:hover { color: var(--ink); border-color: var(--ink-mute); }
+.tags-btn[aria-expanded="true"] .tags-caret { transform: rotate(180deg); }
+.tags-caret { transition: transform 0.12s ease; color: var(--ink-mute); }
+.tags-active {
+  min-width: 1.1rem;
+  height: 1.1rem;
+  padding: 0 0.25rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  background: var(--accent);
+  color: var(--bg);
+  font-size: 0.68rem;
+  font-weight: 600;
+}
+
+.tag-row {
+  max-width: 56rem;
+  margin: 0 auto;
+  padding: 0 1.25rem 0.75rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  font-family: var(--sans);
+  font-size: 0.78rem;
+}
+/* display:flex/inline-flex above beats the UA's [hidden] rule — restore it. */
+.tag-row[hidden],
+.tags-active[hidden] { display: none; }
+.tag-chip {
+  appearance: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  border: 1px solid var(--rule);
+  background: var(--bg-card);
+  color: var(--ink-soft);
+  font: inherit;
+  padding: 0.22rem 0.55rem;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: border-color 0.12s ease, background 0.12s ease, color 0.12s ease;
+}
+.tag-chip:hover { color: var(--ink); border-color: var(--ink-mute); }
+.tag-chip[aria-pressed="true"] {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--bg);
+}
+.tag-chip-count { font-size: 0.68rem; color: var(--ink-mute); }
+.tag-chip[aria-pressed="true"] .tag-chip-count { color: inherit; opacity: 0.75; }
+
 .search-group { flex: 1 1 12rem; min-width: 9rem; }
 #search {
   width: 100%;

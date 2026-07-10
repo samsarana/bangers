@@ -31,16 +31,34 @@
     metric: "rt",
     year: "all",
     search: "",
+    tags: readTagsFromHash(),   // Set of selected tag slugs, AND semantics
     visible: PAGE_SIZE,
     cache: {},          // {metric: {primary: [...], byId: Map}}
     loading: new Set(),
   };
+
+  /** Tag selection persists in the URL hash (#tags=a,b) so filtered views are
+   *  shareable. Slugs are validated against loaded data when the row builds. */
+  function readTagsFromHash() {
+    const m = location.hash.match(/tags=([^&]+)/);
+    if (!m) return new Set();
+    return new Set(decodeURIComponent(m[1]).split(",").filter(Boolean));
+  }
+
+  function writeTagsToHash() {
+    const val = [...state.tags].join(",");
+    const hash = val ? `#tags=${encodeURIComponent(val)}` : "";
+    history.replaceState(null, "", location.pathname + location.search + hash);
+  }
 
   // ---------------------------------------------------------------- DOM
   const $feed       = document.getElementById("feed");
   const $count      = document.getElementById("count");
   const $year       = document.getElementById("year-select");
   const $search     = document.getElementById("search");
+  const $tagsBtn    = document.getElementById("tags-btn");
+  const $tagsActive = document.getElementById("tags-active");
+  const $tagRow     = document.getElementById("tag-row");
   const $loadMore   = document.getElementById("load-more");
   const $aboutDlg   = document.getElementById("about-dialog");
   const $settingsBtn   = document.getElementById("settings-btn");
@@ -114,6 +132,7 @@
         );
         loadMetric(m).then(() => {
           rebuildYearOptions();
+          buildTagRow();
           render();
           window.scrollTo({ top: 0, behavior: "instant" });
         });
@@ -141,6 +160,21 @@
     $loadMore.addEventListener("click", () => {
       state.visible += PAGE_SIZE;
       render({ preserveScroll: true });
+    });
+
+    // Tags disclosure: toggles the chip row open/closed.
+    $tagsBtn.addEventListener("click", () => {
+      const open = $tagRow.hidden;
+      $tagRow.hidden = !open;
+      $tagsBtn.setAttribute("aria-expanded", open ? "true" : "false");
+    });
+
+    // External hash edits (shared links, masthead "#" click) re-sync the filter.
+    window.addEventListener("hashchange", () => {
+      state.tags = readTagsFromHash();
+      state.visible = PAGE_SIZE;
+      buildTagRow();
+      render();
     });
 
     // Settings cog: toggle the panel; checkboxes inside drive each setting.
@@ -204,6 +238,7 @@
       // primary is already in rank order by metric — keep it that way
       state.cache[metric] = { primary, byId };
       rebuildYearOptions();
+      buildTagRow();
       return state.cache[metric];
     } catch (e) {
       console.error("failed to load", metric, e);
@@ -231,6 +266,73 @@
     }
   }
 
+  // ---------------------------------------------------------------- tags
+
+  /** Slug -> reader-facing name. Slugs with capitals keep them (AI-safety →
+   *  "AI safety", LLMs, TIL); all-lowercase slugs get sentence case. */
+  function tagDisplayName(slug) {
+    const spaced = slug.replace(/-/g, " ");
+    if (/[A-Z]/.test(slug)) return spaced;
+    return spaced.charAt(0).toUpperCase() + spaced.slice(1);
+  }
+
+  // Administrative slugs that make no sense as browse filters.
+  const HIDDEN_TAG_CHIPS = new Set(["unclassified", "unknown"]);
+
+  /** Rebuild the chip row for the current metric: one chip per tag present in
+   *  the data, ordered by frequency. Selected chips stay visible even at 0. */
+  function buildTagRow() {
+    const c = state.cache[state.metric];
+    if (!c) return;
+    const counts = new Map();
+    for (const t of c.primary) {
+      for (const tag of t.tags || []) {
+        if (!HIDDEN_TAG_CHIPS.has(tag)) counts.set(tag, (counts.get(tag) || 0) + 1);
+      }
+    }
+    // Drop selected tags that don't exist in the data at all (stale hash).
+    for (const tag of [...state.tags]) {
+      if (!counts.has(tag)) state.tags.delete(tag);
+    }
+
+    const sorted = [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+    const frag = document.createDocumentFragment();
+    for (const [tag, n] of sorted) {
+      const btn = document.createElement("button");
+      btn.className = "tag-chip";
+      btn.dataset.tag = tag;
+      btn.setAttribute("aria-pressed", state.tags.has(tag) ? "true" : "false");
+      const name = document.createElement("span");
+      name.textContent = tagDisplayName(tag);
+      const count = document.createElement("span");
+      count.className = "tag-chip-count";
+      count.textContent = n.toLocaleString("en-GB");
+      btn.append(name, count);
+      btn.addEventListener("click", () => {
+        if (state.tags.has(tag)) state.tags.delete(tag); else state.tags.add(tag);
+        btn.setAttribute("aria-pressed", state.tags.has(tag) ? "true" : "false");
+        writeTagsToHash();
+        updateTagsButton();
+        state.visible = PAGE_SIZE;
+        render();
+      });
+      frag.appendChild(btn);
+    }
+    $tagRow.replaceChildren(frag);
+    updateTagsButton();
+    // A shared link with tags lands with the row open so the filter is visible.
+    if (state.tags.size > 0 && $tagRow.hidden) {
+      $tagRow.hidden = false;
+      $tagsBtn.setAttribute("aria-expanded", "true");
+    }
+  }
+
+  function updateTagsButton() {
+    const n = state.tags.size;
+    $tagsActive.hidden = n === 0;
+    $tagsActive.textContent = n === 0 ? "" : String(n);
+  }
+
   // ---------------------------------------------------------------- filtering
 
   function getFiltered() {
@@ -240,6 +342,15 @@
     if (state.year !== "all") {
       const y = Number(state.year);
       arr = arr.filter(t => t.year === y);
+    }
+    if (state.tags.size > 0) {
+      // AND semantics: every selected tag must be on the tweet.
+      arr = arr.filter(t => {
+        const tt = t.tags;
+        if (!tt || tt.length === 0) return false;
+        for (const tag of state.tags) if (!tt.includes(tag)) return false;
+        return true;
+      });
     }
     if (state.search) {
       const q = state.search;
@@ -267,7 +378,7 @@
     const scrollY = window.scrollY;
 
     if (slice.length === 0) {
-      $feed.innerHTML = `<p class="placeholder">Nothing matches that filter. Try a different year or search term.</p>`;
+      $feed.innerHTML = `<p class="placeholder">Nothing matches that filter. Try a different year, search term, or fewer tags.</p>`;
       $count.textContent = `0 tweets`;
       $loadMore.hidden = true;
       $feed.removeAttribute("aria-busy");
