@@ -151,23 +151,60 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 600; letter-spacing: -0.005
   color: var(--bg);
 }
 
-#year-select {
-  appearance: none;
-  -webkit-appearance: none;
-  border: 1px solid var(--rule);
+/* ----------------------- year filter (multi-select) ------------------- */
+
+.year-wrap { position: relative; }
+.year-panel {
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  left: 0;
+  min-width: 8.5rem;
+  max-height: 17rem;
+  overflow-y: auto;
+  overscroll-behavior: contain;
   background: var(--bg-card);
-  color: var(--ink);
-  font: inherit;
-  padding: 0.4rem 1.8rem 0.4rem 0.7rem;
+  border: 1px solid var(--rule);
   border-radius: var(--radius);
-  cursor: pointer;
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'><path fill='none' stroke='%234a443c' stroke-width='1.4' d='M1 1l4 4 4-4'/></svg>");
-  background-repeat: no-repeat;
-  background-position: right 0.55rem center;
+  padding: 0.35rem;
+  z-index: 30;
+  box-shadow: 0 8px 28px rgba(33, 29, 24, 0.12);
+  font-family: var(--sans);
 }
+.year-panel[hidden] { display: none; }
+.year-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  padding: 0.32rem 0.5rem;
+  border-radius: calc(var(--radius) - 2px);
+  cursor: pointer;
+  color: var(--ink);
+  font-size: 0.84rem;
+}
+.year-row:hover { background: var(--rule-soft); }
+.year-row input {
+  margin: 0;
+  accent-color: var(--accent);
+  cursor: pointer;
+}
+.year-row-all {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  font: inherit;
+  text-align: left;
+  color: var(--ink-soft);
+  border-bottom: 1px solid var(--rule-soft);
+  border-radius: 0;
+  margin-bottom: 0.25rem;
+  padding-bottom: 0.45rem;
+}
+.year-row-all[aria-pressed="true"] { color: var(--ink); font-weight: 600; }
 
 /* ----------------------------- tag filter ----------------------------- */
 
+.year-btn,
 .tags-btn {
   appearance: none;
   display: inline-flex;
@@ -181,7 +218,9 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 600; letter-spacing: -0.005
   border-radius: var(--radius);
   cursor: pointer;
 }
+.year-btn:hover,
 .tags-btn:hover { color: var(--ink); border-color: var(--ink-mute); }
+.year-btn[aria-expanded="true"] .tags-caret,
 .tags-btn[aria-expanded="true"] .tags-caret { transform: rotate(180deg); }
 .tags-caret { transition: transform 0.12s ease; color: var(--ink-mute); }
 .tags-active {
@@ -807,10 +846,6 @@ body.dark-mode {
   --accent:    #c05a47;
   --accent-soft: #9a4035;
   --quote-bg:  #201d14;
-}
-
-body.dark-mode #year-select {
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'><path fill='none' stroke='%23b0a898' stroke-width='1.4' d='M1 1l4 4 4-4'/></svg>");
 }
 
 body.dark-mode dialog.about {

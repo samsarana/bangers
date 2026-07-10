@@ -13,7 +13,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,300;8..60,400;8..60,600;8..60,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css?v=19">
+<link rel="stylesheet" href="css/style.css?v=20">
 </head>
 <body>
 
@@ -37,11 +37,12 @@
       </div>
     </div>
 
-    <div class="control-group">
-      <label class="visually-hidden" for="year-select">Year</label>
-      <select id="year-select" aria-label="Filter by year">
-        <option value="all">All time</option>
-      </select>
+    <div class="control-group year-wrap">
+      <button id="year-btn" class="year-btn" aria-haspopup="true" aria-expanded="false" aria-controls="year-panel">
+        <span id="year-label">All time</span>
+        <svg class="tags-caret" viewBox="0 0 10 6" width="10" height="6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <div class="year-panel" id="year-panel" role="group" aria-label="Filter by years" hidden></div>
     </div>
 
     <div class="control-group">
@@ -153,6 +154,6 @@
   </article>
 </dialog>
 
-<script src="js/app.js?v=16" defer></script>
+<script src="js/app.js?v=17" defer></script>
 </body>
 </html>

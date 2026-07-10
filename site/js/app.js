@@ -29,7 +29,7 @@
   // ---------------------------------------------------------------- state
   const state = {
     metric: "rt",
-    year: "all",
+    years: new Set(),   // selected years (Numbers); empty = all time
     search: "",
     tags: readTagsFromHash(),   // Set of selected tag slugs, AND semantics
     visible: PAGE_SIZE,
@@ -54,7 +54,9 @@
   // ---------------------------------------------------------------- DOM
   const $feed       = document.getElementById("feed");
   const $count      = document.getElementById("count");
-  const $year       = document.getElementById("year-select");
+  const $yearBtn    = document.getElementById("year-btn");
+  const $yearPanel  = document.getElementById("year-panel");
+  const $yearLabel  = document.getElementById("year-label");
   const $search     = document.getElementById("search");
   const $tagsBtn    = document.getElementById("tags-btn");
   const $tagsActive = document.getElementById("tags-active");
@@ -141,10 +143,25 @@
       if (btn.dataset.metric === state.metric) btn.setAttribute("aria-selected", "true");
     });
 
-    $year.addEventListener("change", () => {
-      state.year = $year.value;
-      state.visible = PAGE_SIZE;
-      render();
+    // Years disclosure: same open/close pattern as the settings cog.
+    $yearBtn.addEventListener("click", e => {
+      e.stopPropagation();
+      const open = $yearPanel.hidden;
+      $yearPanel.hidden = !open;
+      $yearBtn.setAttribute("aria-expanded", open ? "true" : "false");
+    });
+    document.addEventListener("click", e => {
+      if ($yearPanel.hidden) return;
+      if ($yearPanel.contains(e.target) || $yearBtn.contains(e.target)) return;
+      $yearPanel.hidden = true;
+      $yearBtn.setAttribute("aria-expanded", "false");
+    });
+    document.addEventListener("keydown", e => {
+      if (e.key === "Escape" && !$yearPanel.hidden) {
+        $yearPanel.hidden = true;
+        $yearBtn.setAttribute("aria-expanded", "false");
+        $yearBtn.focus();
+      }
     });
 
     let searchTimer = null;
@@ -255,21 +272,61 @@
     }
   }
 
+  /** Rebuild the year checkboxes for the current metric. Multi-select with OR
+   *  semantics; the "All time" row clears the selection. */
   function rebuildYearOptions() {
     const c = state.cache[state.metric];
     if (!c) return;
     const years = new Set();
     for (const t of c.primary) if (t.year) years.add(t.year);
     const sorted = [...years].sort((a, b) => b - a);
-    const current = state.year;
-    $year.innerHTML = `<option value="all">All time</option>` +
-      sorted.map(y => `<option value="${y}">${y}</option>`).join("");
-    if (current !== "all" && sorted.includes(Number(current))) {
-      $year.value = current;
-    } else {
-      state.year = "all";
-      $year.value = "all";
+    // Drop selected years absent from this metric's data.
+    for (const y of [...state.years]) if (!years.has(y)) state.years.delete(y);
+
+    const frag = document.createDocumentFragment();
+
+    const all = document.createElement("button");
+    all.className = "year-row year-row-all";
+    all.textContent = "All time";
+    all.setAttribute("aria-pressed", state.years.size === 0 ? "true" : "false");
+    all.addEventListener("click", () => {
+      state.years.clear();
+      rebuildYearOptions();
+      state.visible = PAGE_SIZE;
+      render();
+    });
+    frag.appendChild(all);
+
+    for (const y of sorted) {
+      const row = document.createElement("label");
+      row.className = "year-row";
+      const box = document.createElement("input");
+      box.type = "checkbox";
+      box.value = String(y);
+      box.checked = state.years.has(y);
+      const name = document.createElement("span");
+      name.textContent = String(y);
+      row.append(box, name);
+      box.addEventListener("change", () => {
+        if (box.checked) state.years.add(y); else state.years.delete(y);
+        all.setAttribute("aria-pressed", state.years.size === 0 ? "true" : "false");
+        updateYearButton();
+        state.visible = PAGE_SIZE;
+        render();
+      });
+      frag.appendChild(row);
     }
+    $yearPanel.replaceChildren(frag);
+    updateYearButton();
+  }
+
+  function updateYearButton() {
+    const n = state.years.size;
+    const sorted = [...state.years].sort((a, b) => a - b);
+    $yearLabel.textContent =
+      n === 0 ? "All time" :
+      n <= 2 ? sorted.join(", ") :
+      `${n} years`;
   }
 
   // ---------------------------------------------------------------- tags
@@ -345,9 +402,8 @@
     const c = state.cache[state.metric];
     if (!c) return [];
     let arr = c.primary;
-    if (state.year !== "all") {
-      const y = Number(state.year);
-      arr = arr.filter(t => t.year === y);
+    if (state.years.size > 0) {
+      arr = arr.filter(t => state.years.has(t.year));
     }
     if (state.tags.size > 0) {
       // AND semantics: every selected tag must be on the tweet.
