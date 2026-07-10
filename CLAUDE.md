@@ -11,6 +11,10 @@ Static anthology site of top tweets from the TPOT community. Two halves:
 
 There is **no backend, no framework, no build step at deploy time**. The brief and important context for the design are in `README.md`.
 
+## Tag system
+
+Every primary tweet carries a `tags` array (slugs from `data/taxonomy.md`, 55 canonical). **`data/tags.json` is the source of truth** — the per-metric JSONs are derived from it. Neither file is fetched by the frontend, so both live outside `site/` (which is exactly the Netlify drag-and-drop artefact). To correct a tag: edit `data/tags.json`, then run `python3 scripts/merge_tags.py` (idempotent in-place patch of the three site JSONs); add the fix to `scripts/eval/tag_overrides.json` if it must survive a future re-assembly (`scripts/eval/assemble_tags.py` applies overrides last; the 146 rows of `scripts/eval/seed_labels_cleaned.csv` are human ground truth). `build.py` re-applies tags from `data/tags.json` at its write stage. History and pipeline detail: `plan.md`.
+
 ## Common commands
 
 ```bash

@@ -371,6 +371,7 @@ def _extract_external_record(data: dict) -> dict | None:
         "media_tcos": _extract_media_tcos(data),
         "is_context": True,
         "is_external": True,
+        "tags": [],
     }
 
 
@@ -583,6 +584,7 @@ def _row_to_record(row, tid: str, is_context: bool, media_map: dict[str, dict]) 
         "media_tcos": extra.get("media_tcos", []),
         "is_context": is_context,
         "is_external": False,
+        "tags": [],
     }
 
 
@@ -715,12 +717,32 @@ def main():
         info("--no-media: skipping external quote fetch")
 
     banner("Write outputs")
+    # Merge auto/human tags (Phase 4-6 tag pipeline). Primary tweets only;
+    # context tweets keep tags: []. `unknown` renders as untagged.
+    tags_map: dict[str, list[str]] = {}
+    tags_path = ROOT / "data" / "tags.json"
+    if tags_path.exists():
+        raw_tags = json.loads(tags_path.read_text())
+        tags_map = {
+            tid: [t for t in rec.get("tags", []) if t != "unknown"]
+            for tid, rec in raw_tags.items()
+        }
+        info(f"tags.json: {len(tags_map):,} tagged tweets loaded")
+    else:
+        info("tags.json not found — records get tags: []")
+
     file_map = {"rt": "top_rt.json", "likes": "top_likes.json", "qt": "top_qt.json"}
     for label in sets.keys():
         info_set = per_set_local[label]
         primary_ids = info_set["primary_ids"]
         per_context = info_set["context_ids"]
         records = to_records(primary_ids, per_context, full_indexed, media_map)
+        tagged = 0
+        for rec in records:
+            if not rec["is_context"] and rec["tweet_id"] in tags_map:
+                rec["tags"] = tags_map[rec["tweet_id"]]
+                tagged += 1
+        info(f"{label}: tags merged onto {tagged:,} primary records")
 
         # Append external context records (in stable id-sorted order so
         # rebuilds are deterministic).

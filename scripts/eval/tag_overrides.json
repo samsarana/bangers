@@ -1,0 +1,2177 @@
+{
+ "1793026228464570793": {
+  "tags": [
+   "catastrophic-risk"
+  ],
+  "note": "top-N review: -humour"
+ },
+ "1986526378985202146": {
+  "tags": [
+   "aesthetics"
+  ],
+  "note": "top-N review: -parenting"
+ },
+ "1780782963136897256": {
+  "tags": [
+   "nature"
+  ],
+  "note": "top-N review: -humour"
+ },
+ "1757481222094434727": {
+  "tags": [
+   "policy-and-governance",
+   "power"
+  ],
+  "note": "top-N review: -humour"
+ },
+ "1925568913422586047": {
+  "tags": [
+   "psychology"
+  ],
+  "note": "top-N review: -humour"
+ },
+ "1873435954301862260": {
+  "tags": [
+   "creativity"
+  ],
+  "note": "top-N review: -humour"
+ },
+ "1255767736279392256": {
+  "tags": [
+   "world-modelling"
+  ],
+  "note": "top-N review: -humour"
+ },
+ "1588796630287147009": {
+  "tags": [
+   "world-modelling"
+  ],
+  "note": "top-N review: -humour"
+ },
+ "1923019796427256121": {
+  "tags": [
+   "relationships",
+   "practical-philosophy"
+  ],
+  "note": "top-N review: -humour"
+ },
+ "2003995024061833311": {
+  "tags": [
+   "AI",
+   "LLMs"
+  ],
+  "note": "top-N review: -humour"
+ },
+ "1074043268898336769": {
+  "tags": [
+   "unclassified"
+  ],
+  "note": "top-N review: -humour"
+ },
+ "1194733777534078976": {
+  "tags": [
+   "power"
+  ],
+  "note": "top-N review: -education"
+ },
+ "1294903763761676289": {
+  "tags": [
+   "practical-philosophy"
+  ],
+  "note": "top-N review: -humour"
+ },
+ "1807465393125982620": {
+  "tags": [
+   "practical-philosophy"
+  ],
+  "note": "top-N review: -humour"
+ },
+ "1818494703811096681": {
+  "tags": [
+   "unclassified"
+  ],
+  "note": "top-N review: -practical-philosophy"
+ },
+ "1347630121625280512": {
+  "tags": [
+   "policy-and-governance"
+  ],
+  "note": "top-N review: -practical-philosophy"
+ },
+ "2035069361925521903": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -practical-philosophy"
+ },
+ "1865142477277003903": {
+  "tags": [
+   "twitter-meta"
+  ],
+  "note": "top-N review: -practical-philosophy"
+ },
+ "1826281422451364199": {
+  "tags": [
+   "unclassified"
+  ],
+  "note": "top-N review: -philosophy"
+ },
+ "1783520537806864646": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -philosophy"
+ },
+ "2029590785000411310": {
+  "tags": [
+   "spirituality"
+  ],
+  "note": "top-N review: -philosophy"
+ },
+ "1987660832491340248": {
+  "tags": [
+   "culture",
+   "power"
+  ],
+  "note": "top-N review: -philosophy"
+ },
+ "1969978712520380903": {
+  "tags": [
+   "spirituality"
+  ],
+  "note": "top-N review: -philosophy"
+ },
+ "1978933287130157427": {
+  "tags": [
+   "AI",
+   "science"
+  ],
+  "note": "top-N review: -philosophy"
+ },
+ "1999202342659404243": {
+  "tags": [
+   "culture"
+  ],
+  "note": "top-N review: -philosophy"
+ },
+ "1240853864355528706": {
+  "tags": [
+   "culture"
+  ],
+  "note": "top-N review: -philosophy"
+ },
+ "1819209776636874798": {
+  "tags": [
+   "world-modelling"
+  ],
+  "note": "top-N review: -philosophy"
+ },
+ "1676714030499782658": {
+  "tags": [
+   "spirituality"
+  ],
+  "note": "top-N review: -philosophy"
+ },
+ "1565095514563035143": {
+  "tags": [
+   "unclassified"
+  ],
+  "note": "top-N review: -philosophy"
+ },
+ "2008031452114596040": {
+  "tags": [
+   "LLMs",
+   "AI",
+   "creativity"
+  ],
+  "note": "top-N review: -philosophy"
+ },
+ "1198719315589160960": {
+  "tags": [
+   "twitter-meta"
+  ],
+  "note": "top-N review: -epistemics"
+ },
+ "1761796720390787093": {
+  "tags": [
+   "practical-philosophy"
+  ],
+  "note": "top-N review: -epistemics"
+ },
+ "1971237240098652574": {
+  "tags": [
+   "communication"
+  ],
+  "note": "top-N review: -epistemics"
+ },
+ "2022623441946288537": {
+  "tags": [
+   "unclassified"
+  ],
+  "note": "top-N review: -epistemics"
+ },
+ "1693727423987151304": {
+  "tags": [
+   "social-dynamics"
+  ],
+  "note": "top-N review: -epistemics"
+ },
+ "1979666265200570762": {
+  "tags": [
+   "philosophy"
+  ],
+  "note": "top-N review: -epistemics"
+ },
+ "1861598036314726655": {
+  "tags": [
+   "world-modelling"
+  ],
+  "note": "top-N review: -epistemics"
+ },
+ "1416233296782979076": {
+  "tags": [
+   "science"
+  ],
+  "note": "top-N review: -public-epistemics"
+ },
+ "1766576845980320143": {
+  "tags": [
+   "unclassified"
+  ],
+  "note": "top-N review: -language"
+ },
+ "1279988846466199552": {
+  "tags": [
+   "politics"
+  ],
+  "note": "top-N review: -public-epistemics"
+ },
+ "1412974860545007617": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -world-modelling"
+ },
+ "2034691312340136330": {
+  "tags": [
+   "humour",
+   "culture"
+  ],
+  "note": "top-N review: -world-modelling"
+ },
+ "1861853116821602443": {
+  "tags": [
+   "practical-philosophy"
+  ],
+  "note": "top-N review: -world-modelling"
+ },
+ "1782105607362707642": {
+  "tags": [
+   "epistemics"
+  ],
+  "note": "top-N review: -world-modelling"
+ },
+ "1665376873726218242": {
+  "tags": [
+   "unclassified"
+  ],
+  "note": "top-N review: -social-dynamics"
+ },
+ "1985669564705681849": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -psychology"
+ },
+ "1999630647787450802": {
+  "tags": [
+   "relationships",
+   "practical-philosophy"
+  ],
+  "note": "top-N review: -psychology"
+ },
+ "1272794864413839361": {
+  "tags": [
+   "social-dynamics"
+  ],
+  "note": "top-N review: -psychology"
+ },
+ "1734752121747276198": {
+  "tags": [
+   "relationships"
+  ],
+  "note": "top-N review: -healing-and-growth"
+ },
+ "1738124852157190314": {
+  "tags": [
+   "parenting",
+   "psychology"
+  ],
+  "note": "top-N review: -healing-and-growth"
+ },
+ "1665409348833558528": {
+  "tags": [
+   "psychology"
+  ],
+  "note": "top-N review: -healing-and-growth"
+ },
+ "1652496653130280960": {
+  "tags": [
+   "technology",
+   "relationships"
+  ],
+  "note": "top-N review: -healing-and-growth"
+ },
+ "1739950384783994963": {
+  "tags": [
+   "relationships"
+  ],
+  "note": "top-N review: -healing-and-growth"
+ },
+ "1986732800347676847": {
+  "tags": [
+   "relationships",
+   "practical-philosophy"
+  ],
+  "note": "top-N review: -healing-and-growth"
+ },
+ "1193386192374513664": {
+  "tags": [
+   "psychology",
+   "parenting"
+  ],
+  "note": "top-N review: -healing-and-growth"
+ },
+ "1806096276636811383": {
+  "tags": [
+   "meaning",
+   "world-modelling"
+  ],
+  "note": "top-N review: -mental-health"
+ },
+ "1994167946835546475": {
+  "tags": [
+   "healing-and-growth",
+   "relationships"
+  ],
+  "note": "top-N review: -mental-health"
+ },
+ "1528686396269023233": {
+  "tags": [
+   "world-modelling",
+   "politics"
+  ],
+  "note": "top-N review: -mental-health"
+ },
+ "1903397043265053077": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -neurodiversity"
+ },
+ "1878533343244919222": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -embodiment"
+ },
+ "1670288456331718656": {
+  "tags": [
+   "psychology",
+   "healing-and-growth"
+  ],
+  "note": "top-N review: -embodiment"
+ },
+ "2016550167902638324": {
+  "tags": [
+   "practical-philosophy"
+  ],
+  "note": "top-N review: -embodiment"
+ },
+ "2012427216790179915": {
+  "tags": [
+   "AI",
+   "LLMs"
+  ],
+  "note": "top-N review: -spirituality"
+ },
+ "1652486515283329024": {
+  "tags": [
+   "aesthetics"
+  ],
+  "note": "top-N review: -religion"
+ },
+ "1536802069801222145": {
+  "tags": [
+   "spirituality"
+  ],
+  "note": "top-N review: -religion"
+ },
+ "1967124270171255234": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -meditation"
+ },
+ "1718260144813875668": {
+  "tags": [
+   "world-modelling",
+   "philosophy",
+   "community"
+  ],
+  "note": "top-N review: -meditation"
+ },
+ "990573745335975936": {
+  "tags": [
+   "humour",
+   "economics"
+  ],
+  "note": "top-N review: -psychedelics"
+ },
+ "1610502509017300992": {
+  "tags": [
+   "unclassified"
+  ],
+  "note": "top-N review: -psychedelics"
+ },
+ "1760333311883579582": {
+  "tags": [
+   "humour",
+   "spirituality"
+  ],
+  "note": "top-N review: -psychedelics"
+ },
+ "1867408446158422213": {
+  "tags": [
+   "philosophy"
+  ],
+  "note": "top-N review: -meaning"
+ },
+ "1615742508881051648": {
+  "tags": [
+   "practical-philosophy"
+  ],
+  "note": "top-N review: -meaning"
+ },
+ "1821338429390540931": {
+  "tags": [
+   "unclassified"
+  ],
+  "note": "top-N review: -culture"
+ },
+ "1959558474007826442": {
+  "tags": [
+   "healing-and-growth"
+  ],
+  "note": "top-N review: -meaning"
+ },
+ "1140284067054624778": {
+  "tags": [
+   "unclassified"
+  ],
+  "note": "top-N review: -TIL"
+ },
+ "1974940377758187764": {
+  "tags": [
+   "social-dynamics"
+  ],
+  "note": "top-N review: -identity"
+ },
+ "1893906523232874517": {
+  "tags": [
+   "meaning"
+  ],
+  "note": "top-N review: -identity"
+ },
+ "1769641560059396474": {
+  "tags": [
+   "psychology"
+  ],
+  "note": "top-N review: -identity"
+ },
+ "1785617087123059140": {
+  "tags": [
+   "science"
+  ],
+  "note": "top-N review: -identity"
+ },
+ "2027908985639305401": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -aesthetics"
+ },
+ "1913309833907888129": {
+  "tags": [
+   "culture"
+  ],
+  "note": "top-N review: -identity"
+ },
+ "2037320249981415564": {
+  "tags": [
+   "meaning"
+  ],
+  "note": "top-N review: -identity"
+ },
+ "1751302672274141596": {
+  "tags": [
+   "social-justice",
+   "culture"
+  ],
+  "note": "top-N review: -identity"
+ },
+ "1893910340225605808": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -identity"
+ },
+ "1207750140418650112": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -identity"
+ },
+ "1516125051334049793": {
+  "tags": [
+   "spirituality"
+  ],
+  "note": "top-N review: -identity"
+ },
+ "1042906390140866561": {
+  "tags": [
+   "relationships"
+  ],
+  "note": "top-N review: -identity"
+ },
+ "1877362167608959095": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -relationships"
+ },
+ "2021722751246188573": {
+  "tags": [
+   "LLMs",
+   "AI"
+  ],
+  "note": "top-N review: -relationships"
+ },
+ "2023792166456152390": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -relationships"
+ },
+ "1739261281800962316": {
+  "tags": [
+   "practical-philosophy",
+   "productivity"
+  ],
+  "note": "top-N review: -parenting"
+ },
+ "1773007188031623496": {
+  "tags": [
+   "humour",
+   "education"
+  ],
+  "note": "top-N review: -parenting"
+ },
+ "1175085109638156288": {
+  "tags": [
+   "healing-and-growth"
+  ],
+  "note": "top-N review: -parenting"
+ },
+ "1810613593508811077": {
+  "tags": [
+   "humour",
+   "internet-culture"
+  ],
+  "note": "top-N review: -sexuality"
+ },
+ "1854739044099305794": {
+  "tags": [
+   "psychology",
+   "social-dynamics"
+  ],
+  "note": "top-N review: -sexuality"
+ },
+ "2023215700278493428": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -sexuality"
+ },
+ "1821814680899465641": {
+  "tags": [
+   "identity"
+  ],
+  "note": "top-N review: -sexuality"
+ },
+ "1923843579803505091": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -sexuality"
+ },
+ "2029381104411754573": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -sexuality"
+ },
+ "2014019534609338389": {
+  "tags": [
+   "social-dynamics",
+   "social-justice"
+  ],
+  "note": "top-N review: -sexuality"
+ },
+ "1952821559204430220": {
+  "tags": [
+   "identity"
+  ],
+  "note": "top-N review: -sexuality"
+ },
+ "1827084421796917569": {
+  "tags": [
+   "psychology",
+   "social-dynamics"
+  ],
+  "note": "top-N review: -sexuality"
+ },
+ "1813524752016810255": {
+  "tags": [
+   "social-dynamics"
+  ],
+  "note": "top-N review: -sexuality"
+ },
+ "1913618778669416498": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -sexuality"
+ },
+ "1604905361105977352": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -social-dynamics"
+ },
+ "1264930186925010944": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -social-dynamics"
+ },
+ "1747293273197105362": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -social-dynamics"
+ },
+ "1829950580737151391": {
+  "tags": [
+   "psychology",
+   "embodiment"
+  ],
+  "note": "top-N review: -social-dynamics"
+ },
+ "1840600677296255383": {
+  "tags": [
+   "neurodiversity"
+  ],
+  "note": "top-N review: -community"
+ },
+ "1251513546711547904": {
+  "tags": [
+   "social-justice"
+  ],
+  "note": "top-N review: -community"
+ },
+ "1669008781185875970": {
+  "tags": [
+   "neurodiversity"
+  ],
+  "note": "top-N review: -community"
+ },
+ "1275234049070526464": {
+  "tags": [
+   "social-justice",
+   "power"
+  ],
+  "note": "top-N review: -community"
+ },
+ "1864106703588839705": {
+  "tags": [
+   "creativity",
+   "internet-culture"
+  ],
+  "note": "top-N review: -community"
+ },
+ "2026359646328406307": {
+  "tags": [
+   "social-justice",
+   "announcement"
+  ],
+  "note": "top-N review: -community"
+ },
+ "1471721940653989894": {
+  "tags": [
+   "twitter-meta"
+  ],
+  "note": "top-N review: -community"
+ },
+ "1565049417501229060": {
+  "tags": [
+   "announcement"
+  ],
+  "note": "top-N review: -community"
+ },
+ "2001430832821445001": {
+  "tags": [
+   "announcement"
+  ],
+  "note": "top-N review: -community"
+ },
+ "1193836116367028224": {
+  "tags": [
+   "identity",
+   "creativity"
+  ],
+  "note": "top-N review: -culture"
+ },
+ "1932045629452136811": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -culture"
+ },
+ "1366097277920677894": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -culture"
+ },
+ "1543522481952235520": {
+  "tags": [
+   "politics"
+  ],
+  "note": "top-N review: -culture"
+ },
+ "1802422584606146570": {
+  "tags": [
+   "social-justice"
+  ],
+  "note": "top-N review: -culture"
+ },
+ "1867467806180311047": {
+  "tags": [
+   "psychology"
+  ],
+  "note": "top-N review: -culture"
+ },
+ "2018516707191509163": {
+  "tags": [
+   "power"
+  ],
+  "note": "top-N review: -culture"
+ },
+ "1266603910858280963": {
+  "tags": [
+   "politics",
+   "social-justice"
+  ],
+  "note": "top-N review: -culture"
+ },
+ "1988759648522870910": {
+  "tags": [
+   "science",
+   "epistemics"
+  ],
+  "note": "top-N review: -culture"
+ },
+ "2048811023688200680": {
+  "tags": [
+   "politics"
+  ],
+  "note": "top-N review: -culture"
+ },
+ "1504895460145836043": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -internet-culture"
+ },
+ "1632922043216805888": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -internet-culture"
+ },
+ "1912147242267619445": {
+  "tags": [
+   "psychology"
+  ],
+  "note": "top-N review: -internet-culture"
+ },
+ "1728881686195347774": {
+  "tags": [
+   "unclassified"
+  ],
+  "note": "top-N review: -media"
+ },
+ "1752951651886067812": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -internet-culture"
+ },
+ "2004531224271069435": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -internet-culture"
+ },
+ "1705681544910659587": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -internet-culture"
+ },
+ "2032946584002892241": {
+  "tags": [
+   "aesthetics"
+  ],
+  "note": "top-N review: -internet-culture"
+ },
+ "1626722907073269760": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -internet-culture"
+ },
+ "1724794013902098495": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -internet-culture"
+ },
+ "1686439382142836737": {
+  "tags": [
+   "science",
+   "internet-culture"
+  ],
+  "note": "top-N review: -twitter-meta"
+ },
+ "1742993102963658975": {
+  "tags": [
+   "humour",
+   "internet-culture"
+  ],
+  "note": "top-N review: -twitter-meta"
+ },
+ "1736646251834409280": {
+  "tags": [
+   "language"
+  ],
+  "note": "top-N review: -twitter-meta"
+ },
+ "2039725794239373725": {
+  "tags": [
+   "unclassified"
+  ],
+  "note": "top-N review: -LLMs"
+ },
+ "1607999271894220806": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -twitter-meta"
+ },
+ "1977783526155243833": {
+  "tags": [
+   "internet-culture",
+   "humour"
+  ],
+  "note": "top-N review: -twitter-meta"
+ },
+ "1782754075768992118": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -twitter-meta"
+ },
+ "1160216826770386944": {
+  "tags": [
+   "social-justice"
+  ],
+  "note": "top-N review: -twitter-meta"
+ },
+ "1935339699314507993": {
+  "tags": [
+   "policy-and-governance"
+  ],
+  "note": "top-N review: -twitter-meta"
+ },
+ "2009971182985162803": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -twitter-meta"
+ },
+ "1734759443429195842": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -twitter-meta"
+ },
+ "1801756984393503192": {
+  "tags": [
+   "media"
+  ],
+  "note": "top-N review: -twitter-meta"
+ },
+ "2004218311945736578": {
+  "tags": [
+   "LLMs",
+   "AI",
+   "identity"
+  ],
+  "note": "top-N review: -twitter-meta"
+ },
+ "2015348319690612857": {
+  "tags": [
+   "politics"
+  ],
+  "note": "top-N review: -twitter-meta"
+ },
+ "1974408232467939651": {
+  "tags": [
+   "social-dynamics"
+  ],
+  "note": "top-N review: -communication"
+ },
+ "1965506218895798740": {
+  "tags": [
+   "social-dynamics",
+   "practical-philosophy"
+  ],
+  "note": "top-N review: -communication"
+ },
+ "1783015769904656562": {
+  "tags": [
+   "culture"
+  ],
+  "note": "top-N review: -media"
+ },
+ "1177575725240639489": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -language"
+ },
+ "2043128677014143065": {
+  "tags": [
+   "philosophy",
+   "humour"
+  ],
+  "note": "top-N review: -language"
+ },
+ "1782957877856018514": {
+  "tags": [
+   "LLMs",
+   "AI"
+  ],
+  "note": "top-N review: -language"
+ },
+ "2029374260872135038": {
+  "tags": [
+   "LLMs",
+   "AI",
+   "creativity"
+  ],
+  "note": "top-N review: -language"
+ },
+ "1309879910392004608": {
+  "tags": [
+   "unclassified"
+  ],
+  "note": "top-N review: -creativity"
+ },
+ "1774067776069443728": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -aesthetics"
+ },
+ "2038275990749905319": {
+  "tags": [
+   "practical-philosophy"
+  ],
+  "note": "top-N review: -aesthetics"
+ },
+ "1600065172906790912": {
+  "tags": [
+   "embodiment"
+  ],
+  "note": "top-N review: -aesthetics"
+ },
+ "2041561810319356392": {
+  "tags": [
+   "relationships"
+  ],
+  "note": "top-N review: -aesthetics"
+ },
+ "1992512813143626154": {
+  "tags": [
+   "unclassified"
+  ],
+  "note": "top-N review: -aesthetics"
+ },
+ "1996252931780186510": {
+  "tags": [
+   "aesthetics"
+  ],
+  "note": "top-N review: -creativity"
+ },
+ "1978211519239270550": {
+  "tags": [
+   "aesthetics"
+  ],
+  "note": "top-N review: -creativity"
+ },
+ "1823496565408903555": {
+  "tags": [
+   "unclassified"
+  ],
+  "note": "top-N review: -AI-governance"
+ },
+ "2028195729454338145": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -creativity"
+ },
+ "2035499144253468686": {
+  "tags": [
+   "meaning"
+  ],
+  "note": "top-N review: -creativity"
+ },
+ "1963302404264530026": {
+  "tags": [
+   "announcement"
+  ],
+  "note": "top-N review: -creativity"
+ },
+ "1466874658356183048": {
+  "tags": [
+   "unclassified"
+  ],
+  "note": "top-N review: -politics"
+ },
+ "1768725620320587784": {
+  "tags": [
+   "media"
+  ],
+  "note": "top-N review: -politics"
+ },
+ "1823439767788511476": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -politics"
+ },
+ "1804372714049700141": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -politics"
+ },
+ "1596559616359415808": {
+  "tags": [
+   "economics"
+  ],
+  "note": "top-N review: -politics"
+ },
+ "1798406522902368762": {
+  "tags": [
+   "unclassified"
+  ],
+  "note": "top-N review: -politics"
+ },
+ "1890620154393866289": {
+  "tags": [
+   "unclassified"
+  ],
+  "note": "top-N review: -politics"
+ },
+ "2043060702794125707": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -politics"
+ },
+ "1824137024892440731": {
+  "tags": [
+   "psychology"
+  ],
+  "note": "top-N review: -politics"
+ },
+ "1517228071438352384": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -politics"
+ },
+ "2044225336288915774": {
+  "tags": [
+   "AI"
+  ],
+  "note": "top-N review: -AI-governance"
+ },
+ "1497861847336185856": {
+  "tags": [
+   "practical-philosophy"
+  ],
+  "note": "top-N review: -politics"
+ },
+ "1733233466882379899": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -politics"
+ },
+ "2049054327436661168": {
+  "tags": [
+   "social-dynamics",
+   "internet-culture"
+  ],
+  "note": "top-N review: -politics"
+ },
+ "1827682365021528288": {
+  "tags": [
+   "humour",
+   "urbanism"
+  ],
+  "note": "top-N review: -policy-and-governance"
+ },
+ "1871192450766959064": {
+  "tags": [
+   "public-epistemics"
+  ],
+  "note": "top-N review: -policy-and-governance"
+ },
+ "1949975242421453046": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -policy-and-governance"
+ },
+ "1859383713404260686": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -policy-and-governance"
+ },
+ "2039627737128722599": {
+  "tags": [
+   "unclassified"
+  ],
+  "note": "top-N review: -cybersecurity"
+ },
+ "1822847858967560413": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -policy-and-governance"
+ },
+ "1996076961475575884": {
+  "tags": [
+   "parenting",
+   "world-modelling"
+  ],
+  "note": "top-N review: -policy-and-governance"
+ },
+ "1977381525004882211": {
+  "tags": [
+   "power"
+  ],
+  "note": "top-N review: -policy-and-governance"
+ },
+ "1348930452778717187": {
+  "tags": [
+   "humour",
+   "culture"
+  ],
+  "note": "top-N review: -policy-and-governance"
+ },
+ "1864756046641926635": {
+  "tags": [
+   "technology"
+  ],
+  "note": "top-N review: -policy-and-governance"
+ },
+ "1689393097837608960": {
+  "tags": [
+   "spirituality",
+   "meditation",
+   "psychedelics"
+  ],
+  "note": "top-N review: -policy-and-governance"
+ },
+ "1761092975680176251": {
+  "tags": [
+   "politics"
+  ],
+  "note": "top-N review: -social-justice"
+ },
+ "1280114354474545152": {
+  "tags": [
+   "politics"
+  ],
+  "note": "top-N review: -social-justice"
+ },
+ "1781553180590973063": {
+  "tags": [
+   "politics"
+  ],
+  "note": "top-N review: -social-justice"
+ },
+ "1825001337391657407": {
+  "tags": [
+   "politics"
+  ],
+  "note": "top-N review: -social-justice"
+ },
+ "1996276224394776644": {
+  "tags": [
+   "politics",
+   "parenting"
+  ],
+  "note": "top-N review: -social-justice"
+ },
+ "2012531881011540109": {
+  "tags": [
+   "politics"
+  ],
+  "note": "top-N review: -social-justice"
+ },
+ "1975621903399194919": {
+  "tags": [
+   "humour",
+   "economics"
+  ],
+  "note": "top-N review: -social-justice"
+ },
+ "1804168568268865752": {
+  "tags": [
+   "politics",
+   "science"
+  ],
+  "note": "top-N review: -social-justice"
+ },
+ "2001744442764431735": {
+  "tags": [
+   "politics"
+  ],
+  "note": "top-N review: -social-justice"
+ },
+ "1063111907484217344": {
+  "tags": [
+   "psychology"
+  ],
+  "note": "top-N review: -social-justice"
+ },
+ "1683984883780055041": {
+  "tags": [
+   "politics"
+  ],
+  "note": "top-N review: -social-justice"
+ },
+ "1763841951714226353": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -economics"
+ },
+ "1824236562793808251": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -economics"
+ },
+ "1781927686367027683": {
+  "tags": [
+   "psychology"
+  ],
+  "note": "top-N review: -economics"
+ },
+ "1874376157879259392": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -economics"
+ },
+ "2014067527786147964": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -economics"
+ },
+ "1973119992536158645": {
+  "tags": [
+   "psychology"
+  ],
+  "note": "top-N review: -economics"
+ },
+ "1191430603234631681": {
+  "tags": [
+   "humour",
+   "psychology"
+  ],
+  "note": "top-N review: -economics"
+ },
+ "1421131754815987714": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -economics"
+ },
+ "1756500207003705636": {
+  "tags": [
+   "unclassified"
+  ],
+  "note": "top-N review: -power"
+ },
+ "2000900588331204791": {
+  "tags": [
+   "culture"
+  ],
+  "note": "top-N review: -economics"
+ },
+ "1742218171099017636": {
+  "tags": [
+   "labour",
+   "community"
+  ],
+  "note": "top-N review: -economics"
+ },
+ "1611029617326067713": {
+  "tags": [
+   "technology"
+  ],
+  "note": "top-N review: -power"
+ },
+ "1178249826141491200": {
+  "tags": [
+   "social-justice"
+  ],
+  "note": "top-N review: -power"
+ },
+ "1094894798106816513": {
+  "tags": [
+   "world-modelling"
+  ],
+  "note": "top-N review: -power"
+ },
+ "1343903569808912386": {
+  "tags": [
+   "politics",
+   "policy-and-governance"
+  ],
+  "note": "top-N review: -power"
+ },
+ "1897929024548089856": {
+  "tags": [
+   "humour",
+   "twitter-meta"
+  ],
+  "note": "top-N review: -power"
+ },
+ "2028558638751617329": {
+  "tags": [
+   "politics"
+  ],
+  "note": "top-N review: -power"
+ },
+ "2029548515693609216": {
+  "tags": [
+   "psychology"
+  ],
+  "note": "top-N review: -power"
+ },
+ "1063349755714007040": {
+  "tags": [
+   "economics"
+  ],
+  "note": "top-N review: -urbanism"
+ },
+ "1821715664639340675": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -urbanism"
+ },
+ "2046858449913352426": {
+  "tags": [
+   "culture"
+  ],
+  "note": "top-N review: -urbanism"
+ },
+ "1978513575992865207": {
+  "tags": [
+   "AI",
+   "culture"
+  ],
+  "note": "top-N review: -urbanism"
+ },
+ "1130338663181643782": {
+  "tags": [
+   "aesthetics"
+  ],
+  "note": "top-N review: -urbanism"
+ },
+ "2010905022717182243": {
+  "tags": [
+   "mental-health",
+   "AI"
+  ],
+  "note": "top-N review: -catastrophic-risk"
+ },
+ "1704007224794992844": {
+  "tags": [
+   "AI"
+  ],
+  "note": "top-N review: -catastrophic-risk"
+ },
+ "2048122946686791882": {
+  "tags": [
+   "AI",
+   "politics"
+  ],
+  "note": "top-N review: -catastrophic-risk"
+ },
+ "1821691313806303470": {
+  "tags": [
+   "world-modelling"
+  ],
+  "note": "top-N review: -catastrophic-risk"
+ },
+ "1997854219970207960": {
+  "tags": [
+   "science"
+  ],
+  "note": "top-N review: -catastrophic-risk"
+ },
+ "2038045294651199883": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -science"
+ },
+ "1777159508156092513": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -science"
+ },
+ "1124575393590071296": {
+  "tags": [
+   "creativity"
+  ],
+  "note": "top-N review: -science"
+ },
+ "1424194674437234695": {
+  "tags": [
+   "community"
+  ],
+  "note": "top-N review: -science"
+ },
+ "1872482551677194267": {
+  "tags": [
+   "embodiment",
+   "world-modelling"
+  ],
+  "note": "top-N review: -science"
+ },
+ "1832168244234383452": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -nature"
+ },
+ "1874651921061167446": {
+  "tags": [
+   "practical-philosophy"
+  ],
+  "note": "top-N review: -nature"
+ },
+ "1498344665371721732": {
+  "tags": [
+   "aesthetics"
+  ],
+  "note": "top-N review: -nature"
+ },
+ "1730651754704867473": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -nature"
+ },
+ "1859093871730249736": {
+  "tags": [
+   "practical-philosophy"
+  ],
+  "note": "top-N review: -nature"
+ },
+ "1214492384089792513": {
+  "tags": [
+   "philosophy"
+  ],
+  "note": "top-N review: -AI"
+ },
+ "2050176321372729496": {
+  "tags": [
+   "politics"
+  ],
+  "note": "top-N review: -AI"
+ },
+ "1785921076637393147": {
+  "tags": [
+   "humour",
+   "LLMs"
+  ],
+  "note": "top-N review: -AI"
+ },
+ "1795121269274280206": {
+  "tags": [
+   "AI",
+   "catastrophic-risk"
+  ],
+  "note": "top-N review: -AI-safety"
+ },
+ "1567618729474953216": {
+  "tags": [
+   "AI"
+  ],
+  "note": "top-N review: -AI-safety"
+ },
+ "1823442735644467221": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -AI-safety"
+ },
+ "2004024105671049356": {
+  "tags": [
+   "AI",
+   "LLMs"
+  ],
+  "note": "top-N review: -AI-safety"
+ },
+ "2045040496599601268": {
+  "tags": [
+   "AI",
+   "LLMs"
+  ],
+  "note": "top-N review: -AI-safety"
+ },
+ "2016474168192020535": {
+  "tags": [
+   "announcement"
+  ],
+  "note": "top-N review: -AI-safety"
+ },
+ "1975235988319551987": {
+  "tags": [
+   "AI",
+   "practical-philosophy",
+   "psychology"
+  ],
+  "note": "top-N review: -AI-safety"
+ },
+ "1727342399297630393": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -AI-governance"
+ },
+ "1831105322053992891": {
+  "tags": [
+   "power",
+   "policy-and-governance"
+  ],
+  "note": "top-N review: -AI-governance"
+ },
+ "1892768782310932788": {
+  "tags": [
+   "politics",
+   "power",
+   "world-modelling"
+  ],
+  "note": "top-N review: -AI-governance"
+ },
+ "1965072041783996715": {
+  "tags": [
+   "policy-and-governance",
+   "cybersecurity"
+  ],
+  "note": "top-N review: -AI-governance"
+ },
+ "1768597661244965238": {
+  "tags": [
+   "epistemics"
+  ],
+  "note": "top-N review: -AI-governance"
+ },
+ "1736187100779905402": {
+  "tags": [
+   "AI"
+  ],
+  "note": "top-N review: -AI-governance"
+ },
+ "1981786592575730161": {
+  "tags": [
+   "humour",
+   "AI"
+  ],
+  "note": "top-N review: -AI-governance"
+ },
+ "2037529172944245246": {
+  "tags": [
+   "AI",
+   "humour"
+  ],
+  "note": "top-N review: -AI-governance"
+ },
+ "1995661467706929421": {
+  "tags": [
+   "AI",
+   "psychology"
+  ],
+  "note": "top-N review: -AI-governance"
+ },
+ "2044270785855205517": {
+  "tags": [
+   "AI",
+   "philosophy"
+  ],
+  "note": "top-N review: -AI-governance"
+ },
+ "2041853868376576013": {
+  "tags": [
+   "humour",
+   "catastrophic-risk"
+  ],
+  "note": "top-N review: -AI-governance"
+ },
+ "2006223326235222359": {
+  "tags": [
+   "AI",
+   "catastrophic-risk"
+  ],
+  "note": "top-N review: -AI-governance"
+ },
+ "2014155341274210390": {
+  "tags": [
+   "AI-safety",
+   "AI"
+  ],
+  "note": "top-N review: -AI-governance"
+ },
+ "2044287216130896082": {
+  "tags": [
+   "AI",
+   "economics"
+  ],
+  "note": "top-N review: -AI-governance"
+ },
+ "2043593573044810063": {
+  "tags": [
+   "AI",
+   "economics",
+   "politics"
+  ],
+  "note": "top-N review: -AI-governance"
+ },
+ "2022407120315126169": {
+  "tags": [
+   "politics",
+   "AI"
+  ],
+  "note": "top-N review: -LLMs"
+ },
+ "1551143240065228800": {
+  "tags": [
+   "AI",
+   "practical-philosophy"
+  ],
+  "note": "top-N review: -LLMs"
+ },
+ "2041873905229472118": {
+  "tags": [
+   "humour",
+   "AI"
+  ],
+  "note": "top-N review: -LLMs"
+ },
+ "2042018238918209662": {
+  "tags": [
+   "humour",
+   "AI"
+  ],
+  "note": "top-N review: -LLMs"
+ },
+ "1855994542635233587": {
+  "tags": [
+   "humour",
+   "embodiment"
+  ],
+  "note": "top-N review: -technology"
+ },
+ "1978927674937479324": {
+  "tags": [
+   "AI",
+   "world-modelling"
+  ],
+  "note": "top-N review: -technology"
+ },
+ "1836519820290064629": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -technology"
+ },
+ "1930358467925266601": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -technology"
+ },
+ "2035816432068661312": {
+  "tags": [
+   "software-development"
+  ],
+  "note": "top-N review: -technology"
+ },
+ "2011086525572718826": {
+  "tags": [
+   "announcement",
+   "community"
+  ],
+  "note": "top-N review: -technology"
+ },
+ "1706488718024974714": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -technology"
+ },
+ "1761836682012475694": {
+  "tags": [
+   "technology"
+  ],
+  "note": "top-N review: -software-development"
+ },
+ "2025691460901728644": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -software-development"
+ },
+ "1486259353279627265": {
+  "tags": [
+   "twitter-meta"
+  ],
+  "note": "top-N review: -software-development"
+ },
+ "1541017791037423617": {
+  "tags": [
+   "productivity"
+  ],
+  "note": "top-N review: -software-development"
+ },
+ "1900285728635969841": {
+  "tags": [
+   "AI",
+   "LLMs",
+   "public-epistemics"
+  ],
+  "note": "top-N review: -cybersecurity"
+ },
+ "1739482327565131784": {
+  "tags": [
+   "humour",
+   "technology"
+  ],
+  "note": "top-N review: -cybersecurity"
+ },
+ "1532118178817400832": {
+  "tags": [
+   "humour",
+   "internet-culture"
+  ],
+  "note": "top-N review: -cybersecurity"
+ },
+ "915492392043552769": {
+  "tags": [
+   "humour",
+   "business"
+  ],
+  "note": "top-N review: -cybersecurity"
+ },
+ "2023799525371253018": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -cybersecurity"
+ },
+ "1502204565533380608": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -cybersecurity"
+ },
+ "2037723190181441998": {
+  "tags": [
+   "parenting"
+  ],
+  "note": "top-N review: -labour"
+ },
+ "1155180521485242368": {
+  "tags": [
+   "business",
+   "meaning"
+  ],
+  "note": "top-N review: -career"
+ },
+ "1123920712962596865": {
+  "tags": [
+   "business"
+  ],
+  "note": "top-N review: -career"
+ },
+ "1568277519542980611": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -career"
+ },
+ "1920558664576086467": {
+  "tags": [
+   "economics",
+   "AI"
+  ],
+  "note": "top-N review: -career"
+ },
+ "2045130527649251416": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -career"
+ },
+ "2011804068688113976": {
+  "tags": [
+   "LLMs",
+   "AI"
+  ],
+  "note": "top-N review: -career"
+ },
+ "994556460553007104": {
+  "tags": [
+   "practical-philosophy",
+   "creativity"
+  ],
+  "note": "top-N review: -career"
+ },
+ "990571231379243008": {
+  "tags": [
+   "culture",
+   "social-justice"
+  ],
+  "note": "top-N review: -business"
+ },
+ "2050269202657808749": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -business"
+ },
+ "990572331952103424": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -business"
+ },
+ "2045265054103462310": {
+  "tags": [
+   "culture"
+  ],
+  "note": "top-N review: -business"
+ },
+ "1940540221143286118": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -business"
+ },
+ "1355591210287521794": {
+  "tags": [
+   "twitter-meta"
+  ],
+  "note": "top-N review: -business"
+ },
+ "2022730540818842008": {
+  "tags": [
+   "economics"
+  ],
+  "note": "top-N review: -business"
+ },
+ "1509324864636678144": {
+  "tags": [
+   "creativity",
+   "practical-philosophy"
+  ],
+  "note": "top-N review: -business"
+ },
+ "1306424745571815424": {
+  "tags": [
+   "social-justice"
+  ],
+  "note": "top-N review: -education"
+ },
+ "1556829282512642048": {
+  "tags": [
+   "world-modelling"
+  ],
+  "note": "top-N review: -education"
+ },
+ "1792582876111806605": {
+  "tags": [
+   "epistemics"
+  ],
+  "note": "top-N review: -education"
+ },
+ "1222898745815126017": {
+  "tags": [
+   "unclassified"
+  ],
+  "note": "top-N review: -media"
+ },
+ "1959429921044144299": {
+  "tags": [
+   "culture",
+   "world-modelling"
+  ],
+  "note": "top-N review: -education"
+ },
+ "2030359840824901857": {
+  "tags": [
+   "practical-philosophy"
+  ],
+  "note": "top-N review: -productivity"
+ },
+ "1768604805063188733": {
+  "tags": [
+   "technology"
+  ],
+  "note": "top-N review: -productivity"
+ },
+ "1818715505122803939": {
+  "tags": [
+   "unclassified"
+  ],
+  "note": "top-N review: -productivity"
+ },
+ "1733384507330375879": {
+  "tags": [
+   "practical-philosophy"
+  ],
+  "note": "top-N review: -productivity"
+ },
+ "1818715506771112002": {
+  "tags": [
+   "psychology"
+  ],
+  "note": "top-N review: -productivity"
+ },
+ "1818715508218511757": {
+  "tags": [
+   "unclassified"
+  ],
+  "note": "top-N review: -productivity"
+ },
+ "1373708228970876934": {
+  "tags": [
+   "software-development",
+   "twitter-meta"
+  ],
+  "note": "top-N review: -productivity"
+ },
+ "1451553698841350153": {
+  "tags": [
+   "labour"
+  ],
+  "note": "top-N review: -media"
+ },
+ "1853008831032254874": {
+  "tags": [
+   "mental-health",
+   "psychology"
+  ],
+  "note": "top-N review: -media"
+ },
+ "1954710423858737157": {
+  "tags": [
+   "humour",
+   "politics"
+  ],
+  "note": "top-N review: -media"
+ },
+ "1946096587752587584": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -media"
+ },
+ "1856793889073750354": {
+  "tags": [
+   "power",
+   "business"
+  ],
+  "note": "top-N review: -media"
+ },
+ "1751613585883570665": {
+  "tags": [
+   "humour"
+  ],
+  "note": "top-N review: -media"
+ },
+ "1061692306619678720": {
+  "tags": [
+   "business"
+  ],
+  "note": "top-N review: -media"
+ },
+ "1362023248938999815": {
+  "tags": [
+   "humour",
+   "identity"
+  ],
+  "note": "top-N review: -media"
+ },
+ "1568748842195062790": {
+  "tags": [
+   "religion"
+  ],
+  "note": "top-N review: -media"
+ },
+ "1517163100104916993": {
+  "tags": [
+   "psychology",
+   "social-dynamics"
+  ],
+  "note": "top-N review: -media"
+ },
+ "1688930134647250944": {
+  "tags": [
+   "science"
+  ],
+  "note": "top-N review: -TIL"
+ },
+ "1384696544524447745": {
+  "tags": [
+   "technology"
+  ],
+  "note": "top-N review: -TIL"
+ },
+ "2034572013554020399": {
+  "tags": [
+   "culture"
+  ],
+  "note": "top-N review: -TIL"
+ },
+ "1992033766185828674": {
+  "tags": [
+   "culture",
+   "relationships"
+  ],
+  "note": "top-N review: -TIL"
+ },
+ "1914382847055683605": {
+  "tags": [
+   "creativity"
+  ],
+  "note": "top-N review: -TIL"
+ },
+ "1750337617562857493": {
+  "tags": [
+   "culture"
+  ],
+  "note": "top-N review: -TIL"
+ },
+ "1940162781950746628": {
+  "tags": [
+   "science"
+  ],
+  "note": "top-N review: -TIL"
+ },
+ "1353278297262575625": {
+  "tags": [
+   "culture"
+  ],
+  "note": "top-N review: -TIL"
+ },
+ "1402449647122018304": {
+  "tags": [
+   "unclassified"
+  ],
+  "note": "top-N review: -announcement"
+ },
+ "1794431503373353420": {
+  "tags": [
+   "unclassified"
+  ],
+  "note": "top-N review: -announcement"
+ },
+ "1075468808788303873": {
+  "tags": [
+   "policy-and-governance"
+  ],
+  "note": "top-N review: -announcement"
+ },
+ "1734242982323532261": {
+  "tags": [
+   "spirituality"
+  ],
+  "note": "top-N review: -announcement"
+ },
+ "1668987664140304388": {
+  "tags": [
+   "meaning"
+  ],
+  "note": "top-N review: -announcement"
+ },
+ "1948375377128096189": {
+  "tags": [
+   "business"
+  ],
+  "note": "top-N review: -announcement"
+ },
+ "1961130066441900468": {
+  "tags": [
+   "embodiment",
+   "practical-philosophy"
+  ],
+  "note": "top-N review: -announcement"
+ },
+ "2028618466819822055": {
+  "tags": [
+   "unclassified"
+  ],
+  "note": "top-N review: -announcement"
+ }
+}

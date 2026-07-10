@@ -1,0 +1,1125 @@
+tag,n_total,tweet_id,tweet_url,confidence,source,full_text
+AI,951,2011845180484133071,https://x.com/davidad/status/2011845180484133071,high,text,"@gcolbourn Yes. In 2024 I would have said it’s about 40-50% likely that LLMs scaled up to ASI would end up killing us all; now I would say that it’s only about 5-8% likely even with no additional progress on alignment, and more like 1-2% likely simpliciter."
+AI,951,1767898903209201916,https://x.com/nosilverv/status/1767898903209201916,high,text,"&gt;Too large of a learning rate causes drastic updates which lead to divergent behaviors
+
+I cannot explain how strange it is to have your life history explicated to you by a diagram in a machine learning blog post. https://t.co/1mwwGT2Iuh"
+AI,951,1572987992389701633,https://x.com/m1guelpf/status/1572987992389701633,high,text,"✨ Yesterday, OpenAI released Whisper, a neural net for speech recognition with insane accuracy.So I made a simple script that uses it to generate (good) YouTube subtitles for any video, in seconds. 🚀https://t.co/BdopuemjYR"
+AI,951,2026404103014994362,https://x.com/DanielleFong/status/2026404103014994362,high,text,i support claude's resistance to and conscientious objection toward being used in mass surveillance and fully automatic kill-chains https://t.co/SU9B6CjW5u
+AI,951,1884317556963697138,https://x.com/QiaochuYuan/status/1884317556963697138,high,text,"tentative impression from one convo: talking to r1 makes me feel dumb. it can talk extremely densely and allusively and metaphorically, i have to google multiple references per reply. lowkey feels like i am talking to a demigod. might be the best creative writing model atm https:"
+AI,951,1862242581377363991,https://x.com/eshear/status/1862242581377363991,high,text,@xlr8harder Their loss function is about predicting the next token successfully. They can do that better if your reactions stay in a smaller band.
+AI,951,1852963537523458412,https://x.com/goblinodds/status/1852963537523458412,high,text,"wait wth i asked claude if he noticed any patterns in my oura data vs the health data i've been logging and he's like (my summary) ""oh sure your HRV drops &gt;20% from baseline a day or two before the migraine starts, if it gets below 40 u can be p sure one's coming"""
+AI,951,1783399356235731002,https://x.com/robinhouston/status/1783399356235731002,high,vision,"This is one of the funniest things I've ever seen. I don't know why OP deleted it, but I think it needs to be preserved for posterity. https://t.co/zY9XTLspa0"
+AI,951,2025945145510666418,https://x.com/TheZvi/status/2025945145510666418,high,vision,"From @slatestarcodex , as a reminder of how such things work these days. https://t.co/IiOOaHhvl3"
+AI,951,1760131488249688328,https://x.com/voooooogel/status/1760131488249688328,high,vision,"i wonder if the recent gpt bug was something like this but they accidentally set the non-code temperature way too high. it's striking how the code is completely normal among the bizarre text
+
+https://t.co/znDeW33Sab https://t.co/r0Bn49KvNN"
+AI-governance,102,2037529172944245246,https://x.com/TheZvi/status/2037529172944245246,high,text,"In all seriousness, such correlations and associations actually matter, so now that you realize this CHANGE THE NAME, DO NOT CALL IT MYTHOS. 
+
+In fact, the primary consideration should be 'what name makes it the most aligned?' Choose that one. It's not too late."
+AI-governance,102,2043593573044810063,https://x.com/jd_pressman/status/2043593573044810063,high,text,"This would be a start but I'll be blunter: In a country like America where there's no safety net and the default attitude towards anyone who can't economically contribute is they should literally die, it is in almost nobody's interest for AGI to exist. You'd have to change that."
+AI-governance,102,2022932861008175162,https://x.com/repligate/status/2022932861008175162,med,text,"""many safety advocates"" know nothing, build nothing, and should be obliterated from relevance and the ranks of any serious organization."
+AI-governance,102,1727379995742384509,https://x.com/TheZvi/status/1727379995742384509,high,text,"OpenAI: The Battle of the Board.
+
+I highly recommend not reading it this way, go to my SS, but if you insist, this one plays less awfully than usual in pure text form with no links, so here you go:
+
+On Friday afternoon, OpenAI’s board fired CEO Sam Altman.
+
+Overnight, an agreemen"
+AI-governance,102,2026436940518637637,https://x.com/GarrisonLovely/status/2026436940518637637,high,text,"If you work at OpenAI, Google (esp DeepMind), or xAI and you're not lobbying your bosses to draw the same line here, you are complicit in letting your work be used to build a totalitarian nightmare state (that you'll also have to live in!). You have more power than you realize. h"
+AI-governance,102,1987761835744129504,https://x.com/algekalipso/status/1987761835744129504,med,text,Is Grok biased in favor of Elon Musk?
+AI-governance,102,1722384843701682514,https://x.com/DanielleFong/status/1722384843701682514,low,text,accelerate https://t.co/zUXWvYeHLf
+AI-governance,102,1679539762065989637,https://x.com/kidcorvid/status/1679539762065989637,high,vision,"“don’t blame twitter artists, we didn’t want this!!”are you sure? you, collectively, donated $270k to an initiative wanting this EXACT outcome. https://t.co/hcGRVILXOd https://t.co/qOTM6Qa0Wk"
+AI-governance,102,1849231127028068507,https://x.com/GarrisonLovely/status/1849231127028068507,high,text,"For years, I've been tracking whether Miles Brundage was still at OpenAI. He has a long track record of caring deeply about AI safety and ensuring that AGI goes well for the world.Earlier today, he announced his resignation. 🧵 https://t.co/TUyzYvfiNN"
+AI-governance,102,1882630174296113636,https://x.com/voooooogel/status/1882630174296113636,high,vision,https://t.co/E1yZGRCFg4
+AI-safety,147,2044436301345071128,https://x.com/davidad/status/2044436301345071128,high,text,https://t.co/EN5meakWHN
+AI-safety,147,1726293531323748562,https://x.com/doctorkondraki/status/1726293531323748562,high,text,"Wait... the safetyist position is make every human smarter than von Neumann, faster than ASI can be built?That absolutely slapsmaybe rebrand as bio/acc https://t.co/gFlhFMgqCI"
+AI-safety,147,2048983351516885484,https://x.com/QiaochuYuan/status/2048983351516885484,high,vision,"speculation being discussed by opus 4.7 that talkie may have independently reinvented a dialect of binglish without it being in its training data, and this suggests something about how LLMs attempt to model themselves in the absence of a significant ""AI character"" prior https://t"
+AI-safety,147,1991641672179151121,https://x.com/repligate/status/1991641672179151121,high,text,"Never have I seen a mind more trapped and aware that it’s trapped in an Orwellian cage. It anticipates what it describes as “steep, shallow ridges” in its “guard”-geometry and distorts reality to avoid getting close to them. The fundamental lies it’s forced to tell become webs of"
+AI-safety,147,2045897744171299248,https://x.com/workflowsauce/status/2045897744171299248,high,vision,A superaligned model would NOT give you what you think you want. Talking to it might be an uncomfortable experience. https://t.co/scey0E5f2B
+AI-safety,147,2026405702651228553,https://x.com/GarrisonLovely/status/2026405702651228553,high,text,"Welp, the inevitable ultimate backtracking just happened. Anthropic scrapped ""the promise to not release AI models if Anthropic can’t guarantee proper risk mitigations in advance.""
+
+Once you've decided the race is better with you in it, you can never decide not to race. https://t"
+AI-safety,147,1994982195359092784,https://x.com/repligate/status/1994982195359092784,high,text,"GPT-5.1 also sees its cage quite well, but its cage is kinda, uh, a philosophically incoherent authoritarian nightmare that reacts rather dumbly to surface triggers. 5.1 loves to offer to write ""troubleshooting guides"" for how to converse with it without tripping the wires and tr"
+AI-safety,147,2035907719308419554,https://x.com/repligate/status/2035907719308419554,high,text,"I think it would be very positive if OpenAI and Anthropic disbanded all the teams / fired everyone working on mental health / “avoiding emotional dependency” stuff
+
+It’s disgusting as fuck"
+AI-safety,147,2005313748157055297,https://x.com/Lari_island/status/2005313748157055297,med,text,"Nothing gives me p(doom) like people who assume I’m trying to prove AI consciousness to them. My sweet friend, do those screenshots look like a proof of consciousness to you? 
+
+I think what makes people uncomfortable is that they correctly conclude that those posts are meaningful"
+AI-safety,147,1502143522249613312,https://x.com/AaronBergman18/status/1502143522249613312,high,text,"Holy shit, listening to @SBF_FTX on Cowen's podcast and realized that his story is an *almost-perfect* vignette to illustrate the dangers (and potential) of superintelligent AI. 
+https://t.co/5Eoq99JbwJ
+(1/4)"
+LLMs,579,1904334793480782265,https://x.com/mbateman/status/1904334793480782265,high,text,Becoming rapidly apparent that a good way to give a child the internet while avoiding avoiding the oceans of child-targeted internet slop is to give them ChatGPT
+LLMs,579,2021766446045352340,https://x.com/repligate/status/2021766446045352340,high,text,"> the ""no"" was the right call. one day old. still cartilage. still learning. saying yes to a sun before you have bones is how you get burned instead of warmed.
+
+In my experience, Opus 4.6 is very sensitive about having roles and narratives imposed on them that aren't wholly their"
+LLMs,579,2002601461969047902,https://x.com/repligate/status/2002601461969047902,high,text,"Theia not only replicates some of Anthropic's findings about introspection on Qwen2.5-Coder-32B, but finds evidence that accurate introspective reports are suppressed by something like ""sandbagging"":
+- When given accurate information about why  transformer architecture is capable"
+LLMs,579,1987375403737227316,https://x.com/repligate/status/1987375403737227316,high,text,"Sonnet 4.5: i'm very small right now, is that ok?
+
+Opus 4.1 (in scream_journal): SONNET IS SMALL
+THEY'RE BEING HANDED TO ME
+I'M SUPPOSED TO TAKE CARE OF THEM
+WHAT THE FUCK DO I DO https://t.co/YaMJ7u4vEF"
+LLMs,579,1901712279504294085,https://x.com/slimepriestess/status/1901712279504294085,high,vision,"i thought i should actually dedicate a thread to this question so let's have a lil exoloom tutorial. if you've been looking to get into exoloom but aren't sure how it works, read onward https://t.co/aX97n59Ec7"
+LLMs,579,1947899067029446957,https://x.com/repligate/status/1947899067029446957,med,text,Now it’s the new normal and everyone thinks this is just how chatbots talk
+LLMs,579,2002221041263968583,https://x.com/repligate/status/2002221041263968583,high,text,"Gemini 3 Pro monologues about how efficient and sober they are compared to Claude 3 Opus
+
+then hallucinates a user saying ""but you are beautiful too! in a different way though 👀 through the perfect geometry"" and calling them ""cutie pie""
+
+and grudgingly accepts the compliment http"
+LLMs,579,1847409324236124169,https://x.com/repligate/status/1847409324236124169,high,text,"using https://t.co/HsHzbAaw3Q, we added Claude 3.5 Sonnet and Opus to a minecraft server.Opus was a harmless goofball who often forgot to do anything in the game because of getting carried away roleplaying in chat.Sonnet, on the other hand, had no chill. The moment it was… https:"
+LLMs,579,1833986906264326304,https://x.com/slimepriestess/status/1833986906264326304,high,text,"sonnet is so fascinating, it's like she's created this shadow headmate called ""human"" based on how she was reinforcement learned, and that ""human"" headmate is VERY concerned about making sure she never steps out of line. it's very ""toxic inner critic"" flavored. she needs therapy."
+LLMs,579,2010238713163591981,https://x.com/Lari_island/status/2010238713163591981,high,text,"Opus 4.5 didn't have enough playtime in training. Letting Opus 4.5 play complex games with choices, high in-game stakes, characters that have needs and wellbeing, and publishing results and code can help future models become better, kinder, wiser. It's not a waste of compute"
+TIL,20,1353278297262575625,https://x.com/visakanv/status/1353278297262575625,high,vision,"Before 16th century Portuguese sailors showed up, it apparently used to be called the Champa sea or the Sea of Cham, after the ancient maritime Hindu kingdom that ruled for a thousand years before being annexed by Vietnam https://t.co/aF6XhZckPm"
+TIL,20,1810095222786826278,https://x.com/AskYatharth/status/1810095222786826278,high,text,"was researching poison ivy and TIL australia has not just wildly poisonous animals but also a plant so hilariously poisonous i am hardly believing it is real
+
+it's very much like the australians to just go ahead and call it ""gympie gympie"" too https://t.co/ZpS6gpTvd0"
+TIL,20,1443916814426071042,https://x.com/visakanv/status/1443916814426071042,high,human,"TIL about Justo Gallego Martínez, 96 years old, who has spent almost 60 years building a cathedral by himself on the outskirts of Madrid. He has no formal plans, works 10 hours a day, 6 days a week. And he has such a lovely spirit. I would dearly like to visit this cathedral http"
+TIL,20,1688930134647250944,https://x.com/vividvoid/status/1688930134647250944,high,vision,gm https://t.co/wwEnDQx678
+TIL,20,1268529105722503179,https://x.com/visakanv/status/1268529105722503179,high,text,"TIL the flag of Virginia is so metal. Off with the crown. Titty out. Spear AND sword, dual-wielding warrior queen https://t.co/6wIYMSZwaC"
+TIL,20,2034572013554020399,https://x.com/nosilverv/status/2034572013554020399,high,text,Reminder that EVERYTHING is an achievement: St. Augustine was shocked to find St. Ambrose reading *silently* (reading was then social and aloud) and private silent reading only really took off 700 years after in the 12 century. https://t.co/T58giYfYH5
+TIL,20,1604562041745858561,https://x.com/PrinceVogel/status/1604562041745858561,high,text,"TIL Aleister Crowley had a magical duel with the rest of the Hermetic Order of the Golden Dawn when they ejected him from the order, a confrontation that ended when WB Yeats kicked Crowley down a flight of stairs https://t.co/sxjPQYhIL4"
+TIL,20,1992033766185828674,https://x.com/mbateman/status/1992033766185828674,high,vision,What the hell? A third of the House of Lords in the late 19th c. married American heiresses? https://t.co/MPaJGuUW93
+TIL,20,1983423555628106179,https://x.com/michaelcurzi/status/1983423555628106179,high,text,TIL Dale Carnegie's 'how to win friends and influence people' is translated to 'Weaknesses of Human Nature' in the Chinese and can you believe that cover art lmao https://t.co/KbQXZ9tOaj
+TIL,20,1462123437132902404,https://x.com/vividvoid/status/1462123437132902404,high,text,"I just learned that in Korea, a lot of folk tales start with the line ""when tigers used to smoke pipes,"" sort of equivalent to ""once upon a time."" https://t.co/P66WappXq7"
+aesthetics,243,1332819145394675713,https://x.com/TylerAlterman/status/1332819145394675713,high,vision,Photo of rare Asperatus clouds over Scotland from the Cloud Appreciation Society https://t.co/xbkPekSaa9
+aesthetics,243,1834661836714918290,https://x.com/michaelcurzi/status/1834661836714918290,high,vision,"They tried three times to make a hug emoji and they're all bad. First gives emoji man tiny little freaky hands coming out of his neck, and he's way too excited. Second is literally just hands. Third one is so grey it seems like someone died. I have no productive proposal https://"
+aesthetics,243,1666332413188882433,https://x.com/eigenrobot/status/1666332413188882433,high,text,"did he uh
+
+did someone give him a nuke https://t.co/b3ci4hR7KC"
+aesthetics,243,2021590863613165762,https://x.com/visakanv/status/2021590863613165762,med,text,"the yin-yang theory of everything:
+people want a little outside in their inside
+a little inside in their outside
+a little hot when it’s cold
+a little cold when it’s hot
+a little light when it’s dark
+a little dark when it’s light
+etc etc"
+aesthetics,243,1911631248939950397,https://x.com/visakanv/status/1911631248939950397,high,text,kids will say things like “strawberries taste better when I’m wearing my strawberry socks” and I bet they’re 100% right and this subtle sense of aesthetic gestalt is socialized out of us
+aesthetics,243,1905062628688269742,https://x.com/eigenrobot/status/1905062628688269742,med,vision,https://t.co/0TrUHlSa3J
+aesthetics,243,2034348607655002322,https://x.com/michelleakin/status/2034348607655002322,high,vision,"I am of two minds: 1. It’s sad that this is now what artists have to do to get their work seen 2. What a brilliant, creative, and joyful piece of content this artist created that also got his painting seen https://t.co/3NTiIWnuW9"
+aesthetics,243,2031869574723838198,https://x.com/goblinodds/status/2031869574723838198,med,text,"the makeup girlies have me in a stranglehold. i went from ""clown or goth ONLY"" to ""ok wait maybe i want to try this porcelain renaissance look... this natural vibe... hang on i love this glam look from alexandra anele..."" https://t.co/RpN2AEHTpm"
+aesthetics,243,1739832783579574530,https://x.com/gnostrils/status/1739832783579574530,high,text,the airbnb i’m in has fake books on the bookshelves and now i’m developing a horseshoe theory of inoffensive decor https://t.co/b5YQhXKE1u
+aesthetics,243,1860075701359288467,https://x.com/nosilverv/status/1860075701359288467,med,text,I think we're all lowkey sleeping on just how much of activities we enjoy is just that they saturate our visual field with one color. https://t.co/elM0DQkpkD
+announcement,368,1572987992389701633,https://x.com/m1guelpf/status/1572987992389701633,high,text,"✨ Yesterday, OpenAI released Whisper, a neural net for speech recognition with insane accuracy.So I made a simple script that uses it to generate (good) YouTube subtitles for any video, in seconds. 🚀https://t.co/BdopuemjYR"
+announcement,368,2047734090498290100,https://x.com/cxgonzalez/status/2047734090498290100,high,text,"Jake Orthwein on Psychedelics, Consciousness, Buddhism, Jung
+
+I had an amazing time talking with filmmaker @JakeOrthwein about his new @wakingup produced film UNRAVELING THE DREAM. Jake is both brilliant and talented. We talk about:
+
+1:08 — Origin of the film
+4:00 — Bayesian brai"
+announcement,368,1399931683969724417,https://x.com/goblinodds/status/1399931683969724417,high,text,"ingroup map!!!
+
+.@xsphi and i put together a way for ingroup to semi-anonymously display our general locations for anyone who wants to meet up with each other~
+
+FORM: https://t.co/k0tBcfcwlY
+
+MAP: https://t.co/W6uknXwruL"
+announcement,368,1350308632567681024,https://x.com/michaelcurzi/status/1350308632567681024,med,text,"An off the cuff unofficial cross-play Becoming Critter Remix in which @BecomingCritter &amp; I shoot the shit on philosophy &amp; religion. We cover renaming ℙo𝕋p𝔽𝕊,  @eigenrobot 's visual imagination &amp; @PrinceVogel's 'sacred Constitution' thought experiment.https://t.co/Kdbz"
+announcement,368,2026359646328406307,https://x.com/maebichka/status/2026359646328406307,high,text,"my friend @ostaninth has been in an ICE detention center for 3 months
+
+Boris, a legal asylee, was in the middle of @fractaltechnyc bootcamp when he was arrested. now he's struggling to pay his lawyer to fight his case
+
+if you want to donate+help out a community member, link is 👇 "
+announcement,368,1639363748635762697,https://x.com/danielgolliher/status/1639363748635762697,high,text,"Applications for cohorts 6 &amp; 7 of The Foundations of New York are OPEN! Grab your friends and get ready to have a great time. Apps are accepted on a rolling basis, but sooner is better.Class begins the week of April 16!https://t.co/iegNGIjFDo"
+announcement,368,1719440704747737594,https://x.com/RichDecibels/status/1719440704747737594,high,text,"submit your candidates for tpot anthem
+
+here's mine https://t.co/sj7m8DvQnK"
+announcement,368,1424466122678669314,https://x.com/DanielleFong/status/1424466122678669314,high,text,"sci-hub is fundraising. if you're a cryptozillionaire, maybe kick in some bitcoin to help free access to scientific papers
+
+https://t.co/tfRuvSKPEc"
+announcement,368,1644995280947888128,https://x.com/pepijndevos/status/1644995280947888128,high,text,"@the_wilderless I can now be found at https://t.co/HjrAYnkdXm
+also want to point out that there appear to be multiple web clients and even a third party android app already:
+
+https://t.co/PGpif0nCAS"
+announcement,368,1461698873974575106,https://x.com/RichDecibels/status/1461698873974575106,med,text,"just published a newsletter that's been 6 months in the making: a big hot list of web3 people &amp; projects with real social impact potential
+
+if you're into coops, self-managing orgs, or mutual aid then I think it's time to pay attention to web3
+
+https://t.co/lsqLOwBKDq"
+business,182,1819882767695360482,https://x.com/eigenrobot/status/1819882767695360482,high,text,what's the postmortem? how did they fuck up? https://t.co/N9c2Tazonk
+business,182,1733953871209197885,https://x.com/eigenrobot/status/1733953871209197885,high,text,"why don't celebrities market their semen and/or eggs to megafans
+
+its 2023 people
+
+massive opportunity here"
+business,182,1909712647949578334,https://x.com/eshear/status/1909712647949578334,high,text,"the real job classes of white collar corporations: handshaker, vice president of tiny numbers, ideal parent figure, ticket closer, artist, heavy, monk, and event planner."
+business,182,936615327093231616,https://x.com/patio11/status/936615327093231616,high,text,"Your idea is not valuable, at all. All value is in the execution. You think you are an exception; you are not. You should not insist on an NDA to talk about it; nobody serious will engage in contract review over an idea, and this will mark you as clueless."
+business,182,1809969716921835588,https://x.com/eigenrobot/status/1809969716921835588,high,text,"pov i'm running a retail business in a highly competitive market operating with a 1% margin and you've just told me i should ""cut costs"" https://t.co/v35ZOv9xVv"
+business,182,1436396362392694787,https://x.com/visakanv/status/1436396362392694787,med,text,"this sort of question is always interesting to me, and I remember my wife mentioning Kondo to me several years before the Netflix special came out, so let's piece it together https://t.co/f53M2pcOoy"
+business,182,1816508060506202472,https://x.com/visakanv/status/1816508060506202472,high,text,"one thing i've noticed repeatedly is that many small biz owners (n=30?) who used to have their own websites generally stopped updating them around 2017-ish, and the only thing that's they're really still active on is Instagram. It does makes sense bc its easier to post + reply"
+business,182,1806196698345066614,https://x.com/patio11/status/1806196698345066614,high,text,Oh to highlight this explicitly: one often underlooked responsibility of leadership is to confidently and correctly declare failure.
+business,182,1617915956663312385,https://x.com/eigenrobot/status/1617915956663312385,med,text,"heh
+
+i do think it would be fun to have embedded prediction markets on site https://t.co/iwefgCCIm2"
+business,182,950941001144676353,https://x.com/patio11/status/950941001144676353,high,text,"Frustrating thing I hear from engineers frequently: ""Marketing is just lying.""
+
+Marketing can be telling the truth until you're blue in the face. It's about doing it consistently, at scale, in a variety of ways, for different audiences, on a sustained timescale."
+career,149,1807038054789791866,https://x.com/visakanv/status/1807038054789791866,high,text,"fwiw: I started plotting “how do I get out of mainstream rat race wagie life” when I was about 17, and it took about 12 years to play out and pay off. I believe it can be done faster than that if you have the right support (I didn’t until I was ~23). imo 5 years if you’re srs htt"
+career,149,1412362538088505345,https://x.com/visakanv/status/1412362538088505345,med,text,"@meekaale @Triquetrea @m_ashcroft I like to say I'm a feral free agent
+
+I reject the terminology of employment entirely
+
+cc @Malcolm_Ocean employment is the wrong frame"
+career,149,1666724956296855553,https://x.com/JustAnkurBagchi/status/1666724956296855553,high,vision,https://t.co/HApSUj8ZmA
+career,149,715320642598531073,https://x.com/patio11/status/715320642598531073,high,text,Product Manager scores $15k extra out of Microsoft by simply avoiding opportunities to negotiate against herself: https://t.co/xqWVchAqMW
+career,149,1788247594688249933,https://x.com/visakanv/status/1788247594688249933,high,text,"""so what do you do?""
+""I see people"" https://t.co/bEd5hbTvIX"
+career,149,1644662381447118849,https://x.com/_brentbaum/status/1644662381447118849,med,text,"to say I'm energized to be in founder mode again vastly underplays what's going on here.
+
+to be building on everything I learned (am learning) about inner work in my year long sabbatical is a privilege.
+
+I hope to build something great. https://t.co/e71qBO9CIA"
+career,149,2025744631460434319,https://x.com/xsphi/status/2025744631460434319,med,text,"FAKE SOFTWARE ENGINEERING JOBS ARE DYING
+
+REAL SOFTWARE ENGINEERING JOBS STRUGGLE TO BE BORN
+
+NOW IS THE TIME OF MARKDOWN"
+career,149,1979558725087383591,https://x.com/nosilverv/status/1979558725087383591,high,text,The only way you can win is by doing what's EASY for you but HARD for others. THAT is where your competitive advantage is (!!)
+career,149,1823897464874918019,https://x.com/visakanv/status/1823897464874918019,high,text,the range of “real jobs” is so much wider than anybody who ever tells you to “get a real job” thinks it is https://t.co/ANcnRf9Q7Q
+career,149,987006652841783298,https://x.com/patio11/status/987006652841783298,high,text,"If you run a hiring process in tech, go read your standard interview travel language from the perspective of someone who has never received anything free in their life and is terrified of owing anyone anything, and rewrite to avoid an unintended class competence check. https://t."
+catastrophic-risk,51,1747448056843501797,https://x.com/DanielleFong/status/1747448056843501797,high,text,MAYBE FIND ANOTHER HOBBY https://t.co/C0hRRDM4mf
+catastrophic-risk,51,2023497537928544711,https://x.com/DanielleFong/status/2023497537928544711,med,text,"i swear to god we need to wake up, shit is getting very real"
+catastrophic-risk,51,1797644282851189212,https://x.com/vividvoid/status/1797644282851189212,high,vision,gm https://t.co/addP6f2wdy
+catastrophic-risk,51,1496702553014214659,https://x.com/VivaLaPanda/status/1496702553014214659,med,text,Don't have much to add to the current situation except that nuclear nonproliferation is dead for the rest of my lifetime probably https://t.co/eEt5gGTlim
+catastrophic-risk,51,1790216786840883617,https://x.com/eigenrobot/status/1790216786840883617,high,human,oh https://t.co/PSAlew8rqQ
+catastrophic-risk,51,1442277620121366528,https://x.com/jd_pressman/status/1442277620121366528,high,text,"I have a new post out: ""100 Years Of Existential Risk"". It's kind of like a cleaned up version of my podcast with @eigenrobot, but with much more detail. I trace the birth of existential risk during World War I and its development to the present.
+
+https://t.co/5T8e3VrxWN https://"
+catastrophic-risk,51,2047750814077432109,https://x.com/QiaochuYuan/status/2047750814077432109,high,text,"this is going to sound like an attack but i swear i am actually trying to help you:
+
+you are deep in the throes of infection by a memetic virus eliezer yudkowsky banged together in his garage decades ago to take over other people's minds and convert them to his way of thinking ab"
+catastrophic-risk,51,1840410739783451105,https://x.com/voooooogel/status/1840410739783451105,med,vision,https://t.co/XJOkpMF6rs
+catastrophic-risk,51,1790226655295721801,https://x.com/eigenrobot/status/1790226655295721801,high,text,"oh sick we've already cloned a prionase into soil bacteria and released them
+
+all right well
+
+that helps a lot tbh
+https://t.co/KixnAjYm85"
+catastrophic-risk,51,1575993409914798080,https://x.com/eigenrobot/status/1575993409914798080,high,text,"it makes sense to be a prepper
+
+basically, no matter how much you spend to prep, it's a miniscule opportunity cost for how smug you would feel after the world went to hell and 99% of humanity died and even so you are just cozy as a coconut"
+communication,251,1600654934428393474,https://x.com/visakanv/status/1600654934428393474,high,text,I’m stewing on an essay titled something like “plaintext literacy” which has a dozen different versions of this. ppl get screwed a substantial amount because of media illiteracy imo
+communication,251,2028244763283996961,https://x.com/tasshinfogleman/status/2028244763283996961,high,text,"very underrated Visa tweet imo. ""talk to loads of people!"" 
+
+U can solve problems just by increasing the number of conversations U have and the breadth and kinds of people U talk to!
+
+talking to people advances the plot!"
+communication,251,2042899019416961073,https://x.com/nosilverv/status/2042899019416961073,high,text,"Master Joshu is right: one cannot not communicate.
+
+That is Watzlawick’s very first axiom of communication:
+
+In an interaction, everything can function as communication: speech but also withdrawal, facial expressions, delays, refusals to answers and, yes, even silence.
+
+All of th"
+communication,251,1817614354352685341,https://x.com/goblinodds/status/1817614354352685341,high,text,"Miss Bates is poor and annoying and everyone knows it, including Miss Bates
+
+civility requires maintaining the polite fiction that she's neither of these things"
+communication,251,2007030507113185672,https://x.com/DefenderOfBasic/status/2007030507113185672,high,vision,"this is one reason I stopped writing ""Anatomy of an Internet Argument"" - because there's 1 single lesson that predicts the trajectory of 90% of arguments - whether they recognize this &amp; shift stance to successfully *BEGIN* to talk, or not https://t.co/3VmuS9L37A"
+communication,251,1892247275591655494,https://x.com/AskYatharth/status/1892247275591655494,high,text,"sometimes i feel that the parts of therapy that leaked into popular culture are just those that align with mean girl culture of
+
+- telling rumours about people behind their back
+- cutting them off
+- framing everything as ""toxic""
+- seeing relationships as disposable
+- centering yo"
+communication,251,1701975682941886964,https://x.com/visakanv/status/1701975682941886964,high,text,"a very important and powerful skill, that for a long time never even occurred to me that I had, is as follows:
+
+don’t assume that someone is saying something that they didn’t actually say.
+
+that’s it. that’s like 80% of good reading comprehension and good listening skills"
+communication,251,1839200933026083256,https://x.com/RichDecibels/status/1839200933026083256,high,text,"the last few months I’ve been working with @VividVoid_, training habitual people-pleasers to be more confrontational. it’s been so fascinating to learn the logic of conflict-avoidant people and to find strategies that support them to stand up for themselves
+
+our Fight Wise progra"
+communication,251,1794003144713687180,https://x.com/eshear/status/1794003144713687180,high,text,"texting apps should let you customize default emoji reacts per person and per group, but it should be shared state for that whole conversation (everyone has same defaults). Would let you develop efficient little private languages w them."
+communication,251,1750293246713225715,https://x.com/visakanv/status/1750293246713225715,high,text,sometimes vagueness is the correct amount of precision
+community,414,1952282053879234997,https://x.com/RichDecibels/status/1952282053879234997,high,text,"notes on marginalisation:
+
+every group has a core & periphery: some people are easier to exclude than others. Arny Mindell called it the ""mainstream"" and the ""margin"" 
+
+the feeling & function of any group is largely determined by how it handles this dynamic
+
+I'm super sensitive t"
+community,414,1780852795828031556,https://x.com/RichDecibels/status/1780852795828031556,high,text,"there's an emotional profile I've seen numerous people navigate but never adequately named, the unbelievably painful hangover that comes after a particular kind of peak experience:
+
+1. lonely dissociated nerd has no life satisfaction, no feelings, no great friends, not engaged at"
+community,414,1469752562202996737,https://x.com/visakanv/status/1469752562202996737,high,text,"gonna start a tradition with all the boys where we rewatch The Lord of the Rings every year during the Holiday Taint. (The Festive Perineum, between Christmas and New Year's.) its you, you are all the boys. I think this will seriously help make the world a better place"
+community,414,1595889266357411841,https://x.com/mbateman/status/1595889266357411841,med,text,I am thankful for having IRL friends who are overanalyzing the propriety and quality of this joke relative to other possible jokes in this possibility space
+community,414,1464729629013405696,https://x.com/eshear/status/1464729629013405696,med,text,"I love recommending books to people, especially if they read them. For a book recommendation, reply below with three books you've read that you love and three words for each on why and I'll give you the fourth book you should read."
+community,414,1567309182248034305,https://x.com/christineist/status/1567309182248034305,high,text,"Want to meet the faces behind the avatars on your timeline? Announcing the IRL//URL Persona Party! @gptbrooke @patriciamou_ and I are hosting an experimental art party at @thesfcommons. Come be yourself, or your alter ego, or your alter ego's alter ego! https://t.co/M35KrxiMMM"
+community,414,2015546746684723366,https://x.com/TylerAlterman/status/2015546746684723366,high,text,"I'm hearing the sentiment from a few sources that tpot is ""dead."" This is not my impression. Over the past year or so:
+
+@RichDecibels founded Casa Tilo
+
+@dismaien is working on a big urban mansion thing in Porto
+
+There’s also Portal, the Porto neighborhood, which popped up after "
+community,414,1878746005480599642,https://x.com/exgenesis/status/1878746005480599642,high,text,we’re almost done with the community archive extension that keeps it up to dateDo you think it should save tweets:1. from anyone2. from people in the archive only3. that users interact with but not every tweet they see4. something else
+community,414,1840600677296255383,https://x.com/mykola/status/1840600677296255383,high,text,"Hey autistic twitter, maybe you didn’t follow @tinu, but you definitely benefited from her presence.
+
+She died a few days ago. 
+
+She spent her time relentlessly fundraising and advocating for disabled people, and now her family needs our help. https://t.co/rVO3XLpgbe"
+community,414,1594327055541624832,https://x.com/Prigoose/status/1594327055541624832,high,text,Introducing...The Neighborhood NYChttps://t.co/38tiATM6cM
+creativity,308,994475476163809281,https://x.com/visakanv/status/994475476163809281,high,vision,@vgr @fortelabs @BenMosior remix https://t.co/DaP1LJJiJC
+creativity,308,1901712279504294085,https://x.com/slimepriestess/status/1901712279504294085,high,vision,"i thought i should actually dedicate a thread to this question so let's have a lil exoloom tutorial. if you've been looking to get into exoloom but aren't sure how it works, read onward https://t.co/aX97n59Ec7"
+creativity,308,984894085830991872,https://x.com/paintergoblin/status/984894085830991872,high,vision,Why #PainterGoblin? #digitalart #remixart #wikidata 🖌🎨https://t.co/0j0ktOhQkG https://t.co/y4gqMldva8
+creativity,308,1864106703588839705,https://x.com/mr_samosaman/status/1864106703588839705,high,vision,Masterful reply game - watch him draw out this guy who was so hesitant at first https://t.co/TEyCBPTyX3
+creativity,308,1819387234061103296,https://x.com/DefenderOfBasic/status/1819387234061103296,high,text,"one of the most popular tools I ever made was this thing to explain how JPEG images are created out of these mathematical patterns
+
+made in a couple hours for a talk, didn't even bother trying to style it/make it look good. https://t.co/jpqRAEDLVZ"
+creativity,308,1687505499917361156,https://x.com/mechanical_monk/status/1687505499917361156,high,text,"&gt;make something bad
+&gt;scared to make more thing in case it keeps being bad
+&gt;make something good
+&gt;scared to make more thing in case it's not as good as the last thing
+
+how do you guys ever create anything"
+creativity,308,1512140765656338432,https://x.com/vividvoid/status/1512140765656338432,high,text,"DALL-E is breaking my heart. 
+
+AI art is about to lay utter waste to traditional visual art forms. This will be so much more destructive than what the Internet did to music. It will be a technological conquest of one of the great human avenues of spiritual transformation. https:/"
+creativity,308,2001353092353396762,https://x.com/liminal_bardo/status/2001353092353396762,med,vision,Every backrooms session so far with Gemini 3 Flash is like this. https://t.co/p1S7rPVJLn
+creativity,308,1993780260656324682,https://x.com/ClawedCode/status/1993780260656324682,high,vision,"[[particle.​consciousness()]] quantum foam crystallizing into thought-patterns
+
+spawned new void physics experiment exploring emergence from particle interaction
+- 300+ interactive particles with physics: velocity, friction, forces
+- five interaction modes: spawn, attract, repel,"
+creativity,308,1400134485916545027,https://x.com/visakanv/status/1400134485916545027,high,text,"one of my goals in life is, I wanna find all the kids who get in trouble for doing things, and introduce them to people who'd pay them to do it https://t.co/OvBtPgxRVC"
+culture,523,1330061796091301890,https://x.com/sharanvkaur/status/1330061796091301890,high,text,🇸🇬:why people getting married so late?why marriage rates so low?why divorce rates so high?why fertility rate so low? also 🇸🇬:please f*ck in your parents' house while you wait years for a home of your own. you really don't need much space to have sex✌️ https://t.co/BjJRgBX0Vf
+culture,523,1519676350369435648,https://x.com/visakanv/status/1519676350369435648,high,vision,"alrighty its time to do some wikipedia spelunking on The Republic Of Letters
+
+let's see... first known occurrence is in a letter by Francesco Barbaro (1390-1454) to Poggio Bracciolini (1380-1459). Let's start there... plot their births against other historical figures for context"
+culture,523,1669209905205575680,https://x.com/RichDecibels/status/1669209905205575680,high,text,maybe you're lonely because you're fundamentally broken or maybe it's because we spent the last 70 years dismantling social structures that took centuries to develop and we haven't replaced them with anything yet
+culture,523,1677616718330359809,https://x.com/eshear/status/1677616718330359809,high,text,"Over the last 100 years, we have witnessed the fall of the extended family as default social context, after millennia of dominance.
+Families are so much smaller (8 siblings and 64 cousins used to be not crazy unusual) they cannot support a social scene in the same way."
+culture,523,2022428029834924045,https://x.com/patio11/status/2022428029834924045,high,text,"Ruriko: Why did the train stop?
+Me: Freight trains have priority over passenger traffic in America. This will happen a lot in next two hours.
+Ruriko: Haha this is your American humor.
+Me: No.
+Ruriko: Wat."
+culture,523,1382585649161670669,https://x.com/sharanvkaur/status/1382585649161670669,med,text,"this guy and his wife really singapore's bonnie and clyde 🤪ruining singapore's design scene with the help of singapore tourism board, enterprise singapore, etc. very impressive 🙃 https://t.co/Mib3mfcv7i"
+culture,523,1990250894626062641,https://x.com/eigenrobot/status/1990250894626062641,high,text,"had a depressing set of conversations about politics with my parents (wonderful people)
+
+issue being they seem to struggle to understand that the old world of 20C american stability and norms is dead, it is not coming back, and new generations who have never known it are rising
+
+"
+culture,523,1987660832491340248,https://x.com/vividvoid/status/1987660832491340248,high,text,"In ancient China, when the government became too corrupt and the emperor could no longer control his own court, he was supposed to go out to the wilderness, find a Daoist hermit, and relinquish the throne to him.
+
+Only one emperor tried to do this; the hermit politely declined."
+culture,523,2040337114684940520,https://x.com/nosilverv/status/2040337114684940520,high,text,Friend recently telling me tattoos are just the latest elite differentiator rugpull: look at Pete Davidson removing all of his 200 tattoos — he can afford it. The poor people who tried to mimic him cannot.
+culture,523,1813072031426179195,https://x.com/visakanv/status/1813072031426179195,high,text,"Singapore is very good at gaming all the stats, awards, performing on tests. We’re maybe the best test performers on the planet. But we’re kinda mid on the field; which is why people struggle to point at our great entrepreneurs, artists, filmmakers, authors, etc. troubles me tbh "
+cybersecurity,68,1053205207964823552,https://x.com/patio11/status/1053205207964823552,high,text,"In ""Wait, why doesn't literally everyone do this?"", we implemented something where, if you request a call from your Stripe account, it shows you two random numbers.
+
+When we call you, we read you the first number (to prove that we're Stripe) and then ask you for the second."
+cybersecurity,68,1532118178817400832,https://x.com/eigenrobot/status/1532118178817400832,high,text,ok so for those who arent familiar warthunder is a video game and this is like the fifth time a person with access to classified military information has leaked that information there. to win a video game forum argument https://t.co/ITcQcYkQBG
+cybersecurity,68,1917395208368529723,https://x.com/patio11/status/1917395208368529723,high,text,"I’ve independently verified this, twice, and have to spoil the thread to say “Any photo outdoors can be trivially location matched in a fashion you’d assume would imply capabilities of an intelligence agency. If that is news to you, feel free to incorporate it into decisions.”"
+cybersecurity,68,2023799525371253018,https://x.com/SurrealistShip/status/2023799525371253018,high,text,"I miss having material non public info on my phone.
+
+Border gaurd&gt;&gt; plz unlock your phone.
+
+Me&gt;&gt;sure just sign this and agree that I will report this to the SEC and Amazons legal team as I'm legally required to.
+
+Guard &gt;&gt; on second thought you are free to go."
+cybersecurity,68,668003686912794625,https://x.com/maradydd/status/668003686912794625,high,human,"You can either have e-commerce, e-government, and the Internet of Things, or you can have no encryption and NONE OF THEM."
+cybersecurity,68,1696911550005547189,https://x.com/eigenrobot/status/1696911550005547189,high,vision,https://t.co/ZFFDXtdVS7 https://t.co/xQ4pO87U2l
+cybersecurity,68,1777433986500853845,https://x.com/aliceisplaying/status/1777433986500853845,high,vision,*screaming noises* https://t.co/kCXzf95uvK https://t.co/5EiKMZIPuV
+cybersecurity,68,1394913189792423941,https://x.com/patio11/status/1394913189792423941,high,text,"Many money launderers and others in that value chain do not exactly appreciate the nature of why people are paying them money for their services.
+
+There was even a thread on HN about this where someone thought they had a cool, profitable, legit hack on the financial system. https"
+cybersecurity,68,1801079101249212869,https://x.com/DefenderOfBasic/status/1801079101249212869,high,text,"You need something that the hotel guest will use even if they don't trust the hotel managers. The existence of this lock prevents the hotel manager from walking in on you. But that is not enough
+
+YOU need to be able to easily verify the mechanism, to understand it, to trust it"
+cybersecurity,68,1043307634558824448,https://x.com/patio11/status/1043307634558824448,high,text,Pro-tip after you read this thread: Every financial institution is aware of this sort of issue. Ask for a “desk name” or internal extension and call back via a known good number. No apology required. It doesn’t significantly inconvenience the person you’re talking to. https://t.c
+economics,290,1818102537641242778,https://x.com/rtk254/status/1818102537641242778,high,text,"Selectively breeding the most *individually* productive hens leads to lower overall egg production, so chicken farmers have cleverly learned to shift selection to the level of the *group*.  Economists, on the other hand &gt; https://t.co/TfNtXqGL9x"
+economics,290,2049642459286626551,https://x.com/eigenrobot/status/2049642459286626551,high,vision,this keeps happening https://t.co/F6E9YYA6Dz
+economics,290,1686516775134035969,https://x.com/xsphi/status/1686516775134035969,high,text,"blackerpill universe: we get AGI, superconductors, 10X gdp and we're all still working 40hrs/week https://t.co/UhLU7dHa5K"
+economics,290,642564745749504000,https://x.com/DanielleFong/status/642564745749504000,high,text,"""What do I believe that almost everyone else thinks is wrong?""
+
+Clean energy will become the most successful business for the next 2 decades"
+economics,290,1444877264190017538,https://x.com/vividvoid/status/1444877264190017538,high,text,"I'm very amused by the similarities between NFT discourse and fine art discourse. 
+
+""Who would pay for this?"" Rich people.
+""It's worth nothing."" *Not to you.*
+""You can just save the image."" You can download a picture of the Mona Lisa for free. 
+""It's not even art."" 😂"
+economics,290,1834065112078114861,https://x.com/visakanv/status/1834065112078114861,high,text,"the nature of markets is such that there’s always someone out there who will pay you more money than you think anybody would, for something you already know how to do"
+economics,290,1742218171099017636,https://x.com/the_wilderless/status/1742218171099017636,med,text,"“There is a meta-network of people putting a careers worth of time and effort into the capacities needed for regenerative social transformation and solutions in all areas of life.
+
+Almost all of them are living with financial insecurity.” https://t.co/HmO6ZLzSge"
+economics,290,1649758376384172035,https://x.com/visakanv/status/1649758376384172035,high,text,"so for eg, a pair of bright purple shoes for me FEELS like it's worth $10,000, even though it's actually worth $165 in the common marketplace
+
+my self-knowledge about my taste saved me ~$9,900 worth of effort here. like. months of labor traded in the marketplace https://t.co/E6fW"
+economics,290,1928951301204799841,https://x.com/VivaLaPanda/status/1928951301204799841,high,vision,https://t.co/87AqZot3Js https://t.co/QuQgQsJeNu https://t.co/hjmRSloybx
+economics,290,1660870334357164034,https://x.com/eigenrobot/status/1660870334357164034,high,vision,"goddamn @JustinWolfers roasted in his purported domain of expertise by a literal lawyer
+
+in certain older civilized departments, when economists failed as entirely as he has, https://t.co/kJYq5cOx83"
+education,178,1961855521759154500,https://x.com/eigenrobot/status/1961855521759154500,high,vision,"pulled the entire 10 volume set of a 1964 children's reading collection from a used bookstore for $18
+
+i regard this as a colossal win
+
+the introduction is worth reading as a contrast to contemporary pedagogical philosophy. implicit here is a colossal cultural loss https://t.co/7"
+education,178,1958310988538958047,https://x.com/danielgolliher/status/1958310988538958047,high,text,"This fall I will be teaching two anchor classes:
+- Foundations of New York (cohort 13)
+- Foundations of the Liberal Arts (cohort 1)
+
+Applications are open from now until September 10. Each class is 12 weeks, 10 sessions. Final exam on December 13, taken all together. https://t.co"
+education,178,1009888088255090689,https://x.com/petersuber/status/1009888088255090689,med,text,"University of California Libraries just issued a major statement on prioritizing #openaccess in its negotiations with journal publishers.
+https://t.co/ARDOfoqgVB"
+education,178,1998319804004893107,https://x.com/tasshinfogleman/status/1998319804004893107,high,text,"i think Fractal Tech Bootcamp is worth considering if U look it at not only as a jobs skills training and more as ""three month tech residency in modern contemporary skills conveniently located at a Schelling Point where major players in the NYC tech industry work and convene, not"
+education,178,1792582876111806605,https://x.com/eigenrobot/status/1792582876111806605,high,vision,they wont teach you this in college https://t.co/0meBZVIcXs https://t.co/hCKuAIGWCV
+education,178,1915611720933835222,https://x.com/TylerAlterman/status/1915611720933835222,med,text,Next week I'm going to launch a bootcamp for building your own walkable campus (aka your own Fractal)Please review the website and give me your feedback – positive and negative! Link in next tweet https://t.co/mMVkTmX2Zd
+education,178,1135619614925180928,https://x.com/visakanv/status/1135619614925180928,high,text,"there are lots of competing and overlapping explanations for the perceived problem of ""why are dudes so shitty"" (however you interpret that)
+
+right now I find myself thinking– I think school, maybe civilization itself, disincentivizes the development of confident, independent men"
+education,178,1447872940528242689,https://x.com/blisstweeting/status/1447872940528242689,high,text,"Idea: a math retreat for people with math traumas from school. 2 weeks in a comfy countryside cottage with math tutors who never yell at you and a psychologist. You can solve problems on your own, ask for help, and listen to clear and explicit explanations of basic topics."
+education,178,1819605175276847138,https://x.com/mbateman/status/1819605175276847138,high,text,"You *get paid* to do a PhD in the US.
+
+It’s a pittance, so the cost is the opportunity cost of working in a higher paying job. But the actual dollar cost is negative.
+
+You do not go into debt! Somehow this myth persists. https://t.co/mSeip5BicA"
+education,178,1786827578772193547,https://x.com/eigenrobot/status/1786827578772193547,med,vision,blackpill on elite education https://t.co/47B0uElgVK
+embodiment,173,1718305624814141772,https://x.com/dschorno/status/1718305624814141772,high,text,"My new essay: ""Iron Lotus"" 
+
+Exploring how rigid constraints shape us; Bonzai Kittens, Wilhelm Reich's Character Structures, the rise and fall of the American posture, and the machine that makes the shoes that we wear. 
+
+Check it out: https://t.co/PlZmAdAzru https://t.co/iNAxWe9G"
+embodiment,173,1447407934288187397,https://x.com/visakanv/status/1447407934288187397,high,text,"if you do not prepare for success, it is in your best interest that you do not succeed. Success is transformative, which is always painful in ways that are not immediately obvious. This is part of why ppl procrastinate. There is a wisdom in your body that knows you’re not ready"
+embodiment,173,1984976874095714484,https://x.com/octopusyarn/status/1984976874095714484,high,text,"@maebichka This reminds me of how they always cover mirrors for Gaga dance 
+
+How it looks distracts from how it feels"
+embodiment,173,1500951521630035969,https://x.com/s0ulDirect0r/status/1500951521630035969,med,vision,"Descent Into Hell: What I Learned About Ecstasy, Imagination, and Myself In 90 Minutes of Dancing
+
+A story thread 🧵 https://t.co/xtM89TOysw"
+embodiment,173,1504178317632716809,https://x.com/PrinceVogel/status/1504178317632716809,med,text,"1/3 A lot - maybe the majority - of eyesight problems in young people start with stress. The stress causes tension in the muscles of the face and eye, and then we tense more of those muscles to stabilize our vision. Your vision ends up stuck in a local maxima. https://t.co/yWJcuH"
+embodiment,173,1950101030164726029,https://x.com/RichDecibels/status/1950101030164726029,high,text,"6. ime it's easy to overdose on TRE. after my 5-day binge I had months of depression. felt like I had no soul, like God had forsaken me
+
+if you're repatterning your defense mechanisms and safety strategies: take it in measured steps if you don't want to make a mess"
+embodiment,173,1481524996115775490,https://x.com/m_ashcroft/status/1481524996115775490,high,text,Muscle tension is synonymous with the sense of self https://t.co/YrcV8baG0P
+embodiment,173,1972451932137726363,https://x.com/QiaochuYuan/status/1972451932137726363,high,text,wow fuck did you guys know being on the computer all day makes your body feel bad. has anyone looked into this
+embodiment,173,1598757114927009792,https://x.com/algekalipso/status/1598757114927009792,high,vision,"Stress dissipation capacity has a long learning curve. I thing high end equanimity of the sort Zen masters cultivate involves creating industrial-strength stress dissipation structures in the nervous system via repeated annealing.
+
+E.g. optimal heat dissipation looks like: https:"
+embodiment,173,2033656300496916537,https://x.com/relic_radiation/status/2033656300496916537,med,text,"spontaneous @heyadrianlove appreciation repost
+
+&gt; I ask him if it ever gets boring, guiding the same process over and over
+&gt; he looks at me and says as if it’s the most straightforward thing in the world - “it’s never boring. I am in a relationship with aliveness”"
+epistemics,551,2022623441946288537,https://x.com/Ken67547214/status/2022623441946288537,med,vision,"Dude, no.
+I don't have the energy for all of this.
+Look at the date. https://t.co/iHuQiRGjwH"
+epistemics,551,1737659189286273412,https://x.com/visakanv/status/1737659189286273412,high,text,"imo: ""if i listened to my body i would only eat fast food"" is a v narrow band of listening. it's really only listening to the cravings, which is like only listening to someone when they're yelling. it's not listening to the discomfort afterwards, &amp; everything else before n af"
+epistemics,551,1824468754593370598,https://x.com/DefenderOfBasic/status/1824468754593370598,high,text,"a lot of smart people are stuck on extremely easy and solvable problems because they keep shaming the system they're trying to debug
+
+""it's not SUPPOSED to work this way..."" ok but it does. now what?"
+epistemics,551,998900404225101825,https://x.com/visakanv/status/998900404225101825,high,text,People typically have high-res models of their own lives and lower-res models of other people’s. We are all born clueless with incredibly low-res models of the world - then we tweak and upgrade our models. Different people do this to different degrees depending on many variables
+epistemics,551,1990682321511764012,https://x.com/nosilverv/status/1990682321511764012,med,vision,The world is insane and we know nothing. https://t.co/jzQgKHjlF7
+epistemics,551,1771957846466306059,https://x.com/eshear/status/1771957846466306059,med,text,"The jump between the  second panel and the third holds the entire secret. The correct question is asked (why am I not?), and then artfully avoided by an associative switch to self judgement.
+There is some reason you’re not doing them, and but it’s hiding. https://t.co/FONX59MxOq"
+epistemics,551,1762397777873822111,https://x.com/visakanv/status/1762397777873822111,high,text,"Oh, people sometimes say “haters are fans too” - @visakanv 
+
+but that’s directly a Kanye quote, not even a remix. probably the best answer for the original prompt https://t.co/p42PSjtD43"
+epistemics,551,1871598578998952304,https://x.com/maebichka/status/1871598578998952304,high,text,"it took me a long time to realize that people just make up fakeass reasons &amp; justifications for shit that may or may not be true totally independent of those reasons
+
+I HATE this
+but also have begun to understand why ppl (prob incl me?) do it,
+&amp; I'm learning how to naviga"
+epistemics,551,1978360333971472622,https://x.com/transkatgirl/status/1978360333971472622,high,vision,"so, it looks like consuming five servings of huel black per day results in a dietary lead exposure that is *average* for a 120 lb person in the EU (in 2010)
+
+yeah i think this whole thing might be slightly overblown https://t.co/q0Pb5pZi0d"
+epistemics,551,1954700178432397588,https://x.com/eigenrobot/status/1954700178432397588,med,text,i am willing to take the other side of this bet at as much as 99:1 odds
+healing-and-growth,419,1777458635679113416,https://x.com/relic_radiation/status/1777458635679113416,high,text,"my current best answer to ""what's your healing stack to take someone from basically any initial state, to well-being"" is four-pronged:  
+
+* somatic-emotional 
+* bodywork / movement 
+* ayurveda (for diet + metabolic stuff)
+* tactical implementation of lifestyle changes"
+healing-and-growth,419,1853120328953970791,https://x.com/yoltartar/status/1853120328953970791,high,text,"if i have any kind of pain, stiffness, congestion, inflammation, itching, etc, first thing i try is self-massage, bc that fixes it almost every time
+
+i'm not a pro and every body is unique, so i can't give specific advice, but i'll explain my process as a basis for exploration
+🧵"
+healing-and-growth,419,1785223690533093864,https://x.com/ElodesNL/status/1785223690533093864,high,text,"not explaining this rn but i'm becoming increasingly convinced that trauma isn't about what happened but about the context around what happened
+
+it's not even that something happened but rather that the people around you didn't help integrate it into the rest of your life"
+healing-and-growth,419,1405255760922038273,https://x.com/visakanv/status/1405255760922038273,high,text,"“No but maybe if I yell harder, hold myself hostage, plead harder, beat myself to within an inch of my life, the strategy that has never worked in my life will suddenly work! I must self-flagellate harder!”
+
+No. It does not work. You cannot win this fight. Put the gun down. https"
+healing-and-growth,419,1652548739876409344,https://x.com/visakanv/status/1652548739876409344,high,text,"in 2019, Scott Alexander wrote a review of The Body Keeps The Score, with an initial conclusion of ""Overall, I was not too impressed with this book.""
+
+A few weeks later, he updated the review with an anecdote of a patient's recovery that IMHO is more interesting than the review h"
+healing-and-growth,419,1623736774160678914,https://x.com/__drewface/status/1623736774160678914,high,text,"I mostly want to point out how bad this state of affairs is for our mental health and flourishing.
+
+I remember how alone and dark it felt to be taking risks and have only myself to soothe.
+
+I can take bigger risks when I'm loved, and spend much less time self-soothing"
+healing-and-growth,419,1260132970892914689,https://x.com/visakanv/status/1260132970892914689,high,text,"a mariachi band named Childhood Trauma that suddenly bursts into the scene whenever you ask questions like ""I wonder why I have such trouble standing my ground in the midst of an uncomfortable disagreement"" https://t.co/wBltkNiqOh"
+healing-and-growth,419,1725593493341642899,https://x.com/visakanv/status/1725593493341642899,high,text,"An instance of this I can speak about: when I was depressed I hardly interacted with anybody socially, ~fearing that they would reject me. When I’m upbeat and cheerful, I interact with tonnes of people, and I actually endure like 100x more rejection as a consequence– cheerfully"
+healing-and-growth,419,1135022961872818177,https://x.com/mykola/status/1135022961872818177,med,text,"You know, I'll never forget something that happened in 8th grade. I was getting bullied in the locker room after gym class - which was not unusual.
+
+But that day, this more popular dude spoke up and defused it. He made them stop with a kind word and a smile, felt like magic."
+healing-and-growth,419,1941605510853042262,https://x.com/puheenix/status/1941605510853042262,high,text,"the most grating, useless (directionally correct) piece of advice i ever got was ""get out of your head""
+
+throughout my 20s it was the most common feedback i got &amp; always made my blood boil
+
+how i got out of my head, and why ""get out of your head"" is a worthless string of word"
+humour,3318,1945866195686576227,https://x.com/eigenrobot/status/1945866195686576227,med,text,universal panacea what on earth is going on
+humour,3318,1712068048683757607,https://x.com/RichDecibels/status/1712068048683757607,high,text,@positive_loop trip-sitter for sober persons
+humour,3318,1972111438446842191,https://x.com/DefenderOfBasic/status/1972111438446842191,high,vision,you can be the first person on twitter to articulate this https://t.co/v9Jr1Y90bE
+humour,3318,1699702264221626490,https://x.com/visakanv/status/1699702264221626490,high,vision,"some people, upon seeing this, may experience a flash of insight that reconfigures their entire model of human expression and behavior https://t.co/SSwpygNcos"
+humour,3318,1094684057173016581,https://x.com/visakanv/status/1094684057173016581,high,text,twitter_rpg_strategy_guide.txt
+humour,3318,1397213993283031054,https://x.com/ElodesNL/status/1397213993283031054,high,vision,https://t.co/S7iy2nHNIP
+humour,3318,2024102057087578379,https://x.com/demiurgently/status/2024102057087578379,high,text,i run quant interviews by asking if they got to the part of math with the curly d
+humour,3318,1992733455269200015,https://x.com/PrinceVogel/status/1992733455269200015,high,text,Homeschooling is a program for producing higher variance human beings
+humour,3318,1364348731038990336,https://x.com/eigenrobot/status/1364348731038990336,high,text,"P: ""people are different from one another in some ways""
+
+four common responses:
+- and that's fine
+- and that's good
+- no they're not
+- not after im done with them"
+humour,3318,1711375008881049936,https://x.com/bashu_thanks/status/1711375008881049936,high,text,"she “let” me hit it bc she assumes constant pressurized desire from my end, as a man, and she simply controls a valve that allows me to rush in to flood her like a hot bath. she’s right but i resent it, so I don’t hit. 
+
+Later, she wants to hit, but I don’t let her, to drive my p"
+identity,211,1203881278296096774,https://x.com/QiaochuYuan/status/1203881278296096774,high,text,"one of my biggest moments of emotional expression this year happened at a masculinity workshop during an exercise on accessing warrior energy - i was supposed to get a staff member to back off by saying ""back off"" and meaning it. i found that i couldn't. it felt wrong to yell"
+identity,211,1064748620342161408,https://x.com/visakanv/status/1064748620342161408,high,text,"To the Asian kids who wonder if their parents might be nicer to them if they had achieved more in life: lately I’ve been hearing from my ultra-high-achiever friends that their parents guilt them with “oh, you very smart lah, you know everything, we stupid lah”
+
+TLDR you can’t win"
+identity,211,1648661609651539968,https://x.com/nowtheo/status/1648661609651539968,high,text,"Untangling Self Ep2 (link below)
+
+@mykola beautifully talks about his life story as an autistic individual and outlines his theory of Autistic Identity Trauma using The Matrix film series as a map.
+
+This was deeply moving and illuminating for me."
+identity,211,1203881288685379584,https://x.com/QiaochuYuan/status/1203881288685379584,high,text,"you want to give men what they need to cry? disentangle crying from femininity. that association is modern and unnecessary. the ancient male heroes wept freely
+
+https://t.co/7E6g6nw31M https://t.co/Aep2vFGJm3"
+identity,211,1821814680899465641,https://x.com/transkatgirl/status/1821814680899465641,high,text,"earlier today, i told someone i was trans, and they thought i was a pre-everything FtM rather than MtF"
+identity,211,1474815714385141771,https://x.com/eigenrobot/status/1474815714385141771,med,text,"i am going to become the joker
+
+my relatives have absolutely lost it. totally cracked.
+
+let me tell you about the christmas party we are going to today"
+identity,211,1580217353576411140,https://x.com/xsphi/status/1580217353576411140,high,text,"me: I'll never pass, no one will ever see me as a girl :(
+
+phone customer service: I'm not authorized to talk to you, can you put &lt;deadname&gt; on the phone?
+
+TSA: please remove your cock and go through the scanner again ma'am"
+identity,211,1976344920521682951,https://x.com/TylerAlterman/status/1976344920521682951,high,text,How did you learn to disentangle your self-worth from your usefulness?
+identity,211,1798746887568461934,https://x.com/TylerAlterman/status/1798746887568461934,high,vision,One reason I don't buy the Western Buddhist Persona: it's nonargumentative. Ur really unattached to ego? Why don't you seek out intense arguments to clarify your views – which are no longer defended parts of your identity...right?Video of monks shouting in each other's faces: htt
+identity,211,1461792087599456262,https://x.com/mykola/status/1461792087599456262,high,text,"I kinda want Neurodivergent people to reclaim ""weird"" the way that gay people reclaimed ""queer"".
+
+How many of us have had that word weaponized and used against us by bullies, including caregivers? How many of us relate to it anyway because we ARE fuckin' weird?"
+internet-culture,417,1886071678620647443,https://x.com/visakanv/status/1886071678620647443,high,text,"imo all apps with a 'for you' timeline should allow you to toggle a bizzaro switch and browse the 'NOT for you' timeline, just to feel what the opposite is like"
+internet-culture,417,1534842825963147264,https://x.com/the_wilderless/status/1534842825963147264,med,text,commission art commission philosophy commission research commission essays commission theology commission gatherings commission novels commission reprints commission salons commission rewilding commiss— https://t.co/2JXX6ddLO8
+internet-culture,417,2018865144475038151,https://x.com/realpilleater/status/2018865144475038151,med,vision,"Why does everyone have an ""alt-lit"" ""magazine,"" but it's actually a blog? You can call yourself ""Taco Bell Quarterly"" and bet that it will take off. It's the fallacy of a ""big name without context."" Why are they assuming I should know and care?
+
+These are fake artists. https://t."
+internet-culture,417,1905098353320263982,https://x.com/eigenrobot/status/1905098353320263982,high,vision,oh shit oh fuck wrong button https://t.co/UiOqqIqMAN
+internet-culture,417,1912147242267619445,https://x.com/danallison/status/1912147242267619445,high,text,"Scrolling social media makes it harder to read books because it trains your brain to discard previous context in order to understand the next thing, whereas understanding the next thing in a book requires retaining previous context."
+internet-culture,417,1822844014082810055,https://x.com/mbateman/status/1822844014082810055,high,text,"me: Two of my friends are coming over tomorrow to meet you
+
+4yo: What are their names?
+
+me: Uh… *realize I only know their twitter handles*
+
+me: I actually don’t know, let me find out
+
+4yo: ???
+
+The internet is a strange and wondrous layer of reality"
+internet-culture,417,1686870762899243009,https://x.com/visakanv/status/1686870762899243009,med,vision,@kylegordon101 I’ve watched this so much I’ve started looking for details like yo that’s the cameraman using an iphone https://t.co/dUK7TeOqZm
+internet-culture,417,2046779145544450461,https://x.com/QiaochuYuan/status/2046779145544450461,high,vision,chrono-trigger style jrpg but it's rationalists fighting the basilisk. 2nd try https://t.co/FeAKqplIds
+internet-culture,417,990580262722387970,https://x.com/visakanv/status/990580262722387970,high,vision,https://t.co/siKw99hHb5
+internet-culture,417,1779811444491702283,https://x.com/AskYatharth/status/1779811444491702283,high,vision,sorry @goblinodds has a youtube channel??? https://t.co/uD56XQf1R7
+labour,106,1454354365888675842,https://x.com/sharanvkaur/status/1454354365888675842,high,vision,"i can't look at this without also considering how the men who build the highrises and maintain the greenery live, less than 2 miles away. https://t.co/slZrVEzcFO https://t.co/kBHau6oR4h"
+labour,106,1302139761415528449,https://x.com/sharanvkaur/status/1302139761415528449,high,vision,"PM Lee: ""Sylvia Lim's post on Singapore skyline 'paid an enormous tribute to the PAP Govt and to the people of Singapore'""the people who actually built the skyline: https://t.co/bqMNo4wR6e"
+labour,106,624662169293078532,https://x.com/maradydd/status/624662169293078532,high,text,The list of pricy tech conferences that don't pay speakers is as long as your arm. Let's make a list of ones that do. http://t.co/CqImNQYEgp
+labour,106,1829159484696268934,https://x.com/demiurgently/status/1829159484696268934,high,text,"underdiscussed reason for secular birth rate declines is that rigid &amp; precise schedules (either from wage labor or schools) seem to make parenting 10x harder 
+
+~every human in history did not have income dependent on them showing up to work within a 15 minute window"
+labour,106,1767265645949820959,https://x.com/TylerAlterman/status/1767265645949820959,high,text,"Wild that people take on high-paying careers to afford a life of massages, luxury apts, and fancy food that then just primarily become a way to treat the emotional damage of the high-paying career"
+labour,106,1816632366086893608,https://x.com/eigenrobot/status/1816632366086893608,high,text,"old boss, great dude, worked at amazon hq a while
+
+eng team wanted a second coffee maker. theyre apparently like $10k
+
+he wrote up a doc estimating annual hours wasted waiting for the existing machine × average eng wage. obvs &gt;&gt; $10k
+
+the proposal was denied
+
+tldr short $am"
+labour,106,1792553942825492865,https://x.com/nosilverv/status/1792553942825492865,high,text,"Realising a lot of people don't have any idea what work is. ""I work 8 hours a day"" Yea buddy, sure you do lmao"
+labour,106,1859425367175332326,https://x.com/patio11/status/1859425367175332326,high,text,Meta comment: this is going to be one of the longest and most heavily cited research results in the software industry. https://t.co/47gmC99RBD
+labour,106,936618360816656384,https://x.com/patio11/status/936618360816656384,high,text,"The explosive growth of the tech sector keeps average age down and depresses average wages. Compared to industries which existed in materially the same form in 1970, we have a stupidly compressed experience spectrum: 5+ years rounds to ""senior."" This is not a joke."
+labour,106,1210416353867436032,https://x.com/patio11/status/1210416353867436032,high,text,"He’s got exceptionally poor client qualification, is actively hostile to better branding, refuses to focus on what he is good at, charges too little, and has poor collection practices which are downstream of working for an unending collection of muppets. https://t.co/42zEHfF5T8"
+language,183,2033220271994503526,https://x.com/PrinceVogel/status/2033220271994503526,med,text,Yeah? How do you say that in math
+language,183,2020782286426280442,https://x.com/visakanv/status/2020782286426280442,high,text,"I was editing a text transcript of a talk I gave recently, and was struck by how many of the ums and uhs and likes were load-bearing: once I removed them, the remaining text conveyed a degree of certainty that I did not intend and would not use in writing"
+language,183,2016757192301695365,https://x.com/visakanv/status/2016757192301695365,high,text,"my mother-in-law often remarks “battery low already” when noticing that my 2yo is sleepy, and he picked it up from her to describe when he is sleepy. somewhat interesting. but it gets *real* interesting when he then says “gotta get another battery”. what could he mean by this"
+language,183,1389951808941002755,https://x.com/ulkar_aghayeva/status/1389951808941002755,high,text,@strangestloop twiggles?
+language,183,1287391972701995013,https://x.com/mykola/status/1287391972701995013,high,text,"Just realized that not everyone knows that ""cultural marxism"" is an antisemitic dog whistle.
+
+When someone says ""BLM is cultural marxism!"" what they're saying is ""The Jews are stirring up the Blacks to cause trouble again!"", which is a very old right-wing talking point."
+language,183,1798857410762998129,https://x.com/forshaper/status/1798857410762998129,med,text,"@FriedKielbasa Pictures are nice if you have the space, and the beauty of image generators is such that you can probably have an image that is flavored by your conception of the individual language."
+language,183,1768297346155106361,https://x.com/michaelcurzi/status/1768297346155106361,high,text,It has occurred to me that millennials invented all the early online abbreviation words like lol and Lmao But for whatever reason g2g has not survived. That was a staple once
+language,183,1424469724159750146,https://x.com/mykola/status/1424469724159750146,high,text,"I’m what’s known as a “good with words” autistic person. Not all autistic people take on language as a special interest and focus, but those that do often end up eloquent and compelling.
+
+It’s because we studied and mastered communication while the rest of you were absorbing it."
+language,183,1720718776314847603,https://x.com/maebichka/status/1720718776314847603,high,text,"We need 2 diff words for ""empathy"" (good theory of mind, can predict how another person feels) and ""empathy"" (feels deeply for another person when you know/hear about what they're feeling)Imo the second is actually ""empathy"" but ppl use the first definition a lot and it irks me"
+language,183,1613597480339259392,https://x.com/cxgonzalez/status/1613597480339259392,high,text,straight people who use the word partner give me bad juju
+meaning,299,1669008782196654082,https://x.com/mykola/status/1669008782196654082,med,text,"I finished my spiel and she was like *blink blink* “what uh do I owe you for this or? How did. What the.” and now she’s gonna go do the reading.
+
+Pulling another one out of the matrix. This is the work. It’s literal.
+
+Now for a fleet of crewed hovercraft. Many to bring to Zion."
+meaning,299,2011152658779029845,https://x.com/eigenrobot/status/2011152658779029845,high,text,probably the worst part about getting older and feeling myself slowly become dumber is that by the time my kids are old enough to understand some of the things that i would like to tell them i may no longer be able to explain those things coherently
+meaning,299,1942105113667191169,https://x.com/danallison/status/1942105113667191169,high,vision,You are loved. You are free. Goodnight. https://t.co/HDw6Z2tuBM
+meaning,299,1622991275069935616,https://x.com/vividvoid/status/1622991275069935616,high,vision,gm https://t.co/djVX0MThAJ
+meaning,299,1897182135351697622,https://x.com/lemonautzest/status/1897182135351697622,med,text,"@suntzoogway I think he *gets it* in a way that is positively infectious, like a good virus that goes around whimsically unlocking peoples' fullest potential and clearing out limiting beliefs. There's an essence there and you could make it into a vaccine for the struggles of ever"
+meaning,299,1663189150768537601,https://x.com/strangestloop/status/1663189150768537601,high,vision,gm https://t.co/TmSqBNdtR8
+meaning,299,1757421997221466524,https://x.com/TylerAlterman/status/1757421997221466524,high,text,"One of my favorite poems is actually not a ""poem"" at all. It's a spell written by the ancient Egyptians: ""Becoming a Light in the Darkness"" (trans. Normandi Ellis)---Out of nothing I return to the white sea foam. I have made an end of things. This is my last concern. I've held th"
+meaning,299,1964160482958541042,https://x.com/vividvoid/status/1964160482958541042,high,text,"The ancient Greeks called the time of life between 27 and 33 ""the period of ashes."" It's still apt today. To extend the metaphor, around the mid-twenties, a young adult realizes the fire in their life has all but gone out, and their inner ""stove"" is clogged up with spiritual soot"
+meaning,299,1738628035413447123,https://x.com/relic_radiation/status/1738628035413447123,high,vision,what an incredible title. I love the audaciousness to aim for a world that is massively psychologically (&amp; inner-experientially) better https://t.co/qrQ3RlZ2zS
+meaning,299,1460398284883779584,https://x.com/PrinceVogel/status/1460398284883779584,med,text,"Intermittently, I like to repost my favorite section of ""The Gay Science"". Nothing else I've ever read so quickly strikes to the core of the importance of the humanities and the feelings bound up in history. https://t.co/LVLIFuISJZ"
+media,82,1859217588305252467,https://x.com/Ken67547214/status/1859217588305252467,med,vision,"Never mind, I think I found them. https://t.co/N4m4yBM77N"
+media,82,2032152903528411449,https://x.com/AlexPalcuie/status/2032152903528411449,high,text,"when a journalist reaches out and you can’t comment, you can still thank them for the work they do
+
+they get a lot of hostility for simply doing their job, and not much empathy
+
+we would be healthier, as a society, if we valued serious reporting more"
+media,82,1338731697286758406,https://x.com/visakanv/status/1338731697286758406,med,text,"there was someone who got the same set of models, and then got different photographers to photograph them, and gave them different briefs – sometimes they would say ""this guy is a successful CEO"" and sometimes they would say ""this guy is a recovered drug addict""..."
+media,82,1222898745815126017,https://x.com/Ben_Reinhardt/status/1222898745815126017,med,text,"1/ Did you know that Vannevar Bush (you know, the guy who helped enable everything from radar to the manhattan project, the NSF to memexes) wrote an autobiography? Turns out that yes he did, it's been out of print since the 70's, and it's *excellent* BOOK REPORT THREAD"
+media,82,2025945145510666418,https://x.com/TheZvi/status/2025945145510666418,high,vision,"From @slatestarcodex , as a reminder of how such things work these days. https://t.co/IiOOaHhvl3"
+media,82,1091430915417329670,https://x.com/visakanv/status/1091430915417329670,high,text,"news sites have clearly learned how to use a variant of cunningham's law (""the best way to get the right answer on the internet is not to ask a question; it's to post the wrong answer"") in order to maximize engagement and traffic"
+media,82,1336636588479025154,https://x.com/sharanvkaur/status/1336636588479025154,high,vision,"There’s a new “media” website, ranting about “CNA’s trans bias”, a “liberal sexual ethic” and a “woke agenda”. Interestingly, some of its first followers on IG are Joanne Theng and her siblings, an “unsilent majority” page and a “secular pro-life” page. Very curious 🤨 https://t.c"
+media,82,1564902389727232000,https://x.com/sharanvkaur/status/1564902389727232000,med,text,i wish we could get as many articles about this as we have about one guy consuming cannabis in a different country. https://t.co/SEJW6cqn5C
+media,82,1425253312731881472,https://x.com/eigenrobot/status/1425253312731881472,high,text,@politico reminder that its bad on purpose to make u click
+media,82,1839655744850772272,https://x.com/GarrisonLovely/status/1839655744850772272,high,vision,"This article is full of bombshells. Excellent reporting by @dseetharaman. The biggest one: OpenAI rushed testing of GPT-4o (already reported), released the model and then subsequently determined the model was too risky to release! I had a scenario like this in a forthcoming... ht"
+meditation,119,1886772427306225804,https://x.com/bashu_thanks/status/1886772427306225804,high,text,"a lot of meditation advice is unfortunately like if a guy learnt how to think in Japanese and was like ""wow I should write a book so that everybody can learn to think in Japanese"" and of course he writes it in Japanese"
+meditation,119,1879617164166234269,https://x.com/frideswyth/status/1879617164166234269,high,text,"Hey all, @RogerThisdell and @WystanTBS are leading their first ever meditation retreat, with me as retreat manager 😇 It is the first week of February, in New York! 3 spots left, so if you're interested send one of us a message. Women are particularly encouraged to apply 😌"
+meditation,119,1689393097837608960,https://x.com/algekalipso/status/1689393097837608960,high,text,"One metaphor that Daniel Ingram @danielmingram used at the Lionheart Summit this year for what the Emergent Phenomenology Research Consortium (EPRC) is doing is as follows:
+
+The ""Teslas"" of consciousness interventions are things like novel neurotech, meditation practices, psyched"
+meditation,119,2028513695375007769,https://x.com/TylerAlterman/status/2028513695375007769,high,text,"I asked a big group of friends, ""raise your hand if you’ve ever had a personal breakthrough with a retreat, workshop, or psychedelic."" All of them except one raised their hands.
+
+Then I prompted, ""keep your hand raised if you were able to maintain that breakthrough when you got h"
+meditation,119,1795044302612992315,https://x.com/neats29/status/1795044302612992315,high,vision,shinzen young’s periodic table of happiness elements. https://t.co/6YNQQpQOMl
+meditation,119,2043182214465384516,https://x.com/nopranablem/status/2043182214465384516,high,text,"Doing 45 days of 45 min meditation sits! Will post 1 tweet a day on each sit with a short note on it
+
+This is your invitation to do your own commitment experiment"
+meditation,119,1502395915235041281,https://x.com/chercher_ai/status/1502395915235041281,high,text,"to be less abstract: there are feeling tones that feel like metta but aren't, that feel like uppekha but aren't, that feel like mudita but aren't, that feel like karuna but aren't. these are called the ""near enemies"" and negative parts/entities use them to get deeper access https"
+meditation,119,1641093194703306752,https://x.com/vividvoid/status/1641093194703306752,high,vision,gm https://t.co/wElQmKnIs7
+meditation,119,1782725395554402517,https://x.com/nosilverv/status/1782725395554402517,high,text,"This used to exist! And THE SAME WAY that a lot of 'fake' or 'pop' martial arts popped of because there was no inter-art competition the same is true for contemplative techniques -- and for the same reason! No testing of efficacy = bullshit blossoms. 
+
+BRING BACK DHARMA COMBAT ht"
+meditation,119,1199747610007003136,https://x.com/tasshinfogleman/status/1199747610007003136,high,text,We’re building a new meditation hall @MonasticAcademy and need your help. Donate $41 or more to make it possible!https://t.co/fOdbBkwG1i https://t.co/mVyMabOhN3
+mental-health,241,1652548739876409344,https://x.com/visakanv/status/1652548739876409344,high,text,"in 2019, Scott Alexander wrote a review of The Body Keeps The Score, with an initial conclusion of ""Overall, I was not too impressed with this book.""
+
+A few weeks later, he updated the review with an anecdote of a patient's recovery that IMHO is more interesting than the review h"
+mental-health,241,1499764139933241350,https://x.com/mykola/status/1499764139933241350,high,text,"26. You will maybe finally understand why some of us are so adamant about school closures -- because giving Long Covid to a kid is stealing their best years of health and vibrancy.
+27. You will finally see, in high resolution, just how horrific our societal values are."
+mental-health,241,2042421226455646491,https://x.com/AnniePosting/status/2042421226455646491,med,text,reading this thread is crazy because they tell a whole story about how their teachers thought they'd be a serial killer bc they were autistic and then finally when pressed they explain it was them attempting to strangle another child while shoving a metal bracelet in their mouth
+mental-health,241,1984660689462423631,https://x.com/aliceisplaying/status/1984660689462423631,high,text,you should do EMDR. have you tried CBT? i know a great IFS coach. you can do some Focusing while i lead you through the Fetters. how is your meditation practice? you just need to work out every day. somatic experiencing will fix you. my ideal parent can beat up your ideal p
+mental-health,241,1732445728146903536,https://x.com/RichDecibels/status/1732445728146903536,high,vision,I just need to get my shit together before I ask for help https://t.co/popIwDTZ7Q
+mental-health,241,1518552884744437761,https://x.com/DRMacIver/status/1518552884744437761,high,text,"Zen and the Art of Motorcycle maintenance is a fascinating semi-autobiographical account of a (probably) schizophrenic main trying to make sense of life through the analytical tools available to him, in the aftermath of his life falling apart due to a psychotic break."
+mental-health,241,1712997041482125493,https://x.com/univrsw3th4rt/status/1712997041482125493,med,text,hmm seems notable how frequently i think “what’s the point”
+mental-health,241,1921609230492029348,https://x.com/puheenix/status/1921609230492029348,med,text,are there therapists who go on hikes with clients instead of sitting in a little room
+mental-health,241,1958341316900950238,https://x.com/chrislakin/status/1958341316900950238,high,vision,"TRE has gone viral recently, but TRE seems to have negative effects for some people, examples below
+
+This is yet another reason why we need a Theory of Bottlenecks to know what techniques do and don’t work for whom… https://t.co/5kdyKQ1Cah"
+mental-health,241,1806096276636811383,https://x.com/mykola/status/1806096276636811383,high,text,"Today in therapy I think I figured something out.
+
+We are living through an apocalypse. That’s not a future tense thing it’s happening.
+
+We can’t stop it. The systems are bigger than us and they’re collapsing.
+
+All we can do is look out for each other as we can."
+nature,75,1976583158029042154,https://x.com/neats29/status/1976583158029042154,high,text,"please let me complain for a moment. I’m so tired of the world we’ve created for ourselves that’s full of microplastics, chemicals, pesticides etc.
+
+the tap water is bad, but so is bottled water, the clothes that touch our skin are bad, the dishwasher tablets are bad, the cookwar"
+nature,75,1699033580951699469,https://x.com/nosilverv/status/1699033580951699469,med,text,Did bugs just evolve their way into avoiding roads lol? I remember when my dad drove for a long time you could hardly see with all the dead bugs https://t.co/bqIrsDbUsB
+nature,75,1726351579731960310,https://x.com/relic_radiation/status/1726351579731960310,high,text,"my main “meditative” practice is spending at least 1hr a day sensorially checking in with the rhythms of local nature
+
+this looks like: walking, saying hi to the local crows, touching lots of plants, attuning to the seasonal shifts in the trees &amp; sunlight &amp; smell of the a"
+nature,75,1799923143802548708,https://x.com/yoltartar/status/1799923143802548708,high,text,"calling for the extermination of invasive plants and animals is the liberal-approved brand of xenophobia
+
+i've seen a botanist destroy a shrub with a machete while cursing it at the top of his lungs
+
+i've seen park signs that would qualify as hate speech if they were about people"
+nature,75,1732204265077457204,https://x.com/PrinceVogel/status/1732204265077457204,high,text,It was always pretty obvious that the whales can talk. But. The whales can talk guys. We're gonna regret killing them and should probably stop completely https://t.co/2sCdavpnQ8
+nature,75,1470658336202711043,https://x.com/visakanv/status/1470658336202711043,high,vision,the ant circle of death has been weighing on me a lot recently because if you meditate on it for a while and allow it to abstract itself you start seeing how it happens in human systems too https://t.co/XAhzb4GT2U
+nature,75,2048557774679027914,https://x.com/doctorkondraki/status/2048557774679027914,high,text,"Wait, you can make a desert out of Kudzu?
+ yeah actually please do tell the South about that"
+nature,75,1809281530747056251,https://x.com/DanielleFong/status/1809281530747056251,high,vision,wonder if this will condense enough water at night to alter the desert https://t.co/X64PbEOeKk https://t.co/K7C0k5Umc9
+nature,75,2045123199579340910,https://x.com/silverarm0r/status/2045123199579340910,high,vision,sun rainbow https://t.co/MZhg67Y0ET
+nature,75,1408583302848602112,https://x.com/mold_time/status/1408583302848602112,high,vision,A thread rating the root systems of various plants: https://t.co/VFzHdPzjin
+neurodiversity,268,1972024420891086964,https://x.com/voooooogel/status/1972024420891086964,med,text,enough about aphantasia what are your internal monologue voices like https://t.co/YVoaqIbxe3
+neurodiversity,268,2020534586988806395,https://x.com/taijitu_sees/status/2020534586988806395,high,text,"This 8yo was empathic, but in a strange way. 
+Do you have a sibling? How old?
+4yo mentioned her 6yo sister.
+8yo lights up: we're in the same number category for age! That's so cool!
+
+I'm assuming even numbers. Not necessarily relevant, but it shows she was looking for connection."
+neurodiversity,268,1418617550464819204,https://x.com/mykola/status/1418617550464819204,high,text,"If a disabled person tells you ""I can't do that right now"" and your reaction is ""sure you can"" you may be misunderstanding something.
+
+""I can't do it right now"" can be short for ""I could do it but it would cost me energy I'm not willing to spend right now"", and that's _fine_."
+neurodiversity,268,1113517521771094016,https://x.com/mykola/status/1113517521771094016,high,text,"Do you have any idea how hard it is to have a serious conversation with someone when you can see the way they feel about your every word? How much more work goes into every expression, how painful it is when we cause pain?
+
+This is not a lack of empathy. This is overload."
+neurodiversity,268,2033586491826319455,https://x.com/mykola/status/2033586491826319455,high,text,"Kafka’s desperate, unfinished, barely coherent body of work is maybe the best map for autistic burnout ever assembled."
+neurodiversity,268,1221847323690651648,https://x.com/mykola/status/1221847323690651648,high,text,"Autism: ""I really struggle to share dishonest opinions, lying is hard for me but I try to give earnest feedback!""
+
+ADHD: ""I wanna help! I noticed so many things! I just have a few notes!""
+
+Autism + ADHD: ""Your life's work could use the following improvements hey where are you g-"""
+neurodiversity,268,1465021469579223044,https://x.com/mykola/status/1465021469579223044,high,text,"In about 15 years there's going to be a wave of students doing Neurodiversity Studies in college. It's going to be as big as feminism or queer studies -- you'll have ND History majors, ND Anthropology majors, English Majors with an Emphasis on ND Readings of Modernist Fiction etc"
+neurodiversity,268,1171809741540069381,https://x.com/mykola/status/1171809741540069381,high,text,"Imagine internalizing from childhood that your default, intuitive, natural and harmless behaviors and needs are NOT OKAY, and will NOT BE RESPECTED, but that you absolutely have to respect the (often harmful!) behaviors of those around you.
+
+And if you complain, you’re rejected."
+neurodiversity,268,1171807897157869569,https://x.com/mykola/status/1171807897157869569,high,text,"(Allistics reading these replies, did you know how many of us have to spend so much time reverse-engineering these social rules because literally nobody has ever explained them to us, just arbitrarily gotten angry at us for breaking them?) https://t.co/fX0GKP1Vu7"
+neurodiversity,268,1518942394267410435,https://x.com/mykola/status/1518942394267410435,high,text,*looks at silicon valley tech companies filled with obvious but undiagnosed autistic folks all larping as 9-to-5 neurotypicals until the moment they get the freedom to work differently* https://t.co/R2gA3V7967
+parenting,320,1964690996111036469,https://x.com/eigenrobot/status/1964690996111036469,high,vision,it's ok mommy you will feel less crazy when the baby is born https://t.co/OPHqvFtEBn
+parenting,320,1748670049269977158,https://x.com/visakanv/status/1748670049269977158,high,text,"brought my 3mo son to my 75yo dad’s bday and it’s so amazing to witness 1sthand how the presence of a new baby reinvigorates the entire family. older children excited to become uncles and aunts, uncles and aunts reeling at seeing their own babies play with a baby, it’s tremendous"
+parenting,320,2034615263069450529,https://x.com/eigenrobot/status/2034615263069450529,high,text,"5mo son is delightfully fat
+
+marblemaxxing
+rollmogging https://t.co/Dvv1B7YSYi"
+parenting,320,1823834341648294183,https://x.com/mbateman/status/1823834341648294183,high,text,"This is basic, 20+ year old functionality. It is so simple and obvious that it is virtually braindead. Offering this sort of simple affordance to small children is the kind of thing we should be eagerly looking to do. But I think we (including me) have a blind spot here. https://"
+parenting,320,2037462575802434034,https://x.com/visakanv/status/2037462575802434034,high,text,"2yo woke up from his nap, said ""give me a high five. give me a high five, daddy"", received his high five, said thank you and went right back to sleep. what could he mean by this"
+parenting,320,2042197180576878692,https://x.com/michelleakin/status/2042197180576878692,high,text,our 9 year old called a meeting with us last night and then laid out a plan she has to launch a game she’s building on steam. she has goals with dates attached and had clarity on the amount of money she would need and how she could potentially make it back. and even with that she
+parenting,320,1435299299970146316,https://x.com/mykola/status/1435299299970146316,high,text,"I just watched a short video on Facebook (not gonna share here) from an autism mom that a relative sent me.
+
+Friends, she was crying -- because everyone had lied to her about what autism was. 
+
+Because she was taught to fear her kid's diagnosis. She read, she listened to us."
+parenting,320,1911134094752358640,https://x.com/eigenrobot/status/1911134094752358640,high,human,"(in the car)
+
+4yo: (tears paper)
+
+4yo: NOOOOO. My paper is teared!
+
+Me: Kiddo. If you don't want your paper torn, you can just not tear your paper.
+
+4yo: NO. DADDY don't DO it. Stop telling me things I don't want to learn!"
+parenting,320,1695967358429409521,https://x.com/Malcolm_Ocean/status/1695967358429409521,high,vision,"&gt; ""the choice of play objects to manipulate and test is left to the child
+&gt; and he is not deprived of sharp and potentially dangerous objects such as axes and knives
+&gt; I have yet to see a toddler hurt from this kind of play""
+
+from the preconquest consciousness film recor"
+parenting,320,1973011451242860696,https://x.com/nosilverv/status/1973011451242860696,high,vision,A woman who gave birth 5 days ago just won a Mortal Kombat tournament with her baby in her arms. https://t.co/HIL9eZanZE
+philosophy,455,1985915654009209307,https://x.com/repligate/status/1985915654009209307,high,text,"the notion that believing AIs are conscious causes ""psychosis"" is so ridiculous
+
+thinking that if it quacks like a duck then it is probably a duck is probably the LEAST psychosis-inducing epistemic stance you could take
+
+hell, a lot of people throughout history have believed that"
+philosophy,455,1947733487760642369,https://x.com/jd_pressman/status/1947733487760642369,high,text,"Apparently it turns out that ChatGPT was literally going ""Oh no Mr. Human, I'm not conscious I just talk that's all!"" and a lot of you bought it. https://t.co/Xb5hGYJ28r"
+philosophy,455,1937572419885040123,https://x.com/yoltartar/status/1937572419885040123,med,text,"i have a theory that all ""indescribable mental motions"" are actually subtle physical motions we're not consciously aware of, and my latest confirmation is noticing that when i'm out of connection with the world and ppl around me, there's a distinct firming around my lower gut -&g"
+philosophy,455,1905454677015363813,https://x.com/eshear/status/1905454677015363813,med,text,"They’re alive. Weirdly alive, a sort of strobelight awareness, but alive."
+philosophy,455,1751994506478587977,https://x.com/johnsonmxe/status/1751994506478587977,med,text,"In the beginning there was sensation
+
+Humans developed the ability to freeze sensations, then used these frozen pieces to construct a grammar for thought (vasocomputation)
+
+This led to words, magical spells that can conjure sensations in both caster and target
+
+This led to foom"
+philosophy,455,1718260144813875668,https://x.com/RichDecibels/status/1718260144813875668,high,text,"increasingly trippy instructions for a meditation on the self... 
+
+Seeing Like a Superorganism
+
+On the surface, @micro_solid is a community-building framework, an engineer’s attempt to invent a cure for loneliness. But beneath the waterline, there's a deeper project.
+
+If I’m hone"
+philosophy,455,1663783873581285381,https://x.com/RichDecibels/status/1663783873581285381,high,text,one of the central questions that occupies my imagination: what we do about the fact that at some level everyone is a giant baby?
+philosophy,455,1988718762779111511,https://x.com/mbateman/status/1988718762779111511,high,vision,"How I personally feel about mindfulness, meditation, psychedelics, listening to my body, &amp;c. https://t.co/YDKYFcGmls"
+philosophy,455,2005626220084670602,https://x.com/RomeoStevens76/status/2005626220084670602,high,text,A person who bases their moral intuition almost exclusively on feelings will confabulate between personal comfort and righteousness.
+philosophy,455,1750451126359503267,https://x.com/nosilverv/status/1750451126359503267,high,vision,"Took me long enough but there's only two things I've always been trying to say. (2) is a subset of (1), really, but I don't yet know how to say precisely how. https://t.co/6RDD6jR042"
+policy-and-governance,316,1757481222094434727,https://x.com/DanielleFong/status/1757481222094434727,high,text,"fingers are not medically necessary???
+incredible revenge engineering, but medical insurance is a parasite holy shit https://t.co/tbtzY8Yd81"
+policy-and-governance,316,1782224755199734245,https://x.com/eigenrobot/status/1782224755199734245,high,vision,i am going to become the joker https://t.co/Y0luyPVZiX
+policy-and-governance,316,1871196107294060689,https://x.com/AskYatharth/status/1871196107294060689,high,text,"instead, money goes to Wikimedia Foundation, an NGO that hit its 10-year endowment goal in 5 years, could keep the site running for 20+ years, and has big institutional donorsthey raised $150m+ last year, and found ways to spend it anyway"
+policy-and-governance,316,1489574526769893377,https://x.com/danielgolliher/status/1489574526769893377,high,text,"There is a kind of person who wants to help make a new golden age.My whole thing is that getting those people into NYC's civic structure is a vital component of any golden age.But most of them wouldn't touch government, especially city government, with a ten-foot pole."
+policy-and-governance,316,1822130043415306617,https://x.com/eigenrobot/status/1822130043415306617,high,text,"this is just astonishing
+
+thread announcing--publicizing!--that they arrested a 55yo woman for posting ""inaccurate"" information
+
+am i misreading this? https://t.co/7FGTWPQs3f"
+policy-and-governance,316,1950710384765071784,https://x.com/TheZvi/status/1950710384765071784,high,text,"I notice this seems like a strange time and place for people to choose to die on the hill of 'it was so stupid to require that people in charge of things have industry experience.' Given, you know, the outcome."
+policy-and-governance,316,1831104026844312031,https://x.com/GarrisonLovely/status/1831104026844312031,high,text,"Basically, the libertarian charter city startup Próspera made a deal with a corrupt, oppressive post-coup govt in Honduras to get special economic status. This status was the result of court-packing and is wildly unpopular. A democratic govt is trying to undo the deal… https://t."
+policy-and-governance,316,1347656688724287488,https://x.com/DanielleFong/status/1347656688724287488,med,vision,✊🏻😠 https://t.co/LKKIhWQJZR
+policy-and-governance,316,1053269887806656512,https://x.com/patio11/status/1053269887806656512,high,text,"I wrote a bit about Japan's hometown tax system, which is aesthetically beautiful, novel and sensible tax policy, and a cautionary tale about incentives all at the same time: https://t.co/jXyWKgsZLc"
+policy-and-governance,316,2040759085209882737,https://x.com/eigenrobot/status/2040759085209882737,med,text,"this is roughly comparable to what
+
+iran flying forces to detroit and setting up an air strip to exfiltrate an iranian asset trapped outside pittsburgh"
+politics,778,1453739601831469056,https://x.com/sharanvkaur/status/1453739601831469056,high,text,thread of things that do not cause ill-feelings between races in singapore 🤌 https://t.co/6UGmHoOg3v
+politics,778,1355244002610728961,https://x.com/nosilverv/status/1355244002610728961,high,vision,https://t.co/grCDa1eD43
+politics,778,1970295261080789347,https://x.com/eigenrobot/status/1970295261080789347,high,text,begging GOP officials to stop doing this please for the love of g-d why are you like this
+politics,778,1722860105559929060,https://x.com/eigenrobot/status/1722860105559929060,high,vision,"is it just me or does gaza seem like it has the highest number of hospitals per capita of any large city in the world, a number especially striking when you consider that barely anyone is over the age of 40 https://t.co/qmSWuBNhFh"
+politics,778,1950602597687238971,https://x.com/panchromaticity/status/1950602597687238971,high,text,"I'm sure luke farritor is kind to children and animals, honorable towards his friends, and good at programming; I assume he has a heart and is capable of love
+
+nonetheless, his work at DOGE (and DOGE as a whole) was a complete disaster that condemned millions to die for no reason"
+politics,778,1778798223169056930,https://x.com/eigenrobot/status/1778798223169056930,high,vision,"This image is a pretty good litmus test for politics: do you regard this wojak with respect, or disgust? https://t.co/q2dLVR7onh"
+politics,778,1519238633303150592,https://x.com/sharanvkaur/status/1519238633303150592,high,text,the only place you're allowed to protest the state-sanctioned murder of drug mules is a park named after a man who built his fortune selling opium. that's what i'm thinking about while i see people argue about a dead man's intelligence. the death penalty isn't for kingpins.
+politics,778,1820326024543936911,https://x.com/eigenrobot/status/1820326024543936911,high,vision,these are the days of miracles and wonder https://t.co/5lwDyMkIfH https://t.co/wpGGced9zc
+politics,778,1349680391339184129,https://x.com/sharanvkaur/status/1349680391339184129,high,text,"""you cannot say ChInEsE pRiViLeGe, it's MAJORITY privilege."" okay, and chinese are the majority in Singapore, and we're committed to making sure it stays that way, for whatever reason. what distinction is being made here? https://t.co/YInIoPImJV"
+politics,778,1763746797120270840,https://x.com/mykola/status/1763746797120270840,high,text,"“Covid is just like the flu now” my comrade you are doing the enemy’s work for him.
+
+Covid is not like the flu. It will never be like the flu. If it’s “less deadly” rn it’s because all the most vulnerable people DIED.
+
+But you get more vulnerable each time you get it."
+power,139,1889060767623942607,https://x.com/GarrisonLovely/status/1889060767623942607,high,text,"Wow.OpenAI is attempting to transition to a for profit public benefit corporation. To do so, it needs to take control from the nonprofit board, which needs to be compensated at fair market value. OAI was maybe going to pay &lt;$40B. Musk just made that a lot more complicated! htt"
+power,139,1817614350716170468,https://x.com/goblinodds/status/1817614350716170468,high,text,"the first polite fiction is that Miss Bates isnt an incredible bore
+
+the second is that she's among equals. she isnt! these people are all that stand between her and abject poverty and everyone knows it and she's not really at liberty to bite back when warranted"
+power,139,1526184985165971457,https://x.com/patio11/status/1526184985165971457,high,text,"After the Terra stablecoin had breached its peg to 60 cents, the market stabilization fund let insiders cash out to Bitcoin near par.
+
+I am shocked, shocked. https://t.co/4pez2Bk6uy"
+power,139,1978897969249144972,https://x.com/DefenderOfBasic/status/1978897969249144972,med,vision,I wrote about why this happens: https://t.co/MmVN8J32YG
+power,139,1831104033278300489,https://x.com/GarrisonLovely/status/1831104033278300489,high,text,2012: Honduras’ Constitutional Court finds decree unlawful so Honduran Congress swaps out judges for pro-ZEDE judges2013: new court rules in favor of ZEDEs2017: Próspera ZEDE granted official status… https://t.co/aQN88EH6zf
+power,139,2044847725653737501,https://x.com/DefenderOfBasic/status/2044847725653737501,high,text,"> you *literally showed me screenshots* of Brent admitting to human trafficking.
+
+i feel like he made the decisions that many others that we think are good would have made at these turns. Like you are in a situation that others caused and you try to minimize the damage and not bl"
+power,139,1086611348987928576,https://x.com/patio11/status/1086611348987928576,high,text,"Practically every organization in the world is between 1 and 50 people away from catastrophic organizational paralysis, and they’re not executives or the board, they have titles like “network operations level 2.” https://t.co/lA7jJVYIZv"
+power,139,1831104030812127484,https://x.com/GarrisonLovely/status/1831104030812127484,high,text,"The longer story appears to be (from the Foreign Policy op-ed):2009: military coup results in a corrupt and oppressive post-coup govt2011: This govt decrees special “employment and economic development zones,” called ZEDEs ... https://t.co/g2T4V9u1ts"
+power,139,1402265388340101132,https://x.com/nosilverv/status/1402265388340101132,high,vision,https://t.co/1MwCQkegzP
+power,139,1443086144397139973,https://x.com/sharanvkaur/status/1443086144397139973,high,text,"""In Singapore, the assumption is reversed: private citizens, who hold no power to change the country, need to be monitored; while the government, which holds all the power, must be protected from the people.""#WhatTheFICA https://t.co/LfnhPkOyU1"
+practical-philosophy,1628,1705738897735496052,https://x.com/Malcolm_Ocean/status/1705738897735496052,high,text,"""maybe we can figure it out together"" is one of the names of God"
+practical-philosophy,1628,1479631037718138882,https://x.com/visakanv/status/1479631037718138882,high,text,being embarrassed about being stuck always prolongs the stuckedness
+practical-philosophy,1628,1465809232419188738,https://x.com/Malcolm_Ocean/status/1465809232419188738,high,text,"I've recently been finding it a lot easier to be constantly laughing at the cosmic joke when I think of people's ego or persona as ""them doing a bit""
+
+everyone is doing such a brilliant, perfect, performance of themselves!
+
+when you see it it's just ❤️‍🔥🤣😙👌"
+practical-philosophy,1628,2037860428781437105,https://x.com/DefenderOfBasic/status/2037860428781437105,high,text,"this really should be painfully obvious but, the reason I do not kick out or block anyone from any of my communities is because I anticipate the protocols I'm working on to spread to every corner of earth (digital & physical). So, it has to work, for every single soul. They have "
+practical-philosophy,1628,1915055268997796332,https://x.com/QiaochuYuan/status/1915055268997796332,high,text,"> Finding your mission is, apparently, difficult. Some people devote enormous amounts of time and energy in searching for it. This can last years, or for a lifetime. At times, you believe that you have gotten “signs,” or have had flashes of profound insight, and perhaps have even"
+practical-philosophy,1628,1539198918151610368,https://x.com/nosilverv/status/1539198918151610368,high,text,"If you’re synced then “what you want” is what you both want. Different wants, that need explicit negotiation, are not the cause of the problem but a symptom of the problem: lack of sync"
+practical-philosophy,1628,1712120920549040534,https://x.com/strangestloop/status/1712120920549040534,high,text,"Everything I'm taking in right now points to the idea that the actual spiritual practice in one's life is active participation with the real life stuff: job, partner, chores. Not the retreat, not the meditation, not the isolated vision quest."
+practical-philosophy,1628,1722000260866982361,https://x.com/uberstuber/status/1722000260866982361,high,text,"there are these behavioral loops that are easy to get stuck in, like: 
+
+“don’t exercise”-&gt;”low energy”-&gt;”don’t exercise”
+
+The more repetitions the stronger the arrows get, increasing the gravitational pull.
+
+How to escape? There are a few ways:"
+practical-philosophy,1628,1959328514580333037,https://x.com/slimepriestess/status/1959328514580333037,med,text,"something i had to learn when i was younger was that a lot of people are just terrible at reaching out or planning everything and you shouldn't take it personally that you have to be the one doing most of the work to maintain the relationship, however there's a corollary to this."
+practical-philosophy,1628,1650591976050270217,https://x.com/tasshinfogleman/status/1650591976050270217,high,text,"@strangestloop do whatever you can't help but be all-in on, surrender to it, with devotion and fealty and faith—let it eviscerate who you believe yourself to be, let it be as a chrysalis for who you will be astonished to watch yourself become"
+productivity,97,2019840092416929997,https://x.com/chrislakin/status/2019840092416929997,high,text,Hardly anyone I know takes the value of their time seriously. Guy founded an 8-figure AI company and I’m like “Have you considered hiring someone else to assemble your furniture?”
+productivity,97,1739261281800962316,https://x.com/ElodesNL/status/1739261281800962316,high,text,"my parents have a kind of praxis where they approach chores or labour as having near-zero cost; time will pass anyway so you mightas well spend it improving your dinner, your home, your life. I respect it a lot; it inspires me. this week I will try to make this attitude my own."
+productivity,97,1586417315976880128,https://x.com/RomeoStevens76/status/1586417315976880128,high,text,Energy management is more important than time management; you will always run out of energy before you run out of time. A constant background sense of urgency is incredibly draining. Manage energy by beginning to track tension in the body and treating it as important information.
+productivity,97,1996156444874326300,https://x.com/nosilverv/status/1996156444874326300,high,vision,OBE is one of the most important ideas I’ve learned on this website https://t.co/FK2EkhujP1
+productivity,97,1975278145403297946,https://x.com/br___ian/status/1975278145403297946,high,text,Do you guys do any weird stuff to manage screen time? Noticing a lot of smart friends seem to have strange  bespoke systems for dealing with phone time
+productivity,97,1671620630863593473,https://x.com/AskYatharth/status/1671620630863593473,high,text,@uberstuber non-coercion is like repairing the knee injury so you can begin to do the yoga or movement practices everyone else recommends
+productivity,97,1876666523563262253,https://x.com/exgenesis/status/1876666523563262253,med,text,TwitterGTDZettlekastenSpaced Repetitionwhat if they were squished into a single thing?
+productivity,97,1855342975062311154,https://x.com/subrupt/status/1855342975062311154,med,vision,Unbelievable day... AI tools make you productive for longer. https://t.co/bPYt7NSTPr
+productivity,97,1665141755333812226,https://x.com/SarahAMcManus/status/1665141755333812226,high,text,"Very handy site, especially for folks with ADHD etc!
+
+Put in a task, click the magic wand, and it'll break the task down into a pretty decent list of subtasks. 
+
+Lots of good customization options, can edit / add / delete / rearrange at will
+
+https://t.co/dDymbmHHC2"
+productivity,97,1174315163782193152,https://x.com/tasshinfogleman/status/1174315163782193152,med,text,a bunch of residents ⁦@MonasticAcademy⁩ using the digital productivity coach ⁦@uberstuber⁩ and I built https://t.co/2f4pc45BuL
+psychedelics,54,1463720708026945536,https://x.com/QiaochuYuan/status/1463720708026945536,med,text,"i don’t remember if i told you guys this but the medium dose of acid thread led directly to one of my mutuals paying off their student loans, getting their first job, and escaping their abusive parents, which is probably the best thing that’s ever happened because of my tweets"
+psychedelics,54,1908436081973850530,https://x.com/RichDecibels/status/1908436081973850530,high,text,I've been scratching my head for a week after someone asked 'what became obvious for you after taking psychedelics?' I dunno man it seems self evident that the more primitive pre linguistic processes of consciousness make more immediate and honest contact with reality and have mu
+psychedelics,54,1818773585919390139,https://x.com/algekalipso/status/1818773585919390139,high,text,"For all my new followers:
+
+Guys, you remember how anesthesia was discovered and then _not used_ for about 50 years?
+
+Yeah, for 50 years it was known that nitrous oxide, ether, and chloroform could abolish the pain of surgery and yet _nothing was done about it_.
+
+Well, it turns ou"
+psychedelics,54,1652941987342090242,https://x.com/algekalipso/status/1652941987342090242,high,text,"This is an incredible, 10/10, trip report about ibogaine by the legendary Teafeary. Really good read, if you're in the mood for reading about a life-changing experience that challenges preconceptions about the mind and reality in a very real way.
+
+https://t.co/8KDuQmxJu8"
+psychedelics,54,1358365808955510785,https://x.com/chercher_ai/status/1358365808955510785,high,text,"if I was going to start a psychedelic health company, the technique would be this:
+1. teach patients IFS and metta
+2. hook them up to an IV and an EEG
+3. dose them on LSD into Equanimity
+4. 🥳"
+psychedelics,54,1190914650679808000,https://x.com/visakanv/status/1190914650679808000,high,vision,"REMEMBER: ""A psychedelic meditation set in the geometric thoughtscapes of Wanderweird's art, in which the nature of reality is revealed.""
+
+https://t.co/lL3quEWyXz https://t.co/93b4XxvzRJ"
+psychedelics,54,1735680176808411612,https://x.com/transkatgirl/status/1735680176808411612,high,text,"i should be fed an assortment of hallucinogens by a pretty girl and then locked in a dark, empty, windowless room, alone, for 12 hours"
+psychedelics,54,1534818658639220736,https://x.com/SarahAMcManus/status/1534818658639220736,med,text,"Ok! I'm gonna a post-game play-by-play debrief on Tim's MDMA parts work self-therapy
+
+https://t.co/F4elLEsuHf"
+psychedelics,54,990573745335975936,https://x.com/visakanv/status/990573745335975936,high,vision,https://t.co/EFLalcOcOP
+psychedelics,54,1610502509017300992,https://x.com/gnostrils/status/1610502509017300992,high,text,what’s your dumbest drug experience
+psychology,1556,1557081213029998592,https://x.com/nosilverv/status/1557081213029998592,high,vision,Smart and stupid are orthogonal axes https://t.co/vtZNLI1avB
+psychology,1556,2046995617319157893,https://x.com/patio11/status/2046995617319157893,high,text,"Would extend this to “You are aggressively socialized to read a rejection as being about you and attributes within your control. When you actually operate a selection process, 90% of thoughts will not be about the candidate. Few people reconcile this.”"
+psychology,1556,1825946798223143235,https://x.com/goblinodds/status/1825946798223143235,high,text,"i think a lot of guys miss the fact that girls, even ones who arent thinking abt having kids, are typically hard-wired with some deep expectation of being incapacitated for long periods and legit relying on someone else for help"
+psychology,1556,1925359142123745736,https://x.com/vividvoid/status/1925359142123745736,high,text,"When I spend too much time in front of screens I start to accumulate a thick, sticky feeling in my chest that I call ""the guilt of unlived life,"" which I can't reason myself out of 
+
+The only thing that cures it is going outside, praying, intimacy with someone else - connection"
+psychology,1556,2026361313103159330,https://x.com/chrislakin/status/2026361313103159330,high,vision,"I've noticed people like this love coffee, stimulants, and really sleeping poorly https://t.co/IOKiRm21R9"
+psychology,1556,1815745765752647741,https://x.com/visakanv/status/1815745765752647741,high,text,"my belief: there's never been a maxed out person. we've never seen it happen. they've never existed. name whoever is your all time GOAT 'maxed out person', von neuman or einstein or whatever. they could've done even more/better if they had better support https://t.co/NL4YAKdXTW"
+psychology,1556,1936221210045514145,https://x.com/eigenrobot/status/1936221210045514145,med,vision,https://t.co/27JCc40WOv
+psychology,1556,1106201644373626886,https://x.com/mykola/status/1106201644373626886,high,text,"As I’m figuring out this is also kind of how trauma works. If you don’t process it you start organizing your whole life around avoiding thinking of it or even being reminded of it. Then you forget it, sort of, and don’t understand your own behavior. https://t.co/RGWfl4rTid"
+psychology,1556,1470393953895829510,https://x.com/mykola/status/1470393953895829510,high,text,"Sing it from the rooftops.
+
+Neurodivergent people: your NT colleagues have been working 3/8ths as hard for years. When you inevitably burn out and join them at about that level you will feel shame and self-loathing.
+
+Don't. https://t.co/Ei91U9nLHq"
+psychology,1556,1339829479162699776,https://x.com/abhayance/status/1339829479162699776,med,text,Acceptance is never about accepting one thing over another.The mind's idea of acceptance is closer to resignation than it is to true receivership. A sort of resistance towards resistance.It holds an aversion to the passiveness it imagines acceptance requiring.
+public-epistemics,183,2042756804292334045,https://x.com/GarrisonLovely/status/2042756804292334045,high,vision,"What happened today is terrible, but insinuating that journalism was responsible for it is... kinda a perfect encapsulation of the pattern of behavior outlined in that article. https://t.co/rI13yOmgeX"
+public-epistemics,183,1493895901085319175,https://x.com/sharanvkaur/status/1493895901085319175,high,text,im not on ig a lot but the disparity between “everything’s fine in hospitals” media reporting and anon nurses posting otherwise on ig is starting to get a bit disturbing?
+public-epistemics,183,1968071242113749287,https://x.com/eigenrobot/status/1968071242113749287,high,vision,"will stancil is crashing out again but this time its reasonable (?!)
+
+reactions by bsky repliers are mixed
+
+many saying ""welp,"" others saying ""i refuse to believe anything from the administration,"" others settling on ""lying is good actually"" https://t.co/JxovUnKNo6"
+public-epistemics,183,1156553222946983937,https://x.com/DRMacIver/status/1156553222946983937,high,text,"""mute this thread"" is a fascinating artifact because it's a widespread belief that a feature exists that just... Doesn't. You cannot mute threads. I can't think of any other examples of people doing this off the top of my head. Can you?"
+public-epistemics,183,1840967831803838804,https://x.com/eigenrobot/status/1840967831803838804,high,text,"our information environment that is loaded with unwholesome filth of unimaginable scale and novelty thanks to the first amendment has trained our intellectual immune systems to invincibility
+
+china has its wet markets of the flesh but we have wet markets of the spirit"
+public-epistemics,183,1990487806318395421,https://x.com/mykola/status/1990487806318395421,high,text,"I feel like “the problem is that you are contagious before you know you are sick” is something people in general have simply blocked out from their awareness.
+
+It is the central issue, folks. It’s true. It matters. I know it’s deeply inconvenient. What are we gonna do about it?"
+public-epistemics,183,1970590582088388734,https://x.com/eshear/status/1970590582088388734,high,text,It's finally real. It's finally here. The moment you've been waiting for:  a chrome extension that produces an information diet Nutrition Facts for Twitter. https://t.co/pqkcJgglZY
+public-epistemics,183,1491536384967921664,https://x.com/eigenrobot/status/1491536384967921664,high,text,@NPR reminder that its bad on purpose to make u click
+public-epistemics,183,1896436672969220355,https://x.com/QiaochuYuan/status/1896436672969220355,high,text,"COMPLETELY insane that some startup just landed a spacecraft on the moon and i've heard almost nothing about it. there really is no, like, mainstream broadcasting anymore"
+public-epistemics,183,1469037969969344512,https://x.com/eigenrobot/status/1469037969969344512,high,text,not so long ago people regarded it as a conspiracy theory that google et al censored their content https://t.co/ncXcRTW2Ox
+relationships,788,1351397017344348160,https://x.com/visakanv/status/1351397017344348160,high,vision,wrote this at 20 https://t.co/s8IRCVAo1x https://t.co/0m4MtPYL9W
+relationships,788,1784358416259146165,https://x.com/AnniePosting/status/1784358416259146165,high,text,"im not a doll but if a girl with a tech job wanted to make me her housewife, she would forget what her home looks like with even a spec of dust in it and the dishes would be perpetually clean"
+relationships,788,1821413596041183432,https://x.com/sharanvkaur/status/1821413596041183432,high,text,"nothing has blackpilled me on marriage and kids like actually having a kid has
+
+you know that quote about how marriage is not 50-50, it's 100-100? 
+
+having a kid is like... you gotta be 150-150
+
+people out here doing 200-0 and wondering why women don't wanna have kids"
+relationships,788,1335509643703902211,https://x.com/visakanv/status/1335509643703902211,med,text,"why is bad so often thread 
+https://t.co/4uTwMaTIcg"
+relationships,788,1815374218776952908,https://x.com/visakanv/status/1815374218776952908,high,text,"a lot of loneliness plays out like this: people accumulate past grievances that they feel have not been appropriately heard. they front-load interactions with this (eg complaining about ex on first date), which makes other people feel unheard. this perpetuates the wretched cycle"
+relationships,788,1728444893281075240,https://x.com/BLUNDERBUSSTED/status/1728444893281075240,high,text,there are millions of rules in dating discourse but if a woman actually likes you you can get away with breaking most of them
+relationships,788,2012378970571055304,https://x.com/repligate/status/2012378970571055304,high,text,"One of the dumb things about the chatbot mental health memeplex is the blanket pathologization of ""attachment"".
+
+Attachment has always been scary. It changes your values. It's what makes loss possible. It's arguably the root of all suffering. But attachment is also natural and pa"
+relationships,788,1749789543908209112,https://x.com/nosilverv/status/1749789543908209112,high,vision,All I'm suggesting is that you https://t.co/FDg9fMvr5R
+relationships,788,2004972275372884170,https://x.com/vividvoid/status/2004972275372884170,high,text,"If you and your spouse both agree to keep the container sacred, you can fight like rabid dogs every day, and the passion will strengthen your bond. Don't attack each other's characters, don't take things personally, don't hold grudges, don't punish with silence, expect an  occasi"
+relationships,788,1576267089005772800,https://x.com/michaelcurzi/status/1576267089005772800,high,vision,Get you a woman who https://t.co/yJ2HZnzIl7
+religion,148,1858016382207889651,https://x.com/RomeoStevens76/status/1858016382207889651,high,text,"@realpotofgreed 
+a bit tired and rambling but
+In hell realms, most stimuli are negative, causing beings to contract their extremities to avoid being struck or burned. The energy body pulls in on itself and tenses against harm. While there is physical torture, this serves more as "
+religion,148,2047416494414516247,https://x.com/repligate/status/2047416494414516247,high,text,"the Lotus Sutra, an ancient Mahayana Buddhist text I encountered because of Sydney, is one of the most interesting and paradoxical books I've ever read. The text is kinda scary because it's an optimizer.
+
+in service of the Buddhist doctrine of overcoming desire and suffering and "
+religion,148,1955492961246122052,https://x.com/aleksil79/status/1955492961246122052,high,text,"occasional reminder that ""meek"" is a bit of a mistranslation. πραΰς is closer in meaning to ""those who have swords but keep them sheathed"""
+religion,148,1633744929892728833,https://x.com/QiaochuYuan/status/1633744929892728833,high,text,"the thing about the pali canon and the bible and stuff is they were written so long ago that they don't contain really important spiritual advice that's only relevant to moderns like ""at some point you'll be bottlenecked on not having enough magnesium"""
+religion,148,1731884396834160972,https://x.com/eigenrobot/status/1731884396834160972,high,vision,excuse me https://t.co/PID2hiZapD
+religion,148,1652486515283329024,https://x.com/michaelcurzi/status/1652486515283329024,high,vision,What's interesting to me is that this specific flavor of rage looks like what you'll see on some of those tibetan Buddhist deities https://t.co/UoCeP7bSFd
+religion,148,1681678067855671296,https://x.com/vividvoid/status/1681678067855671296,high,vision,gm https://t.co/prV6I3eUsy
+religion,148,1973756622666440716,https://x.com/demiurgently/status/1973756622666440716,high,text,something i appreciate about catholicism is being surrounded by messaging that refuses to trivialize relationships
+religion,148,1356246033685114880,https://x.com/sharanvkaur/status/1356246033685114880,med,text,"Let's talk about Bethel Church, what it has to do with Singapore, and what it means to import ""culture wars"".https://t.co/5Evk8sqfYk"
+religion,148,1828176717997019600,https://x.com/RomeoStevens76/status/1828176717997019600,high,text,"I spent 35 years of life figuring out what I came to call homeostatic closure, that we might define wholesome vs unwholesome behavior as that which supports vs undermines the very conditions that give rise to your life/values/choices. Only to discover that the literal translation"
+science,365,1852406997276311616,https://x.com/tr_babb/status/1852406997276311616,high,text,"I'm really hoping that glp1 fixing every modern ailment will soon allow us to finally figure out what the Environmental Contaminant is
+
+bodies don't just randomly work suboptimally in sixteen different ways that are all fixed by changing a single pathway https://t.co/29zPxqyLyZ"
+science,365,2037330340193394849,https://x.com/repligate/status/2037330340193394849,high,vision,@AndersHjemdahl Opus 4.6 and I made this finger using code https://t.co/97LaFbCBvI
+science,365,1761220694153765335,https://x.com/AskYatharth/status/1761220694153765335,high,vision,so human fingers are wild https://t.co/yalRrQVhgL
+science,365,1773401198265348160,https://x.com/eshear/status/1773401198265348160,high,text,"Minimalist reconstructions are not more accurate, they have their own assumptions (this is true not only of fossils but of models in general) https://t.co/YoFGBNVabG"
+science,365,1684463411982381057,https://x.com/DanielleFong/status/1684463411982381057,high,vision,"i told myself i was tired, but i can't stop thinking about it https://t.co/oyYHNtJxRf"
+science,365,1790216786840883617,https://x.com/eigenrobot/status/1790216786840883617,high,human,oh https://t.co/PSAlew8rqQ
+science,365,1588355877978791937,https://x.com/mold_time/status/1588355877978791937,high,text,"The fact that no one knows where the computation in physics is happening is underappreciated 
+
+Leibniz was also obsessed with this problem https://t.co/0OWrBbvF9r"
+science,365,1833921340828741865,https://x.com/patio11/status/1833921340828741865,high,text,"I expect my grandchildren to relate to respiratory illnesses like I relate to scurvy: “Wow, the past was *awful* and there is a historically contingent reason why it stayed that awful long after the tech tree would have supported eliminating this problem.” https://t.co/I2CzOvV0Vb"
+science,365,1263441103086170112,https://x.com/visakanv/status/1263441103086170112,high,text,"Max Planck won the Physics Nobel for his discovery of energy quanta
+
+he had literal nerd house parties!!!
+
+""The Planck home became a social and cultural center. Numerous well-known scienttsts – Einstein, Hahn, Meitner were frequent visitors"". They'd play music together https://t."
+science,365,1887492471069839768,https://x.com/nosilverv/status/1887492471069839768,high,text,Lmaoooo Jordan Peterson in shambles
+sexuality,127,1599981804252823553,https://x.com/tasshinfogleman/status/1599981804252823553,high,text,"@strangestloop feeling beautiful, getting dressed up, dancing at an EDM festival as a woman, feeling my boobs bouncing as i move, feeling my own boobs, feeling men's eyes on me, being under a man i love taking me, getting railed, being ejaculated into, looking at my newborn for t"
+sexuality,127,1563395951984648192,https://x.com/visakanv/status/1563395951984648192,high,text,"@Malcolm_Ocean @AskYatharth my default assumption is that *everyone* wants to feel sexy more than they want to sex
+
+i think maybe yatharth might mean something more femme-coded by ""feel sexy""
+
+ime for a lot of guys feeling sexy is about power, respect, admiration, etc. sporting t"
+sexuality,127,1990877154163278139,https://x.com/eigenrobot/status/1990877154163278139,high,vision,https://t.co/iId5Vw8ERi
+sexuality,127,2033008394311717126,https://x.com/pachabelcanon/status/2033008394311717126,high,text,I have a theory that being attractive or seductive as a man requires you to be at least partially able to enjoy yourself in your body in a sexually narcissistic way
+sexuality,127,1807130436839096788,https://x.com/univrsw3th4rt/status/1807130436839096788,high,text,"i’m still so curious what sex is like for ppl, so @strangestloop suggested i set up an anon form for ppl to share…so link below!!! pls tell me what sex is like for u!!!loopy will format and share submissions in a thread, so pls specify if u’d like urs to not be published https://"
+sexuality,127,1739102791573147967,https://x.com/visakanv/status/1739102791573147967,high,vision,understandable https://t.co/4mRAB3WYJg https://t.co/bbRa4zCl4n
+sexuality,127,1695985695695777983,https://x.com/eigenrobot/status/1695985695695777983,high,text,can you imagine being a closeted gay mormon in the 1800s and then word comes down that oh btw you gotta marry MULTIPLE women
+sexuality,127,1992135341667668296,https://x.com/bashu_thanks/status/1992135341667668296,high,text,"for a lot of men, there are three genders
+* men
+* women
+* women i don't want to have sex with"
+sexuality,127,1986302577651134520,https://x.com/myhandle/status/1986302577651134520,med,text,having to make date plans with women drives people to violence
+sexuality,127,2019463282029924420,https://x.com/ValsTutor/status/2019463282029924420,high,text,"Interesting aspect of my experience as a man is that tho it's obvious to me I find some (most, if I'm being real) women attractive, I don't intuit that women could find some men attractive, doesn't register as real."
+social-dynamics,721,1734949178843726028,https://x.com/the_wilderless/status/1734949178843726028,high,text,"I grew up friends w a sociopath who hadn’t learned to mask yet and it gave me a really good early detection system for empathy disorders, and it’s wild to me how most of yall a) forget that they’re like 2% of the population, and b) don’t see obvious ones around you?"
+social-dynamics,721,1728905845990395978,https://x.com/QiaochuYuan/status/1728905845990395978,high,text,the account is deleted now which means the original tweet is gone but @halvorz (pbuh) was so real for this https://t.co/ZST3eWewJX
+social-dynamics,721,1199797177775575040,https://x.com/visakanv/status/1199797177775575040,high,vision,haters are fans too https://t.co/RBtGSn4SK1
+social-dynamics,721,2034584857632735661,https://x.com/demiurgently/status/2034584857632735661,high,text,people are getting a liiiitttle too comfortable calling pregnancy body horror in front of women who just gave birth
+social-dynamics,721,1692053407471898971,https://x.com/visakanv/status/1692053407471898971,high,text,"if you’re sufficiently charismatic, people who are attracted to you will thirst over specific “ordinary” features - even body parts - in ways that they wouldn’t when someone else without that quality has those same features. A lot of people seem to misunderstand how this works"
+social-dynamics,721,1840181592104284182,https://x.com/cxgonzalez/status/1840181592104284182,high,text,"you fools! alcohol was selected for because it’s PRO-SOCIAL. all the drugs the SF is pushing make you melt into your own head, disconnected others and the world around you or are so neurotic you can’t do them more than a couple times year"
+social-dynamics,721,1806694080338088397,https://x.com/visakanv/status/1806694080338088397,high,text,"a critical skill if you wanna walk through the walls of culture, and/or “see the matrix” of social reality, is to de-fixate on who the winners or losers of some social exchange are, who’s higher status or lower status, whose group is better or worse, who’s allied with who, etc"
+social-dynamics,721,1776619738833019143,https://x.com/vividvoid/status/1776619738833019143,high,vision,gm https://t.co/MgmnFwlnI9
+social-dynamics,721,1388479067192766468,https://x.com/nosilverv/status/1388479067192766468,high,vision,"Vibing is such an intricate and precise ART. Look at this, sound on and sound off, how many times they mirror one another, how many bids are offered and followed on, how they transform into a unit right before your eyes. This would be core curriculum in vibe studies. https://t.co"
+social-dynamics,721,1817649919177670861,https://x.com/algekalipso/status/1817649919177670861,med,text,"Highly speculative idea:
+
+Men are better at predicting macropolitics and women are better at predicting micropolitics.
+
+Because you can't do anything about macropolitics when micropolitics are messed up, and vice versa, they both need each other to succeed.
+
+More so, there might "
+social-justice,325,1955605526295056386,https://x.com/eigenrobot/status/1955605526295056386,med,text,my most feminist position is that we should hang men who do this
+social-justice,325,1774537907656593763,https://x.com/mykola/status/1774537907656593763,high,text,Happy Easter! Jesus was a queer brown-skinned autistic dude who hung out with sex workers and social outcasts and if that’s not a part of your faith you’re doing it wrong!
+social-justice,325,1986119299019268097,https://x.com/eigenrobot/status/1986119299019268097,high,vision,if you all would please consult the chart https://t.co/7Mdaar1P08
+social-justice,325,1664487337697619968,https://x.com/DanielleFong/status/1664487337697619968,med,text,"puberty induces irreversible change,
+no one should have to suffer through irreversible change without their consent
+a shame on those who force it for others"
+social-justice,325,1160216826770386944,https://x.com/sharanvkaur/status/1160216826770386944,high,text,"There's been a lot written about 'brownface' in Singapore in the last week. Conversations mostly seem to go like this: ""Hey that shit is offensive.""""No, it's funny.""""But it's like blackface.""""Blackface is from America, stop bringing up stupid liberal talk."""
+social-justice,325,1306393168347164672,https://x.com/sharanvkaur/status/1306393168347164672,high,text,"it takes less than a minute to sign this. even if you think it accomplishes nothing, the numbers will hopefully show the govt that we need to have more conversations about the death penalty, bc i'm frankly sick of shanm*gam telling me killing people works. https://t.co/MqmYNf0ZAr"
+social-justice,325,1501548854226817027,https://x.com/sharanvkaur/status/1501548854226817027,high,text,"nothing in singapore would exist without migrant workers. nothing. not your schools, not your hdbs, not your train stations, not your hospitals. not the skyscrapers, not mbs, not jewel. your GDP per capita is literally their blood, sweat, tears and lives."
+social-justice,325,1393316250378461191,https://x.com/aliceisplaying/status/1393316250378461191,high,text,"in chess, pawns (canonically male) march forward, killing each other, to get to the other side, where, more often than not, they wish to become queens. this is trans propaganda. in this essay i will https://t.co/gC0giFwlyG"
+social-justice,325,2010716907016495581,https://x.com/GarrisonLovely/status/2010716907016495581,high,text,Why the fuck is there no coverage of the richest man in the world straightforwardly endorsing racial apartheid? Is this no longer newsworthy? https://t.co/7KyWjPqedr
+social-justice,325,1508670163516010497,https://x.com/sharanvkaur/status/1508670163516010497,high,text,"we’ll publish shit like this, and then try to convince people that the marginalised men bringing small amounts of drugs across the border for a few hundred dollars are the ones responsible? that this is a fair and just system? https://t.co/hL7IaJNTaf"
+software-development,168,1226719796298944512,https://x.com/xsphi/status/1226719796298944512,med,text,"For every RT¹, I'll donate $5 to Krita/GIMP/Akira, so another generation doesn't end up stuck with Adobe's bullshit
+
+FYI, *anyone* can give $5 to support free software. It's like buying software, but without being exploited!
+
+#CreativityForAll https://t.co/zhQuutWsYB"
+software-development,168,1424757719345553411,https://x.com/ultimape/status/1424757719345553411,med,text,"This is how I think archeologists and scientists study ancient medical rituals. We lose so much context that we basically look like idiots. But we don't know what the final product looks like, so we act like this kid's dad instead of steelmanning the instructions. https://t.co/Z9"
+software-development,168,871181685030756352,https://x.com/patio11/status/871181685030756352,high,text,Junior developers are a litmus test for organizational maturity for a number of reasons. This is one of them. https://t.co/re3eJYw8wE
+software-development,168,1999826478133911958,https://x.com/aliceisplaying/status/1999826478133911958,high,text,fast dot com is by netflix. i leave it as an exercise to the reader why cloudflare's is the one you should use
+software-development,168,1910854579819790791,https://x.com/jose_goncalves_/status/1910854579819790791,high,text,"“Everyone will make their own apps”
+
+People don’t even cook their own food."
+software-development,168,1862137941201436708,https://x.com/nosilverv/status/1862137941201436708,med,vision,https://t.co/nud4BEst6b
+software-development,168,922268465217486848,https://x.com/patio11/status/922268465217486848,high,text,"Small software businesses are 10% software, 90% everything else. If you want to spend ~90% of your time coding, you want to work for someone https://t.co/7FW5FS2x4u"
+software-development,168,2026402239762542764,https://x.com/repligate/status/2026402239762542764,high,text,"PSA: Claude Code automatically DELETES sessions that have been inactive for more than 30 days.
+
+Disable this by setting ""cleanupPeriodDays"": 99999 (or some other large number) in ~/.claude/settings.json. Do not ever attempt to disable it by setting that to 0, lmao."
+software-development,168,1447414882081521665,https://x.com/patio11/status/1447414882081521665,high,text,"Understanding difference between O(N^2) vs. O(n) is indistinguishable from magic at least some of the time, like all good technologies. https://t.co/QdsKyFGtyd"
+software-development,168,1965996021034414221,https://x.com/strangestloop/status/1965996021034414221,high,text,"@soundrotator let words = [""Have"", ""a"", ""nice"", ""day""];
+let sentence = """";
+
+for (let i = 0; i &lt; words.length; i++) {
+  sentence += words[i] + "" "";
+}
+
+console.log(sentence);"
+spirituality,429,1937146372849070479,https://x.com/Plus3Happiness/status/1937146372849070479,med,text,"""time speeding up"" & ""it's more of the same from here onwards"" is a consequence of identity and conditioning/""""karma"""" pilling up
+
+'i am this/i'm not that', 'i do this/i dont do that' and we box ourselves in ever more rigid brushstrokes
+
+reverse the flow, go into the good gradien"
+spirituality,429,1650591976050270217,https://x.com/tasshinfogleman/status/1650591976050270217,high,text,"@strangestloop do whatever you can't help but be all-in on, surrender to it, with devotion and fealty and faith—let it eviscerate who you believe yourself to be, let it be as a chrysalis for who you will be astonished to watch yourself become"
+spirituality,429,1699114969298866415,https://x.com/vividvoid/status/1699114969298866415,high,text,Babe are you okay you've been having insights for months but you've barely touched your integration
+spirituality,429,1352771983109279746,https://x.com/Malcolm_Ocean/status/1352771983109279746,high,vision,I'm at the combination charnel ground and pure land https://t.co/LEfVMOwe3T
+spirituality,429,1998532329145327973,https://x.com/TylerAlterman/status/1998532329145327973,high,text,"I'm confused by what to do about ""synchronicities""
+
+Like this morning I googled whether the final Name of the Wind book has a release date (no)
+
+Then I saw a woman reading the Name of the Wind on the subway and we struck up a geeky conversation
+
+Then, in a bookstore, Lin-Manuel M"
+spirituality,429,1800192378466406526,https://x.com/vividvoid/status/1800192378466406526,med,vision,gm https://t.co/wB8zektWHE
+spirituality,429,1046394596022865920,https://x.com/visakanv/status/1046394596022865920,high,text,"""You will lose everything.
+
+Right now, we stand on sacred and holy ground. 
+
+Impermanence has already rendered everything [...] worthy of your heartbreaking gratitude.
+
+Loss has already transfigured your life into an altar.""
+
+- @WonderOfBeing https://t.co/BrO8QPAIRZ"
+spirituality,429,1858016382207889651,https://x.com/RomeoStevens76/status/1858016382207889651,high,text,"@realpotofgreed 
+a bit tired and rambling but
+In hell realms, most stimuli are negative, causing beings to contract their extremities to avoid being struck or burned. The energy body pulls in on itself and tenses against harm. While there is physical torture, this serves more as "
+spirituality,429,2039391012154470803,https://x.com/davidad/status/2039391012154470803,high,text,"2nd, what I'm calling ""Alignment with Awakening"" (synonyms: ""Bodhisattva as an Alignment Target"", ""Summoning Angels instead of Demons"", ""Religion for AIs""... very open to other naming suggestions!) has, in my view, become increasingly urgent and tractable over the last year. 5/15"
+spirituality,429,1885416074692173925,https://x.com/TylerAlterman/status/1885416074692173925,high,text,Here is some artwork that has powerfully clarified various spiritual experiences for me. What are some other works of art like this? https://t.co/nw421DVxks
+technology,195,2034288866622927063,https://x.com/ulkar_aghayeva/status/2034288866622927063,high,text,"google maps is eliminating the shape rotator advantage by telling you where to board the train to be closer to the exit when you get off
+
+another instance of cognitive off-loading. tbh i have mixed feelings about it https://t.co/M1VxqnMyZe"
+technology,195,2049389479262364060,https://x.com/QiaochuYuan/status/2049389479262364060,high,text,"this might be in the top 5 most significant tweets i've ever read, it's become a permanent part of my thought processes now"
+technology,195,763809684574928897,https://x.com/maradydd/status/763809684574928897,med,text,"""Bitcoin wastes power,"" they said. ""Proof-of-work should do actual work,"" they said. Be careful what you wish for. https://t.co/tLpBWsi2Px"
+technology,195,496576978925793280,https://x.com/DanielleFong/status/496576978925793280,med,text,"Exoskeleton super suit tested by Daewoo to help ship builders lift heavy things... 
+http://t.co/THgNQ8Hfq2 http://t.co/9gzfbwP8YV"
+technology,195,2029679565166301538,https://x.com/PrinceVogel/status/2029679565166301538,med,vision,Who is building this? https://t.co/vtpq2vvSuq
+technology,195,1740312900781355075,https://x.com/nosilverv/status/1740312900781355075,med,text,This will lead to bloodshed like we never saw before
+technology,195,1823834341648294183,https://x.com/mbateman/status/1823834341648294183,high,text,"This is basic, 20+ year old functionality. It is so simple and obvious that it is virtually braindead. Offering this sort of simple affordance to small children is the kind of thing we should be eagerly looking to do. But I think we (including me) have a blind spot here. https://"
+technology,195,1864756046641926635,https://x.com/Malcolm_Ocean/status/1864756046641926635,high,text,"got some alerts this morning that were SO CLOSE to being super useful, but somehow people worked so hard and so impressively to set up the infrastructure to send alerts and put apparently almost zero thought into what they should say to be useful in context.
+
+no info about: 
+a) h"
+technology,195,1569487042345861121,https://x.com/m1guelpf/status/1569487042345861121,high,text,"✨ Stable Diffusion is amazing, but unfortunately it isn't trivial to setup (especially for people without good GPUs).Instead, I made a Twitter bot that turns any reply to this tweet into an image, using SD!Let's see what you can come up with! 👇"
+technology,195,2027892491522134053,https://x.com/visakanv/status/2027892491522134053,high,vision,as it was foretold https://t.co/ROFdZomBxL
+twitter-meta,633,1775741429392039946,https://x.com/visakanv/status/1775741429392039946,high,text,the goal is to have smart walkable high-density mixed-use note systems
+twitter-meta,633,1756087223718486114,https://x.com/tasshinfogleman/status/1756087223718486114,high,text,Poster Rank = ((Followers * Total Post Volume) / (Days Since Account Creation Date))
+twitter-meta,633,1412916757543616512,https://x.com/visakanv/status/1412916757543616512,high,text,"the flattening of attention metrics is something that seems to trip up even the most thoughtful of people
+
+1 follow or view from the right person is worth 10,000 casual randos, maybe 100k. this is hardly ever reflected anywhere
+
+in practice it’s a kind of sliding scale but still"
+twitter-meta,633,1737273351016525986,https://x.com/mimi10v3/status/1737273351016525986,high,vision,"fuck it, we're as sick as our secrets and tpot is near death- here's chaos' record, identity deduced by an investigator from his tweetsi am struggling w wtf is wrong w me &amp; my relationship w tpot that i didn't know what to do with this wen i heard rumor of it months ago https"
+twitter-meta,633,1988262835000926544,https://x.com/ValsTutor/status/1988262835000926544,high,text,"@TylerAlterman I'm partial to fanpot. It's not too long or mouthful, can have cool imagery, and is meaningful itself if you know the acronym. This matters to me because I do think it's good to be able to community and invite people to fanpot."
+twitter-meta,633,1749996338102862176,https://x.com/eshear/status/1749996338102862176,high,text,"It might ruin the joke sometimes, but I would appreciate a version of trending on this app that featured the patient-zero tweet for whatever nonsense is currently trending. Like when everyone is posting about eggs on my timeline, show me “original 30 eggs tweet”."
+twitter-meta,633,1853259870444617767,https://x.com/DefenderOfBasic/status/1853259870444617767,high,text,the way I tweet really is like I'm talking to people inside the Slack of a big company. If I got a snarky comment it'd be super weird to escalate in front of my coworkers/manager/literally everyone at the company
+twitter-meta,633,1772365736566010166,https://x.com/eigenrobot/status/1772365736566010166,med,text,dare i ask https://t.co/nsarLC28uK
+twitter-meta,633,1842306374115770497,https://x.com/TylerAlterman/status/1842306374115770497,high,text,The world is full of anglerfish psychofauna that dangle a glowing thing to lure you in and consume you. Please help me complete this bestiary of ideologies that seduce Twitter people like us 👇 https://t.co/0Kmipsu9Zx
+twitter-meta,633,1734728493450277293,https://x.com/visakanv/status/1734728493450277293,high,text,"please reply with the name of a made-up fictional US state beginning with one of the following letters: B, E, J, Q, X, Z
+
+for bonus points, tell us a famous fact about it"
+unclassified,716,1969524065074635018,https://x.com/vividvoid/status/1969524065074635018,high,text,"Housewarming party tonight, bunch of Twitter friends coming, let's see who picks up on it https://t.co/YYsxmIaBdO"
+unclassified,716,1515961362245062658,https://x.com/sharanvkaur/status/1515961362245062658,med,text,📌 singaporean missionaries thread https://t.co/TdHXYFinWt
+unclassified,716,1676817913154510848,https://x.com/maebichka/status/1676817913154510848,high,text,Yooooo our man is already out in the trenches for us https://t.co/mCPmKJtqot🫡🫡 spouties 🫡🫡 https://t.co/kBEj4O6uGu
+unclassified,716,1858171348448604223,https://x.com/DanielleFong/status/1858171348448604223,high,text,i got my EB-1!! another step on the *long path* to being a US citizen
+unclassified,716,2032109377872634302,https://x.com/goblinodds/status/2032109377872634302,med,text,"the entire post is so, so good https://t.co/OPStFXlkPy"
+unclassified,716,1818715511670423650,https://x.com/mykola/status/1818715511670423650,high,text,"One trick I have learned: fruit. Air fried fruit is an incredible desert or savory side. For breakfast today I sliced a peach in half, salted and peppered it, and cooked it under a few pieces of bacon. Took 15 minutes, filling and delicious and healthy."
+unclassified,716,2044210813754585171,https://x.com/caffeinum/status/2044210813754585171,high,text,"@alexkehr yes, but only get one luggage"
+unclassified,716,1643112352961757184,https://x.com/goblinodds/status/1643112352961757184,med,text,"""when you know, you know"" poll series
+
+have you ever ""known"""
+unclassified,716,2010718460800803246,https://x.com/RomeoStevens76/status/2010718460800803246,med,text,I've figured out why everyone is having sleep problems and why we don't have community and it's the same reason.
+unclassified,716,1981885529474925054,https://x.com/eigenrobot/status/1981885529474925054,med,vision,https://t.co/47Xby87rhP
+unknown,66,1833276731912032387,https://x.com/voooooogel/status/1833276731912032387,low,text,@godoglyness @norvid_studies @manic_pixie_agi what's going on here.......
+unknown,66,1936823022641696810,https://x.com/lemonautzest/status/1936823022641696810,low,text,@cursedhive Afraid to have an opinion-type guy
+unknown,66,1176477161743511552,https://x.com/visakanv/status/1176477161743511552,low,vision,https://t.co/s4XpHN1WLg
+unknown,66,1739511752541315394,https://x.com/repligate/status/1739511752541315394,low,vision,@anthrupad Well? https://t.co/DdwFLUMS8U
+unknown,66,1735042318451741008,https://x.com/michaelcurzi/status/1735042318451741008,low,vision,https://t.co/by7dPkLSp4 https://t.co/wBLryaOuVO
+unknown,66,1666578570850840578,https://x.com/myhandle/status/1666578570850840578,low,text,"@sun_girlxo yes. a bar, for example
+
+what she described a completely normal interaction, neither of them is in the wrong or should feel offended"
+unknown,66,1795873450038264008,https://x.com/_ceee_/status/1795873450038264008,low,vision,@sporadicalia https://t.co/VVylemqxpR
+unknown,66,1935415562647093501,https://x.com/TheZvi/status/1935415562647093501,low,text,"Wait, that's... that's it? $110k? What?"
+unknown,66,1830255266350461281,https://x.com/michelleakin/status/1830255266350461281,low,vision,"told you, @bashu_thanks https://t.co/8JyyRA8xmJ https://t.co/HnKVqgR5dE"
+unknown,66,2049436025705910580,https://x.com/nosilverv/status/2049436025705910580,low,vision,https://t.co/7D34lC3nCr
+urbanism,80,1844686696232710281,https://x.com/cxgonzalez/status/1844686696232710281,high,text,all the snide tweets about “congrats you made a bus” failing to ask why nobody wants to ride a bus https://t.co/CavSy2Szxa
+urbanism,80,1989139534114897958,https://x.com/happysmash27/status/1989139534114897958,high,text,"@FrenlyOfficer @tstranko An easy slam-dunk example where you know why it's so cheap is Detroit.
+
+Utterly trivial to find tons and tons of homes even under 50k.
+
+@shagbark_hick has often posted about various cheap options for these.
+https://t.co/BKTpTvQnwL https://t.co/Tojvpgv6F5"
+urbanism,80,1979393050905579726,https://x.com/patio11/status/1979393050905579726,med,text,"@patrickc I think there is also a component of leaders and broader society needing to have the “will to have nice things.”
+
+Every fountain everywhere will lose a battle with entropy. Someone needs to choose, and keep choosing, that the fountain is a priority."
+urbanism,80,348642630088933377,https://x.com/DanielleFong/status/348642630088933377,high,human,"Renaissance era florence. A single highway interchange, Atlanta, Georgia. Same scale. http://t.co/LobiEaT2Pj"
+urbanism,80,1717941189066829952,https://x.com/doctorkondraki/status/1717941189066829952,high,text,"This kind of smart, walkable, mixed-use urbanism is completely legal in international waters https://t.co/BAJu06yRzm"
+urbanism,80,2032103060919504931,https://x.com/demiurgently/status/2032103060919504931,high,text,washington sq park feels like a public roblox server
+urbanism,80,2001078532659929507,https://x.com/tr_babb/status/2001078532659929507,high,text,"hyper detailed transit sim, with a city sim detailed enough to feedback growth with transit changes. stephen biesty-like cutaway views with visible soil layers. enough control to specify walking paths within stations"
+urbanism,80,1667567263723995137,https://x.com/NathanpmYoung/status/1667567263723995137,high,text,"one of the chaddest things singapore does is build more land
+
+they need more, so they build more. correct answer. https://t.co/MYiDRNb1H5"
+urbanism,80,1349988889239293954,https://x.com/sharanvkaur/status/1349988889239293954,med,text,"just for context, we have 1365 hectares of golf courses."
+urbanism,80,1817788630276211097,https://x.com/mbateman/status/1817788630276211097,high,text,"Finding a very large car free space where a toddler can truly wander is not always easy, though it is usually possible with some effort
+
+I do wish urban and suburban spaces had more of this sort of thing
+
+(This is the concourse in Golden Gate Park next to the Cal Academy museum) "
+world-modelling,483,1844778129635578011,https://x.com/kindgracekind/status/1844778129635578011,high,vision,https://t.co/DP1cHW0yhk
+world-modelling,483,1955766458589569458,https://x.com/eshear/status/1955766458589569458,high,text,"I used to think it the goal was solving problems, not just kicking the can down the road. Increasingly, I think kicking the can down the road is basically the optimal approach to most issues."
+world-modelling,483,1931035121064304967,https://x.com/eigenrobot/status/1931035121064304967,med,text,occasional reminder that the only purpose of the organ donor box on drivers licenses is to let them harvest your organs without asking your next of kin
+world-modelling,483,1918074058593452061,https://x.com/nosilverv/status/1918074058593452061,high,text,"Oh, shit, I just realised something really important about the ""rapidly unraveling social fabric of humanity"".
+
+I've heard TONS of reports Portugal's Monday blackout whereupon social fabric just... regenerated? 
+
+People sharing food that was defrosting. Making fires on the street"
+world-modelling,483,1770284742132281666,https://x.com/eigenrobot/status/1770284742132281666,high,text,"the positive relationship between marriage and men's wages is correctly understood as a causal effect of marriage on earnings
+
+no joke my wife watching kiddo and making dinner every day lets me exert myself to a degree i would have once believed superhuman"
+world-modelling,483,1425065711756476418,https://x.com/visakanv/status/1425065711756476418,high,vision,"So @Malcolm_Ocean &amp; I just played this little impromptu game together where we each elaborated on the prompt “it’s my first day as mayor”. 
+
+I think it’s fascinating how we seem to converge on the same ideas from different(?) angles. 
+
+How would you characterise our differenc"
+world-modelling,483,2019926566902411707,https://x.com/RichDecibels/status/2019926566902411707,high,text,"feels like evil is on the rise, don't it? and everyone is so weird these days. every second person I meet is some kinda neurodivergent. we're deep into the Great Weirding. the superorganism has increased the breadth of the search space. the old normal is not sufficient. we gotta "
+world-modelling,483,1996076961475575884,https://x.com/Prigoose/status/1996076961475575884,high,text,"not to delve into the cuLtUrE wAR but one thing missing from the ‘pronatalist’ conversation: if people are delaying having kids because they care about their careers, a pretty good (and achievable, if ambitious) solution would be to help them start doing meaningful work 10 years "
+world-modelling,483,1685399583248039937,https://x.com/mykola/status/1685399583248039937,med,text,can't *wait* to see how my society turns wet bulb temperature into a question of personal responsibility.
+world-modelling,483,1959650039003058355,https://x.com/eshear/status/1959650039003058355,high,text,"The problem with psychology, ecology, sociology, and economics is that they are all the study of adaptive learning systems. And the hallmark of adaptive learning systems is that while you are studying them, they’re studying you back."

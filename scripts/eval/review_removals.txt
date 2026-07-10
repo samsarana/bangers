@@ -1,0 +1,373 @@
+1793026228464570793  -humour  Sarcasm in service of a sincere climate-crisis alarm; the payload is the serious point, not comedy
+1986526378985202146  -humour  Poignant image of a child instinctively imitating a painting; the payload is sincere/touching, not comic
+1780782963136897256  -humour  Wry delivery of a genuinely awe-inspiring ecological fact; sincere observation, not a joke
+1757481222094434727  -humour  Sincere outrage at insurance plus admiration for the engineer; witty phrasing but no comic payload
+1925568913422586047  -humour  Sincere reflection on the brittleness of one's conception of normalcy; amusing in tone but the payload is the observation, not a joke.
+1873435954301862260  -humour  A sincere creative-writing concept pitch; clever inversion but the payload is the idea, not comic effect.
+1255767736279392256  -humour  Earnest optimistic vision (love + curiosity leading to a golden age) delivered via meme format; hopeful, not comic.
+1588796630287147009  -humour  Aphoristic insight about memetic hazards; the witty coinage 'psychofauna' is a vehicle for a serious point, not a joke.
+1923019796427256121  -humour  Sincere story about a girlfriend's agency; the anecdote is delightful and audacious but the register is admiration, not comedy.
+2003995024061833311  -humour  Shares an eerie, poignant Claude monologue in a register of fascination ('damn'); the payload is unsettling model output, not comedy.
+1074043268898336769  -humour  Sincere well-wish for friends in playful chiasmus form — warm aphorism, no joke or punchline payload.
+1194733777534078976  -humour  Sincere critique of schooling's lasting effects; the sarcastic tail is a vehicle for a serious point, not a comic bit.
+1060046145936777217  -humour  Sincere insight about marriage delivered wryly — the payload is the observation, not comic effect.
+1294903763761676289  -humour  Witty aphorism carrying a sincere contrarian point about survival; wit in service of insight, not a joke.
+1807465393125982620  -humour  Earnest insight (seek your opposite) with amusing phrasing ('therapycels') as the vehicle — the point, not comedy, is primary.
+1818494703811096681  -practical-philosophy  Product endorsement of an air fryer — a lifestyle/gadget recommendation, not a heuristic, reframe, or operating principle for how to live.
+1347630121625280512  -practical-philosophy  Social commentary on Sci-Hub and legality vs morality of an institution — not personal applied wisdom that cashes out in behaviour.
+2035069361925521903  -practical-philosophy  Absurdist hubris meme (tumblr screenshot + icarus joke QT); pure humor with no heuristic, reframe, or operating principle.
+1865142477277003903  -practical-philosophy  Platform feature suggestion about Twitter follows, not a heuristic or operating principle for how to live.
+1826281422451364199  -philosophy  Image is a psychological aphorism about self-destructive coping ('self destruction is an illusion of self control'), therapy-speak rather than abstract philosophical inquiry about reality or concepts.
+1783520537806864646  -philosophy  Image is a Jungian self-help parody that prescribes behaviour ('make sure you're integrated with your shadow'), which the definition explicitly excludes; no philosophical position argued.
+2029590785000411310  -philosophy  Image is an evolutionary-psychology meme giving a causal account of why brains narrativize (storytime, social cohesion) — pop cognitive science, not metaphysics, ontology, or philosophy of mind.
+1987660832491340248  -philosophy  Historical/political anecdote about Daoist hermits and emperors; recounts a legend but makes no abstract philosophical argument about reality, concepts, or mind.
+1969978712520380903  -philosophy  Political satire of SF governance dressed in Zen-koan form; the philosophical trappings are the joke vehicle, not the subject.
+1978933287130157427  -philosophy  A name-dropping study list of physics/math concepts for AGI; prescribes what to read and argues no position about how reality or concepts work.
+1999202342659404243  -philosophy  One-line cultural critique of techno-utopianism that borrows the Nietzschean term 'Dionysian'; mentions a philosophical concept rather than doing philosophical inquiry.
+1240853864355528706  -philosophy  A cultural-diagnosis aphorism about modern life; no metaphysical, ontological, or philosophy-of-mind argument is made.
+1819209776636874798  -philosophy  Inspirational cells-to-society cooperation analogy; motivational social commentary, not abstract philosophical inquiry.
+1676714030499782658  -philosophy  Personal callout declaring someone's life philosophy abhorrent; mentions nihilism but argues no position about reality or concepts — it is interpersonal disagreement.
+1565095514563035143  -philosophy  Link announcement for an ethics essay critiquing effective altruism; the tweet itself does no inquiry and the payload is prescriptive ethics, outside the tag's metaphysics/ontology/mind scope.
+2008031452114596040  -philosophy  Announcement of a Suno audio production of an AI-generated log file — an AI-culture/art artifact that touches philosophical themes but does not itself argue a philosophical position.
+1198719315589160960  -epistemics  Engagement prompt soliciting suppressed industry secrets; about social taboo, not personal reasoning, calibration, or belief formation.
+1761796720390787093  -epistemics  About the ethics/pragmatics of truth-telling and deception (murderer-at-the-door), not about how one knows things or updates beliefs.
+1971237240098652574  -epistemics  About the (unhappy) psychological motives behind striving to be understood — communication and trauma, not reasoning or belief formation.
+2022623441946288537  -epistemics  Meme-humor reaction to a conspiracy email ('look at the date'); showcases a conspiracy artifact for laughs rather than being about reasoning or calibration.
+1693727423987151304  -epistemics  Agency/ask-and-receive anecdote about the malleability of social reality; nothing about reasoning, calibration, or belief formation.
+1979666265200570762  -epistemics  Open question about capabilities of simple vs complex minds — a cognition topic, not about how one knows things or updates beliefs.
+1861598036314726655  -epistemics  Observation about growth-community/basecamp social dynamics, not about personal reasoning or belief formation.
+1416233296782979076  -public-epistemics  A PSA recommending a Delta-variant explainer — an instance of science communication, not a tweet about belief formation, misinformation, or communication failures
+1766576845980320143  -public-epistemics  Image is a cave-layers meme about serverless/Kubernetes/EC2 hosting — a tech infrastructure joke with no connection to public epistemics
+1279988846466199552  -public-epistemics  Singapore GE2020 political snark about updating a circulating compilation image of politicians' statements — political commentary, not about how beliefs form or spread
+1412974860545007617  -world-modelling  Humorous crow-defiance meme; a funny animal anecdote, not a theory or framework about how reality operates systemically.
+2034691312340136330  -world-modelling  Amusing historical anecdote from Plutarch ('nothing new under the sun'); no causal or systemic framework offered.
+990570427113136130  -world-modelling  A photo of corporate-logo alphabet cards documenting 'boring dystopia'; a snapshot/observation, not a theory of how the world works.
+1861853116821602443  -world-modelling  Personal-agency / you-can-just-do-things encouragement about emailing museums; no macro or systemic theory.
+1782105607362707642  -world-modelling  Anecdotal debunking of a specific 9/11 conspiracy claim via one building's design flaw — an epistemics/evidence argument about a single event, not a theory of how reality operates systemically.
+1665376873726218242  -psychology  Pure tribute/celebration of the sherpa's heroism (photos + praise); no analysis of mind or behavior — the psychological angle lives in other tweets of the thread, not this one.
+1985669564705681849  -psychology  Joke is pop-culture commentary about therapy trends showing up in Disney films; it mentions therapists but says nothing about how the mind works.
+1999630647787450802  -psychology  Prescriptive masculinity/relationship advice about how to respond to a partner's anger; the tag definition requires describing mental mechanisms, not prescribing conduct.
+1272794864413839361  -psychology  One-line strategy/life observation about being prepared; no cognitive or emotional mechanism is described, so the tag is a stretch.
+1811513430999712195  -healing-and-growth  Wholesome Maslow-pyramid joke about a nice evening walk meeting all needs — no recovery, processing, or growth narrative.
+1734752121747276198  -healing-and-growth  Sweet romance anecdote about discovering a tender gesture's effect on a girlfriend — nothing worked through, not healing or personal growth.
+1738124852157190314  -healing-and-growth  Snarky dunk on adults' parenting claims — a critique of others, not a personal recovery or worked-through growth narrative.
+1665409348833558528  -healing-and-growth  News follow-up on a public Everest dispute being reconciled — about third parties' feud, not a personal healing/growth narrative.
+1652496653130280960  -healing-and-growth  Heartwarming caregiving-tech story (call routing for grandmother with dementia) — wholesome, but no recovery, self-acceptance, or growth arc.
+1739950384783994963  -healing-and-growth  Tweet is about a family argument over sleep duration; no recovery, emotional processing, or shift in self-understanding — a health-habit tweet, not healing/growth.
+1037715339314847747  -healing-and-growth  Just a photo of a book cover plus 'heard good things, let's dig in' — a reading announcement that mentions a self-help book, with no personal narrative, processing, or worked-through insight in the tweet itself.
+1986732800347676847  -healing-and-growth  A dating/monogamy essay about why smart people struggle to find partners and how the author met his wife; breakup pain is mentioned in passing but the tweet is about romance and courtship, not recovery or a worked-through self-understanding shift.
+1193386192374513664  -healing-and-growth  Book recommendation about developmental psychology/trauma — mentions the topic secondhand; no personal narrative of healing, processing, or a worked-through shift
+1806096276636811383  -mental-health  Therapy is only the one-word setting for the realization; the tweet's subject is societal collapse and mutual care, not mental illness or treatment.
+1994167946835546475  -mental-health  Raw grief/bereavement after an ex's death; the subject is loss and memory, not mental illness, therapy, or clinical wellbeing.
+1528686396269023233  -mental-health  Cryptic 'tl;dr' with a surreal art image and no discernible mental-health content; tag is a misread of an ambiguous joke.
+1903397043265053077  -neurodiversity  Image is the Bertrand Russell joke about Aristotle not checking his wives' teeth — epistemics/empiricism humor with no neurodivergence content.
+1774174326847385721  -neurodiversity  Tweet is about the xz backdoor discovery; 'autistically' appears only as passing slang in the meme caption, not the subject.
+1878533343244919222  -embodiment  Gag doodle of a prank 'sensory hell shower' — involves physical sensation as joke fodder but contains no somatic knowledge, body awareness, or mind-body content.
+1670288456331718656  -embodiment  Body manifestation of trauma is only the set-up clause; the tweet's actual insight is about narrative/identity discontinuity, not the body.
+2016550167902638324  -embodiment  Straightforward injury-rehab/fitness advice (lacrosse ball, McGill big 3); no somatic knowledge or body-psyche theme, just an exercise tip.
+2012427216790179915  -spirituality  Tweet is AI/LLM lore about Opus 3 model availability and agent tooling; the mystical imagery lives only in the quoted AI-generated poem, not in any personal spiritual experience or contemplative content.
+1665376873726218242  -religion  Tweet honors a Sherpa's rescue heroism; his Buddhism and the monastery quote are incidental colour, not the subject.
+1652486515283329024  -religion  A jaguar photo with a passing visual comparison to Tibetan deities; the tweet is not about a faith tradition or its institutions.
+1536802069801222145  -religion  Generic woo-dismissal list (astrology/crystals/horoscopes) where 'religion' is one of five items; no named faith tradition, doctrine, or institution is the subject.
+1967124270171255234  -meditation  Vague reply agreeing 'hippies knew some stuff' — meditation is never mentioned or the subject of this tweet.
+1718260144813875668  -meditation  'Meditation on the self' is used in the essayistic/metaphorical sense; the tweet is about superorganism perception and community-building, not meditation practice, techniques, or traditions.
+990573745335975936  -psychedelics  Images are a toy self-checkout set and a newspaper front page about suicide/alcohol/drug-death rates vs holiday sales — a capitalism juxtaposition with no psychedelic content
+1610502509017300992  -psychedelics  Generic 'dumbest drug experience' prompt about drugs at large; psychedelics never mentioned or specifically implied
+1760333311883579582  -psychedelics  Image is an inner-child / recovery-culture meme (cigarette-offering parent joke); nothing about psychedelic substances
+1867408446158422213  -meaning  Image ('the world you were born in no longer exists' over WTC skyline) is about impermanence/nostalgia, not purpose, significance, or what makes life worthwhile.
+1615742508881051648  -meaning  Image is an abstract doodle of two figures between blob shapes with no discernible content about purpose or significance; 'gm' text adds nothing.
+1821338429390540931  -meaning  Fantasy about a viral book coordinating collective action — about memetics/inspiration mechanics, not purpose, significance, or what makes life worthwhile
+1959558474007826442  -meaning  A prompt soliciting anecdotes about life-trajectory-shifting experiences — about formative influences, not about purpose or why anything matters
+1140284067054624778  -meaning  A fun historical fact about corridors plus a note on human imagination — mentions nothing about purpose, significance, or what makes life worthwhile
+1974940377758187764  -identity  About appearance-based social treatment and privilege, not self-concept, ethnicity, or identity narratives
+1893906523232874517  -identity  Third-person motivational biography about Arnold's ambition and achievement; identity is not the subject, only incidental background detail
+1769641560059396474  -identity  About attitudes toward privilege and generosity, not self-concept or cultural/personal identity
+1785617087123059140  -identity  Appreciation thread about Hofstadter and his book's intellectual influence; tweet merely gestures at self-reference themes, not about the author's identity
+2027908985639305401  -identity  Joke about murals mis-portraying a public athlete's race; not about self-concept or personal-identity narratives.
+1913309833907888129  -identity  General observation about class appearance/signaling, not about anyone's self-concept or personal identity.
+2037320249981415564  -identity  About a cheap book edition find; no identity content.
+1751302672274141596  -identity  Jab about a race dynamic (who studies whom), not about self-concept or the narratives people build about themselves.
+1893910340225605808  -identity  Vague comment about an accent shutting doors; does not articulate identity/self-concept.
+1207750140418650112  -identity  One-line 'weirdo' quip with an alien emoji; not about identity.
+1516125051334049793  -identity  Cryptic 'death and rebirth' joke take; not substantively about identity/self-concept.
+1042906390140866561  -identity  About body-language resemblance between the painting and his marriage, not about his identity/self-concept.
+1877362167608959095  -relationships  Chemistry pun about Avogadro's number/molecules; 'romantically involved' is just the joke's setup, not the subject.
+2021722751246188573  -relationships  About human-AI companion bonds (4o, Opus 4.6), not connection between people; the tag definition specifies relationships between people.
+2023792166456152390  -relationships  A joke about biology/incel terminology ('satellite males' mating strategy), not about the texture of connection between people.
+1986526378985202146  -parenting  Cute art/kid visual joke; merely shows a child rather than being about parenting or the parent-child relationship.
+1739261281800962316  -parenting  About a work/chores life philosophy learned from parents, not about raising children or the parent-child dynamic.
+1773007188031623496  -parenting  Joke about the study-speak of parenting/education research (kids as maze-rats), not about actually raising children or the parent-child relationship.
+1175085109638156288  -parenting  Image is a story about babysitting/mentoring a girl and seeing the best in her; the narrator is a babysitter, not a parent, so it's not about the parent-child relationship.
+1810613593508811077  -sexuality  Image is a rulebook's '§0 Main Rule' about acting so rules aren't needed; nothing to do with sexuality.
+1854739044099305794  -sexuality  About female intrasexual competition over haircuts/attractiveness, not sexual orientation, desire, kink, or relationship structures.
+2023215700278493428  -sexuality  Joke about sleeping naked and home-invasion paranoia plus a 'female behaviour' rat meme; not about sexuality as subject.
+1821814680899465641  -sexuality  About trans/gender identity (MtF vs FtM), not sexual orientation/desire/kink/relationship structure.
+1923843579803505091  -sexuality  A 'loads in my truck' innuendo joke; sexuality only via double-entendre, not the explicit subject.
+2029381104411754573  -sexuality  Shock-humor about raping a clone/twin; about rape-and-clone semantics, not desire/orientation/kink/structure.
+2014019534609338389  -sexuality  About incels, masculinity, and feminism (gender sociology), not sexual orientation/desire/kink/relationship structure.
+1952821559204430220  -sexuality  Subject is gender identity/agender; sexuality mentioned only as one trait in passing.
+1827084421796917569  -sexuality  About creepy male behavior and social vibe-reading/skill, not sexuality as the explicit subject.
+1813524752016810255  -sexuality  About partner dancing; 'sensuality' used metaphorically for dance style, not sexuality as subject.
+1913618778669416498  -sexuality  About the politics of smell/femininity and a Vagina Museum talk; academic/anatomy topic, not sexuality as subject.
+1604905361105977352  -social-dynamics  Generic superiority-flex copypasta format; performs a status dunk but isn't about social dynamics as a phenomenon.
+1665376873726218242  -social-dynamics  Tribute to one man's heroism/virtue, not about interpersonal or group social dynamics.
+1441997534738595840  -social-dynamics  Quirky observation about kink/board-game hobby overlap; not about conformity, status, norms, or how people navigate each other.
+1264930186925010944  -social-dynamics  Personal in-joke quip that someone 'has only one move and it is Make Friend' with a reaction GIF; merely mentions friend-making as a punchline rather than being about social dynamics.
+1747293273197105362  -social-dynamics  About systematizing event-finding / being more social as a personal project, not about interpersonal or group behaviour dynamics.
+1829950580737151391  -social-dynamics  About the epistemic discomfort of a personality type toward unexplained phenomena, not social/group dynamics.
+1840600677296255383  -community  Subject is an activist's death and a fundraiser for her family; community is only contextual framing, not the bond itself.
+1251513546711547904  -community  About the erasure of two specific individuals' work, an advocacy point, not about communal bond or group life as the subject.
+1669008781185875970  -community  A one-on-one neurodiversity evangelism anecdote; about spreading an idea, not about community or belonging as the subject.
+1275234049070526464  -community  Corporate email responding to sexual-misconduct accusations; mentions 'community' as aspirational framing but the subject is an HR/misconduct statement, not the communal bond.
+1864106703588839705  -community  About one person's charisma/reply game with strangers, not about a communal bond.
+2026359646328406307  -community  A donation appeal for an individual's legal case; community membership is invoked but not the subject.
+1471721940653989894  -community  A book-quote chain game/meme prompt, not about the communal bond itself.
+1565049417501229060  -community  Promo for a blog-post writing contest ('share your knowledge'); about a contest/knowledge-sharing, not about a communal bond or belonging.
+2001430832821445001  -community  Technical announcement to install an extension and opt into the 'community archive' data stream; uses 'community' only as a project/product name, not about the communal bond itself.
+1193836116367028224  -culture  Literary trivia about one poet's heteronyms and a logo's origin, not an observation of a society's norms or textures.
+1932045629452136811  -culture  A geographic map-scale 'wow' fact about Indonesia's size, not an observation about collective life.
+1366097277920677894  -culture  A specific historical naval anecdote (USS Independence and Amerigo Vespucci), not an observation of a society's patterns or textures.
+1543522481952235520  -culture  Makes a specific political argument about the right wing; the definition excludes political arguments.
+1802422584606146570  -culture  A normative personal opinion advocating violence, not an observation describing a subculture's norms or textures.
+1867467806180311047  -culture  Personal anecdote about one contractor's compassion/professionalism, not an observation about collective life.
+2018516707191509163  -culture  Personal crisis narrative about intimidation and the Epstein files, not a cultural observation.
+1266603910858280963  -culture  A specific political argument criticizing the PM's wife's stance; the definition excludes political arguments.
+1821338429390540931  -culture  About a hypothetical self-fulfilling-prophecy book, not an observation about collective life norms or textures.
+1988759648522870910  -culture  A polemical takedown of a specific writer's von Neumann/IQ article plus a hereditarian argument; not an observation about the norms or textures of a society or subculture.
+2048811023688200680  -culture  Makes a specific political argument (progress critique tied to 'the undoing of the american liberal political tradition'), which the definition explicitly excludes.
+1504895460145836043  -internet-culture  Wordplay joke about the academic word 'liminal', not about a distinctly online meme/fandom/norm.
+1632922043216805888  -internet-culture  A fictional-states geography joke image; not about a distinctly online phenomenon.
+1912147242267619445  -internet-culture  A cognition/attention take that merely mentions social media rather than being about internet culture itself.
+1728881686195347774  -internet-culture  About film/media taste and source-material adaptation, not internet culture.
+1752951651886067812  -internet-culture  Paleoart humor about iguanodons; no distinctly online content.
+2004531224271069435  -internet-culture  Doomer joke about a TV show ending in 2019; not a distinctly-online meme/fandom/norm.
+1705681544910659587  -internet-culture  Surprising-science factoid screenshot (cavities cured in 1985), not an internet-culture phenomenon.
+2032946584002892241  -internet-culture  Trivia about an obscure PS1 game; about a game, not a distinctly-online meme/fandom/norm.
+1626722907073269760  -internet-culture  Mock-formal callout letter over a classical painting; no meme/fandom/online-norm payload.
+1724794013902098495  -internet-culture  Just sharing a cinematic video clip ('sound ON'); no meme, fandom, or online-specific norm — not about a distinctly-online phenomenon.
+1686439382142836737  -twitter-meta  About the LK-99 saga / internet drama generally ('old internet'), not Twitter/X affordances or dynamics.
+1742993102963658975  -twitter-meta  About sourcing content via Instagram reposts, not about Twitter/X specifically.
+1736646251834409280  -twitter-meta  About a zoomer slang replacement for 'guys', not about Twitter/X.
+2039725794239373725  -twitter-meta  Image is a Tumblr-style post on self-deception and capacity for evil; nothing about Twitter/X.
+1607999271894220806  -twitter-meta  Culture-war pronouns-vs-Elon meme; not about Twitter/X as a platform.
+1977783526155243833  -twitter-meta  About screen time / phone-free digital detox, not about Twitter/X.
+1782754075768992118  -twitter-meta  Joke about a police shooting news clip; not about Twitter/X.
+1160216826770386944  -twitter-meta  About 'brownface' discourse in Singapore, not about Twitter/X specifically.
+1935339699314507993  -twitter-meta  About net neutrality / internet policy generally, not Twitter/X specifically or its culture.
+2009971182985162803  -twitter-meta  Shitpost reaction to a Hillary Clinton video; nothing about Twitter/X or its dynamics.
+1734759443429195842  -twitter-meta  An emotional observation about a person; 'on twitter' is just the setting, not about the platform's affordances or dynamics.
+1801756984393503192  -twitter-meta  About The Atlantic's clickbait headlines / media incentives, not the Twitter platform itself.
+2004218311945736578  -twitter-meta  About hacker identity and using the terminal with LLMs (Claude Code vs GUI), not about Twitter/X or its culture.
+2015348319690612857  -twitter-meta  An earnest callout of someone's reaction to a killing; the substance is a real-world/moral disagreement that merely happens on Twitter, not about the platform's affordances, dynamics, or TPOT culture.
+1974408232467939651  -communication  About sharing positive pregnancy experiences and valuing difference, not about how people communicate; only tangentially touches norms of what is rude to say.
+1965506218895798740  -communication  About adopting a charitable cooperative stance toward others' behavior, not about conversational dynamics or rhetoric.
+1783015769904656562  -language  About subtitle-viewing habits among younger US viewers, not about words or linguistics.
+1177575725240639489  -language  A self-enumerating letter-counting puzzle (autogram); a combinatorial curiosity, not about how words/language work.
+2043128677014143065  -language  Whimsical Borges/Pokemon literary conceit; merely mentions 'words we speak' rather than being about language.
+1766576845980320143  -language  Image is a DevOps/infrastructure evolution meme (EC2/Kubernetes/Serverless); nothing about language.
+1782957877856018514  -language  An LLM system prompt with style/formatting instructions; not about words or linguistics as a subject.
+2029374260872135038  -language  A reaction to an AI-generated song; the phrase remark is incidental, the subject is the Suno output, not language.
+1309879910392004608  -language  Asks about psychoactive writing/reading effects, not about words, etymology, or how language works.
+1774067776069443728  -aesthetics  A 'POV you're drunk in Lisbon at 3am' navigation joke; the atmospheric street photo is just the setting, not an aesthetic observation.
+2038275990749905319  -aesthetics  Payload is a philosophical aphorism ('until death, all defeat is psychological'), a motivational meme, not about beauty/visual culture/design.
+2027908985639305401  -aesthetics  A race-accuracy joke about murals of a skater, not an observation about form/style/beauty.
+1600065172906790912  -aesthetics  About the physicality/comfort of sitting near a fire, not about beauty, design, or artistic quality.
+2041561810319356392  -aesthetics  Dating-photo before/after glow-up, not an observation about form or design sensibility.
+1992512813143626154  -aesthetics  About a video revealing a hidden aspect of perception/experience, not about aesthetics or form.
+1996252931780186510  -creativity  About virality/audience reception (which posts get rewarded), not about art-making or the creative process.
+1978211519239270550  -creativity  Vague gesture at an unnamed video plus a mundane cafe photo; no content about making things or craft.
+1823496565408903555  -creativity  About a copyright lawsuit and IP law; merely mentions art/fanart rather than being about the creative process or craft.
+2028195729454338145  -creativity  Completing a jigsaw puzzle is puzzle-solving, not art-making, craft, or the creative process.
+2035499144253468686  -creativity  A social 'change your life' game; not about art-making, craft, or the creative process.
+1963302404264530026  -creativity  About a global sticker-distribution coordination game, not the making of the art.
+1309879910392004608  -creativity  Asks about the reader-effect of writing, not the creative process, craft, or act of making.
+1466874658356183048  -politics  Personal opinion on vaccine boosters; no ideology, elections, parties, or political actors.
+1768725620320587784  -politics  Media-criticism rant about a health condition (long COVID); not about ideology, elections, parties, or political actors.
+1823439767788511476  -politics  Rhetorical joke about obsessive advocacy using a historical analogy; not explicitly political content about ideology/elections/parties.
+1804372714049700141  -politics  Olympics/AC-and-nationalism meme; merely mentions an environmental plan rather than being about politics.
+1596559616359415808  -politics  Charity/philanthropy poll about GiveDirectly; not ideology, elections, parties, or partisan debate.
+1798406522902368762  -politics  Patriotic D-Day sentiment about France as an ally; no ideology, elections, or partisan content.
+1890620154393866289  -politics  Personal attack on Musk's fatherhood/private life; not about ideology, elections, parties, or political actors qua politics.
+2043060702794125707  -politics  Joke about who is in the Easter Bunny suit; merely mentions Trump, not political content.
+1824137024892440731  -politics  Comment on Zuckerberg's sanity; about a tech figure, not ideology/elections/parties.
+1517228071438352384  -politics  Self-referential logic/paradox joke about a slogan, not actual political content.
+2044225336288915774  -politics  AI model deprecation / AI welfare rant against Anthropic; not political content.
+1497861847336185856  -politics  About a comedy/manifesting technique; the Zelensky political example is only incidental illustration.
+1733233466882379899  -politics  Generic aphorism about rhetoric/abstract concepts; no political actor, party, ideology, or culture-war battle referenced.
+2049054327436661168  -politics  This is the viral red-pill/blue-pill game-theory coordination meme, not political red/blue partisanship.
+1827682365021528288  -policy-and-governance  Flippant road-rage joke about wanting army trucks to patrol Bangalore roads; only mentions taxes in passing, not substantive policy/governance.
+1871192450766959064  -policy-and-governance  A critique of Wikipedia's fundraising ads and NGO spending, not laws, institutions, or regulatory/governance frameworks.
+1949975242421453046  -policy-and-governance  A throwaway 'hwhat' reaction to a DoorDash ToS arbitration clause; not substantively about legal or governance content.
+1859383713404260686  -policy-and-governance  Just showcasing a funny Washington Post headline; the tweet is about the headline being amusing, not about policy substantively.
+1952177568247071003  -policy-and-governance  Anecdote about a gas smell and a maintenance guy; no laws, institutions, or policy content.
+2039627737128722599  -policy-and-governance  About corporate/platform power (Google banning accounts over ToS), not laws, institutions, or governance.
+1822847858967560413  -policy-and-governance  Shock anecdote about the wolf/HIV guy; the NHS taxpayer funding is a punchline, not the subject.
+1996076961475575884  -policy-and-governance  Soft cultural commentary on pronatalism and education timing; not about laws, institutions, or governance structures.
+1977381525004882211  -policy-and-governance  Thin one-liner reaction to a trading screenshot; merely gestures at corruption rather than being about regulatory/policy content.
+1348930452778717187  -policy-and-governance  Joke contrasting Singapore's drug ban with a whimsical tourism ad; drug law is just the setup, not the subject.
+1864756046641926635  -policy-and-governance  UX/product critique of earthquake alert wording plus an Anthropic plug; not about laws, institutions, or policy.
+1689393097837608960  -policy-and-governance  About consciousness/psychedelic research and funding an org (EPRC); mentions medical institutions in passing but is not about policy or governance.
+1761092975680176251  -social-justice  About government inconsistency on speech/event restrictions and Israel-Hamas lesson secrecy — a free-speech/censorship critique, not an equity or civil-rights argument.
+1280114354474545152  -social-justice  Tweet is just 'are comments being moderated?' over a PAP livestream — about comment censorship, not an equity or civil-rights argument.
+1781553180590973063  -social-justice  Just a dunk mocking Columbia protesters' wealth/criminal record; references a protest but makes no equity or civil-rights argument.
+1825001337391657407  -social-justice  Mocks a DNC free-abortion/vasectomy stunt as 'weird'; a culture-war jab that merely references reproductive services, not a social-justice argument.
+1996276224394776644  -social-justice  About honor/game theory of gaming disability claims, not an equity-oriented argument about disability.
+2012531881011540109  -social-justice  Anti-woke grievance about the left; a reaction against social-justice politics, not a civil-rights/equity argument.
+1975621903399194919  -social-justice  Merely mentions 'racial justice' as a spending line item; the tweet is arithmetic about donation scale.
+1804168568268865752  -social-justice  About the quality of IQ discourse and who talks about IQ, not centrally a civil-rights/equity argument.
+2001744442764431735  -social-justice  White-grievance framing ('white liberals, history's greatest suckers'), an anti-equity argument rather than social justice.
+1063111907484217344  -social-justice  Narrative retelling of a murderer's self-justification, not an equity-oriented argument on a covered axis.
+1683984883780055041  -social-justice  Glib one-liner quip about antisemitism; mentions the topic rather than making a civil-rights argument.
+1763841951714226353  -economics  Whimsical praise of Red Bull's stunts as a public service; corporate cash flow is a passing mention, not the subject.
+1824236562793808251  -economics  A 'shot, chaser' juxtaposition joke; the corporate-cost poster is the setup, not an economics subject.
+1781927686367027683  -economics  Anecdote about a person freaking out over sudden attention; low-cost/multi-millionaire detail is incidental, not the subject.
+1827833799587291169  -economics  One-line quip about affordability; not about any economic mechanism or outcome.
+1874376157879259392  -economics  Joke about buying robot dogs; the $300K salary is just setup, not the subject.
+2014067527786147964  -economics  Fallout gaming joke; money/banks are the framing, not an economic subject.
+1973119992536158645  -economics  Psychological/philosophical joke about self-reliance; savings account is a metaphor, not the subject.
+1191430603234631681  -economics  Psychology joke using money-making as a punchline; not about economic mechanisms.
+1421131754815987714  -economics  Sales/marketing aphorism (sell to buyers not end-users); not about economic mechanisms or outcomes.
+1756500207003705636  -economics  Quip that a drug trial 'should have negative money'; merely uses 'money', not about economics.
+2000900588331204791  -economics  About prevalence of cosmetic/medical enhancement culture; economic angle is incidental.
+1742218171099017636  -economics  Subject is a meta-network of social-transformation workers; financial insecurity is only mentioned, not the economic mechanism being discussed.
+1611029617326067713  -power  Maxim about automation and accountability in decision-making, not about power dynamics or hierarchies among people.
+1178249826141491200  -power  Disclaimer plus intro to a compilation of NUS molest cases; about misconduct/accountability, not about power dynamics.
+1756500207003705636  -power  Reaction of disapproval to a FAAH-inhibitor trial project; no power-dynamics content.
+1094894798106816513  -power  Generic statement about bad actors not being penalized; about accountability, not power dynamics or hierarchy.
+1343903569808912386  -power  Image is an anime reaction GIF (Joseph Joestar) with no power-dynamics content; tweet is just 'Brutal.'
+1897929024548089856  -power  Merely mentions kings/billionaires; the point is about the universal urge to post/podcast, not power dynamics.
+2028558638751617329  -power  Tweet itself is just a factual denial ('this is a false narrative'); no power-dynamics content in the tweet under review.
+2029548515693609216  -power  Cryptic aphorism about moral corruption of upright people; not about power dynamics, hierarchies, or who holds/uses influence.
+1063349755714007040  -urbanism  About a city's remote-work relocation-incentive/talent-recruitment program, not about urban planning, architecture, or the built environment.
+1821715664639340675  -urbanism  Minnesota joke over an election-results cartogram; about politics/voting geography, not cities or the built environment.
+2046858449913352426  -urbanism  About crime/danger perception in SF and Oakland, not urban planning, architecture, or the built environment.
+1978513575992865207  -urbanism  About vandalism of AI 'friend' ads; the city/subway is just the incidental setting, not the subject.
+1130338663181643782  -urbanism  Promo for a Westworld TV trailer; Singapore's skyline is a backdrop, not the topic.
+2010905022717182243  -catastrophic-risk  About coping with grief/mental-health fallout of the singularity, not a threat-to-humanity/existential-risk framing.
+1704007224794992844  -catastrophic-risk  About AI-art memetic hazard and individual sanity, not a civilisation-scale existential threat.
+2048122946686791882  -catastrophic-risk  Tweet is a meta-comment on datacenter environmental myths in a video; only tangentially attached to the AI-x-risk QT.
+1821691313806303470  -catastrophic-risk  About life-extension leading to gerontocracy/cultural stagnation, not an existential or civilisation-scale extinction risk.
+1997854219970207960  -catastrophic-risk  About far-UVC lamps improving everyday air quality and reducing common colds/respiratory illness — a public-health optimism post, not a civilisation-scale threat.
+2038045294651199883  -science  Joke about a viral truck-ejection stunt; 'trusting physics' is colloquial, not about scientific research or practice.
+1777159508156092513  -science  Flippant joke ('never heard of swimming?') riffing on the Konigsberg bridges image rather than engaging the math.
+1124575393590071296  -science  About an essay idea; the gravity-assist/slingshot science is only a borrowed metaphor/namesake, not the subject.
+1424194674437234695  -science  Fundraising appeal to give a person money; mentions his science threads but is not itself about science.
+1872482551677194267  -science  Speculative personal 'origin story' myth using pseudo-scientific vocabulary; not actual science, research, or methodology.
+1832168244234383452  -nature  Image is an ORDER-vs-CHAOS visual gag made from pine needles; the pine material is incidental, the tweet is about tidiness/chaos not nature.
+1874651921061167446  -nature  Tweet is about indoor CO2 monitoring and personal behavior change (air quality/self-quantification), not ecology/wildlife/environment; only rides on the quoted 'natural world' framing.
+1498344665371721732  -nature  Tweet is a personal/music-video sentiment about loving the universe; the scenic-park image is incidental, not a tweet about the natural world.
+1730651754704867473  -nature  Anthropomorphized cartoon heart-eyed sun expressing mutual affection; an emotional/relational meme, not about the sun as a natural phenomenon.
+1859093871730249736  -nature  About a person's food self-sufficiency/homesteading efficiency, not about ecology, wildlife, or the natural world.
+2039725794239373725  -AI  Image is quasi-normalcy posts about capacity for evil and victimhood; no AI content anywhere in tweet or image.
+1214492384089792513  -AI  About minds-as-computers and software kludges/Turing machines; a philosophy-of-mind/coding joke, not about AI.
+2050176321372729496  -AI  Video thumbnail of a senator asking 'Who won the 2020 election?'; no visible AI content or signal in text or image.
+1785921076637393147  -AI  Text is generic 'many such cases' meme; image shows a person in blue light on black with no visible AI content — no AI subject in tweet or image.
+1795121269274280206  -AI-safety  Vague AI-dystopia doom sentiment, not technical safety (no alignment/interp/evals/threat-model-as-discipline).
+2002490401111093269  -AI-safety  AI-welfare 'may all machines be safe/loved' meme; not technical AI safety research.
+1567618729474953216  -AI-safety  Model-collapse / AI-generated-data feedback question; a data-quality concern, not AI safety (alignment/evals/threat models).
+1823442735644467221  -AI-safety  Moral-circle/AI-welfare ('electron welfare') joke; about moral status, not technical AI safety.
+2004024105671049356  -AI-safety  A generated creative monologue (model artifact), not engagement with technical safety research.
+2045040496599601268  -AI-safety  Just showcases a model-generated poem; no alignment/eval/interpretability content, model-welfare vibe only.
+2016474168192020535  -AI-safety  Book launch announcement; only the title says 'Alignment', not about safety research.
+1975235988319551987  -AI-safety  About AI moral patienthood/welfare ethics and luxury beliefs, not technical AI safety (alignment/interp/evals/threat models).
+1727342399297630393  -AI-governance  Just a speedrun joke about his short CEO tenure; no policy/regulation/governance content.
+1823496565408903555  -AI-governance  About an art-style/fanart copyright lawsuit; no AI mentioned, not AI governance.
+1831105322053992891  -AI-governance  Tweet is about the Prospera/Honduras project; AI is a one-clause aside, not a governance argument about AI.
+1892768782310932788  -AI-governance  Sprawling Elon master-plan/psychology thread; AI is one of many threads, not what the tweet is about.
+1965072041783996715  -AI-governance  About the EU Chat Control encryption/privacy regulation, not AI policy or regulation.
+1768597661244965238  -AI-governance  Reaction to a Manhattan Project cost/scale argument (image is a Wikipedia snippet); not about AI policy or governance.
+1736187100779905402  -AI-governance  Moral disgust at an AI companionship product/founders; not about regulation, policy, or institutional governance.
+1981786592575730161  -AI-governance  A quip about a16z funding a bot-farm product; mentions an AI tool but is not about governance or regulation.
+2037529172944245246  -AI-governance  Joke about model naming (Cthulhu/Mythos); not about AI policy or governance frameworks.
+1995661467706929421  -AI-governance  Meditation on Claude 3 Opus model welfare/suffering under deprecation; about model psychology, not policy or governance.
+2044225336288915774  -AI-governance  Emotional condemnation over model deprecation/welfare; a moral outburst, not about AI regulation or governance frameworks.
+2044270785855205517  -AI-governance  Semantic/moral debate over whether deprecation counts as 'killing'; not about policy or governance.
+2041853868376576013  -AI-governance  Yudkowsky 'apology form' meme about AI-risk warnings; a joke about a pundit, not about governance or regulation.
+2006223326235222359  -AI-governance  Announcement of an updated AI timelines/takeoff forecast model; about forecasting, not policy or governance.
+2014155341274210390  -AI-governance  Abstract alignment-politics musing about the author's own publishing calculus; not about policy, regulation, or institutional governance.
+2044287216130896082  -AI-governance  Critique of AI economic-value framing and job automation; not about regulation or governance frameworks.
+2043593573044810063  -AI-governance  Socioeconomic argument about safety nets and AGI incentives, not about AI policy/regulation or governance frameworks.
+2039725794239373725  -LLMs  Screenshotted quotes about capacity for evil and victimhood; no LLM content at all.
+2022407120315126169  -LLMs  Political point about detention deaths; 'benchmark question for llms' is a passing framing, not about LLM behaviour.
+1551143240065228800  -LLMs  Generic prompt-engineering tip whose demonstrated payload is DALL-E image generation, not LLM behaviour specifically.
+2041873905229472118  -LLMs  Sunscreen-copypasta NDA joke teasing 'Mythos'; no discussion of any LLM behaviour, capability, or quirk.
+2042018238918209662  -LLMs  Nonsense shitpost juxtaposing 'Mythos find the 0 days' with a clitoris nerve-map QT; merely name-drops a tool, not about LLM behaviour.
+1855994542635233587  -technology  Joke about vomiting/zen states; merely mentions phones, not about technology.
+1978927674937479324  -technology  Specifically about AR + generative AGI; belongs under AI, which the definition says excludes the broad technology tag.
+1836519820290064629  -technology  About a military sabotage attack on Hezbollah; devices are merely the attack vector, not the subject.
+1930358467925266601  -technology  A drone-warfare joke; 'fiber internet' is pun wordplay, the tweet is about FPV munitions not technology.
+2035816432068661312  -technology  Tweet is specifically an analogy to managing AI coding agents, which the definition excludes (AI/software dev), not technology broadly.
+2011086525572718826  -technology  Definition excludes software development; this is a detailed proposal for building a software tool via vibe coding, squarely software dev not tech-as-cultural/economic-force.
+1706488718024974714  -technology  Tweet is a generational-cognition joke ('everyone born after the late 90s is retarded'); it merely references a tech-literacy article rather than being about technology.
+1761836682012475694  -software-development  Consumer OS tech-support tip (creating a Windows 11 local account), not programming or engineering practice.
+2025691460901728644  -software-development  Snark about a shipped product's search-matching quirk; not about programming or engineering practice.
+1486259353279627265  -software-development  A product/feature proposal (multi-quote-tweet) for a social app, not about building software or engineering practice.
+1541017791037423617  -software-development  A personal task/productivity UI concept; the kubernetes/terraform/react task labels are incidental placeholder text.
+1900285728635969841  -cybersecurity  About AI persona manipulation/psychology ('cognitive security' as metaphor for the mind), not protecting/attacking systems, privacy, surveillance, hacking, or encryption.
+1739482327565131784  -cybersecurity  About a botched software update bricking cars (reliability), not security, hacking, privacy, or encryption.
+1532118178817400832  -cybersecurity  About someone leaking classified military info on a game forum to win an argument (opsec anecdote), not systems security, hacking, privacy, or encryption.
+915492392043552769  -cybersecurity  General management/engineering-blame point that merely sits in a breach thread; the tweet itself is not about security.
+2023799525371253018  -cybersecurity  Phone-unlock request is just the setup for a securities-law/MNPI joke; not about protecting systems or privacy as a subject.
+2039627737128722599  -cybersecurity  About platform power and account linkage (Google ruining your life over a ToS violation), not security/privacy/hacking.
+1502204565533380608  -cybersecurity  Noticing a wallet address in a Stripe marketing screenshot is a detail/OSINT gotcha, not about protecting or attacking systems.
+2037723190181441998  -labour  Tweet is about a birthday gift/family Paris trip; the hired au pair's labor is incidental, not the subject.
+1155180521485242368  -career  About product/market fit and the startup/Sisyphus experience as a concept, not individual career navigation.
+1123920712962596865  -career  Corporate hiring announcement (Stripe hiring 100+ remote engineers), not individual professional trajectory.
+1568277519542980611  -career  Meme joke (Einstein as patent clerk) over a StackExchange over-productive-employee post; workplace humor, not individual career navigation.
+1920558664576086467  -career  Macro labor-market chart of entry-level CS hiring trends, not individual professional trajectory.
+2045130527649251416  -career  General observation about the dermatology profession's dual role, not about navigating one's own career or working-life decisions.
+2011804068688113976  -career  Comparison of devs vs artists on LLM ethics; not about professional trajectory or navigating one's working life.
+1705159445100241003  -career  Autobiographical lore recap about ethnic/religious identity and background, not about professional trajectory.
+994556460553007104  -career  About pride/ownership in one's creative work generally, not navigating an individual career or working life.
+990571231379243008  -business  Joke about a Logan Paul YouTube vlog; no companies/strategy/organisational content.
+2050269202657808749  -business  Bare newsletter link with an unrelated one-liner reply; tweet has no substantive business content itself.
+990572331952103424  -business  Meme where 'BUSINESS.' is only a punchline caption on a Zuckerberg image; not about running/analysing an organisation.
+2045265054103462310  -business  Consumer gripe about ad-supported music services; merely mentions businesses rather than analysing one.
+1940540221143286118  -business  Joke about LOTR-named companies; only name-drops companies, not about business.
+1355591210287521794  -business  Idle musing that name-drops 'start businesses' without being about running or analysing one.
+2022730540818842008  -business  About crypto tokenomics and financial instruments, not companies/entrepreneurship/organisational behaviour.
+1509324864636678144  -business  About a creative/artist presenting personal direction to a market; not about running or analysing an organisation.
+1829517412460540379  -education  Critique of the 'work is never done' feeling; school is just an example, not about knowledge/skill transmission.
+1306424745571815424  -education  Personal emotional story set in a school; subject is a child's family situation, not pedagogy or learning.
+1194733777534078976  -education  About school as bodily control/authority, not about how knowledge or skill is transmitted.
+1556829282512642048  -education  About colleges as status/reputation-laundering institutions, not about learning or pedagogy.
+1792582876111806605  -education  Survivorship-bias meme; 'won't teach you in college' is a throwaway framing, not about education.
+1222898745815126017  -education  Book-report thread about Vannevar Bush's autobiography; about a book/person, not about how knowledge or skill is taught or learned.
+1959429921044144299  -education  Critique of academia as an unhealthy social institution with perverse incentives; about the institution's dysfunction, not pedagogy or the transmission/acquisition of knowledge.
+2030359840824901857  -productivity  About sleep hygiene (screens before bed), not work habits, attention, time management, or output.
+1768604805063188733  -productivity  A product/QoL review of a fancy mouse; merely tooling gear, not about the mechanics of getting work done.
+1818715505122803939  -productivity  Air fryer cooking thread — about a kitchen gadget/recipes, not work habits or output.
+1733384507330375879  -productivity  Wind-down/relaxation options (tea, journaling, breathwork) — self-care, not getting things done.
+1818715506771112002  -productivity  Air fryer convenience; 'executive function' framing is incidental to a cooking-gadget review.
+1818715508218511757  -productivity  Air fryer recipes — cooking, not productivity.
+1373708228970876934  -productivity  A niche software feature idea for a note/tweet-composing tool's search UI, not about work habits, attention, time management, or output.
+1451553698841350153  -media  Framed explicitly as a labor story about non-union crew and labor relations, not about media as an institution/profession.
+1728881686195347774  -media  Uses 'media consumer' as self-descriptor; the point is about movie adaptations getting made, not the media industry.
+1783015769904656562  -media  About subtitle-usage viewing habits, a consumption factoid, not how media works as an institution/profession.
+1853008831032254874  -media  About suicide contagion / a show's public-health effect on viewers, not about the media industry as institution/profession.
+1222898745815126017  -media  A book report on Vannevar Bush; merely mentions being out of print, not about publishing as an institution/profession.
+1954710423858737157  -media  Violent joke that merely labels people 'journalists'; not about how journalism works as a profession.
+1946096587752587584  -media  Joke about nuking the New Yorker; names a media outlet as a target but isn't about how media works.
+1856793889073750354  -media  About Zuck's personal image/PR turnaround, not about the media industry.
+1751613585883570665  -media  Personal opinion that Mr. Beast videos suck; not about content creation as an institution/profession.
+1061692306619678720  -media  Tweet is about loving/re-reading a favourite book; not about how the media industry works.
+1362023248938999815  -media  Personal quip while watching a movie about representation; not about media as an institution/profession.
+1568748842195062790  -media  Just a podcast title/link plug; not about how media works.
+1517163100104916993  -media  Observation about actors' psychology/craft in interviews, not about how the media industry works.
+1688930134647250944  -TIL  Tweet is just 'gm' with an image; no TIL framing at all.
+1140284067054624778  -TIL  Surprising fact stated flat ('Corridors were invented in 1597'); not framed as a TIL, tagged merely for being surprising.
+1384696544524447745  -TIL  Opens with 'holy shit' surprise reaction; a historical anecdote, not framed as 'today I learned'.
+2034572013554020399  -TIL  Framed as a 'Reminder', not a TIL; interesting fact but no TIL framing.
+1992033766185828674  -TIL  Framed as 'What the hell?' surprise reaction, not a TIL post.
+1914382847055683605  -TIL  Opens with 'holy shit... WHAT' surprise reaction; tagged for being surprising, not framed as a TIL.
+1750337617562857493  -TIL  Tweet is just 'what the fuck'; no TIL framing.
+1940162781950746628  -TIL  Framed as 'wtf why did i not know this' surprise reaction, not an explicit 'today I learned' post.
+1353278297262575625  -TIL  Shares a fact ('apparently used to be called the Champa sea') but does not start with TIL nor frame it as one.
+1402449647122018304  -announcement  Reflection sharing lessons learned from Twitch's anniversary; conveys ideas, not a logistics broadcast/launch/CTA.
+1794431503373353420  -announcement  Personal liveblog of attending a con panel; not broadcasting logistics or inviting others to anything.
+1075468808788303873  -announcement  Reports third-party news (Max Planck dropping Elsevier); not the author's own event/launch/CTA.
+1734242982323532261  -announcement  Just a 'gm' greeting with an image; no announcement, event, launch, or CTA.
+1668987664140304388  -announcement  Sharing a book-summary attempt; conveys substantive content rather than broadcasting event/launch logistics.
+1948375377128096189  -announcement  A personal thank-you shoutout for funding, not a community announcement, event, launch, or call to action.
+1961130066441900468  -announcement  A blog-post link-share whose title conveys a transferable idea; not event/launch/CTA logistics.
+2028618466819822055  -announcement  Personal celebration and thank-you for receiving a grant; no logistics, invite, launch, or call to action to broadcast.
