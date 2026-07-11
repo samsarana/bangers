@@ -731,6 +731,15 @@ def main():
     else:
         info("tags.json not found — records get tags: []")
 
+    # Avatar refresh map (scripts/refresh_avatars.py): the parquet's
+    # avatar URLs rot when accounts change picture; re-apply verified
+    # replacements so a rebuild doesn't resurrect dead URLs.
+    avatar_map: dict[str, str] = {}
+    avatar_path = ROOT / "data" / "avatar_refresh.json"
+    if avatar_path.exists():
+        avatar_map = json.loads(avatar_path.read_text())
+        info(f"avatar_refresh.json: {len(avatar_map):,} accounts")
+
     file_map = {"rt": "top_rt.json", "likes": "top_likes.json", "qt": "top_qt.json"}
     for label in sets.keys():
         info_set = per_set_local[label]
@@ -742,6 +751,9 @@ def main():
             if not rec["is_context"] and rec["tweet_id"] in tags_map:
                 rec["tags"] = tags_map[rec["tweet_id"]]
                 tagged += 1
+            fresh = avatar_map.get((rec.get("username") or "").lower())
+            if fresh:
+                rec["avatar_media_url"] = fresh
         info(f"{label}: tags merged onto {tagged:,} primary records")
 
         # Append external context records (in stable id-sorted order so
