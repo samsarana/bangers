@@ -12,52 +12,19 @@
 <meta name="description" content="A browsable anthology of top tweets from the TPOT community, ranked by likes, retweets, and quote tweets.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,300;8..60,400;8..60,600;8..60,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css?v=21">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400;1,8..60,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css?v=22">
 </head>
 <body>
 
 <header class="masthead">
   <div class="masthead-inner">
-    <h1 class="title"><a href="#">Book of Bangers</a></h1>
-    <p class="tagline">An anthology of TPOT, ranked by the crowd.</p>
+    <div class="mh-id">
+      <h1 class="title"><a href="#">Book of Bangers</a></h1>
+      <p class="tagline">An anthology of TPOT</p>
+    </div>
+    <div class="mh-links">
     <nav><a href="#" id="about-link">About</a></nav>
-  </div>
-</header>
-
-<div class="controls" id="controls">
-  <div class="controls-inner">
-
-    <div class="control-group order-by">
-      <span class="control-label" id="order-by-label">Order by</span>
-      <div class="metric-group" role="tablist" aria-labelledby="order-by-label">
-        <button class="metric-btn" data-metric="rt" data-tip="Tweets worth signal-boosting" role="tab" aria-selected="true">Retweets</button>
-        <button class="metric-btn" data-metric="likes" data-tip="Tweets users wanted to see more of" role="tab" aria-selected="false">Likes</button>
-        <button class="metric-btn" data-metric="qt" data-tip="Tweets users wanted to respond to or build on" role="tab" aria-selected="false">Quote tweets</button>
-      </div>
-    </div>
-
-    <div class="control-group year-wrap">
-      <button id="year-btn" class="year-btn" aria-haspopup="true" aria-expanded="false" aria-controls="year-panel">
-        <span id="year-label">All time</span>
-        <svg class="tags-caret" viewBox="0 0 10 6" width="10" height="6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </button>
-      <div class="year-panel" id="year-panel" role="group" aria-label="Filter by years" hidden></div>
-    </div>
-
-    <div class="control-group">
-      <button id="tags-btn" class="tags-btn" aria-expanded="false" aria-controls="tag-row">
-        Tags<span class="tags-active" id="tags-active" hidden></span>
-        <svg class="tags-caret" viewBox="0 0 10 6" width="10" height="6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </button>
-    </div>
-
-    <div class="control-group search-group">
-      <label class="visually-hidden" for="search">Search</label>
-      <input type="search" id="search" placeholder="Search text or @username…" autocomplete="off">
-    </div>
-
-    <div class="count" id="count" aria-live="polite">Loading…</div>
 
     <div class="settings-wrap">
       <button class="settings-btn" id="settings-btn"
@@ -119,6 +86,54 @@
         </label>
       </div>
     </div>
+    </div>
+  </div>
+</header>
+
+<div class="controls" id="controls">
+  <div class="controls-inner">
+
+    <div class="rank-by">
+      <span class="rank-label" id="rank-label">Ranked by</span>
+      <button id="rank-btn" class="rank-btn" aria-haspopup="listbox" aria-expanded="false" aria-controls="rank-panel">
+        <span id="rank-current">Retweets</span>
+        <svg class="tags-caret" viewBox="0 0 10 6" width="10" height="6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <div class="rank-panel" id="rank-panel" role="listbox" aria-labelledby="rank-label" hidden>
+        <button class="rank-opt" role="option" data-metric="rt" aria-selected="true">
+          <span class="nm">Retweets</span>
+          <span class="ds">Tweets worth signal-boosting</span>
+        </button>
+        <button class="rank-opt" role="option" data-metric="likes" aria-selected="false">
+          <span class="nm">Likes</span>
+          <span class="ds">Tweets users wanted to see more of</span>
+        </button>
+        <button class="rank-opt" role="option" data-metric="qt" aria-selected="false">
+          <span class="nm">Quote tweets</span>
+          <span class="ds">Tweets users wanted to respond to or build on</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="ctl-tools">
+      <div class="year-wrap">
+        <button id="year-btn" class="year-btn" aria-haspopup="true" aria-expanded="false" aria-controls="year-panel">
+          <span id="year-label">All time</span>
+          <svg class="tags-caret" viewBox="0 0 10 6" width="10" height="6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="year-panel" id="year-panel" role="group" aria-label="Filter by years" hidden></div>
+      </div>
+
+      <button id="tags-btn" class="tags-btn" aria-expanded="false" aria-controls="tag-row">
+        Tags<span class="tags-active" id="tags-active" hidden></span>
+        <svg class="tags-caret" viewBox="0 0 10 6" width="10" height="6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+
+      <label class="visually-hidden" for="search">Search</label>
+      <input type="search" id="search" placeholder="Search text or @user…" autocomplete="off">
+
+      <div class="count" id="count" aria-live="polite">Loading…</div>
+    </div>
 
   </div>
 
@@ -159,13 +174,13 @@
     </ul>
 
     <h3>Display options</h3>
-    <p>Two toggles in the header. <strong>Reading mode</strong> hides avatars, names and dates, leaving only the text and the metrics — useful if you want to read without the social layer. The <strong>links toggle</strong> hides every outbound link to x.com and renders in-text URLs as plain text, so the anthology stays self-contained.</p>
+    <p>Behind the cog in the masthead. <strong>Reading mode</strong> hides avatars, names and dates, leaving only the text and the metrics — useful if you want to read without the social layer. The <strong>links toggle</strong> hides every outbound link to x.com and renders in-text URLs as plain text, so the anthology stays self-contained.</p>
 
     <h3>Credits</h3>
     <p>Built by Sam Clarke. Data from the Community Archive — thanks to xiq for the export and the conversation.</p>
   </article>
 </dialog>
 
-<script src="js/app.js?v=18" defer></script>
+<script src="js/app.js?v=19" defer></script>
 </body>
 </html>

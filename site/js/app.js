@@ -58,6 +58,9 @@
   const $yearBtn    = document.getElementById("year-btn");
   const $yearPanel  = document.getElementById("year-panel");
   const $yearLabel  = document.getElementById("year-label");
+  const $rankBtn    = document.getElementById("rank-btn");
+  const $rankPanel  = document.getElementById("rank-panel");
+  const $rankCurrent = document.getElementById("rank-current");
   const $search     = document.getElementById("search");
   const $tagsBtn    = document.getElementById("tags-btn");
   const $tagsActive = document.getElementById("tags-active");
@@ -151,16 +154,26 @@
   // ---------------------------------------------------------------- bindings
 
   function bindControls() {
-    document.querySelectorAll(".metric-btn").forEach(btn => {
+    // Ranked-by dropdown: options set the primary metric. The visible button
+    // label mirrors the selection ("Ranked by RETWEETS"); the open/close
+    // behaviour is the same popover pattern as the years panel below.
+    const RANK_LABEL = { rt: "Retweets", likes: "Likes", qt: "Quote tweets" };
+    function closeRank() {
+      $rankPanel.hidden = true;
+      $rankBtn.setAttribute("aria-expanded", "false");
+    }
+    document.querySelectorAll(".rank-opt").forEach(btn => {
       btn.addEventListener("click", () => {
         const m = btn.dataset.metric;
+        closeRank();
         if (m === state.metric) return;
         state.metric = m;
         state.visible = PAGE_SIZE;
         rebuildTiebreakOptions();
-        document.querySelectorAll(".metric-btn").forEach(b =>
+        document.querySelectorAll(".rank-opt").forEach(b =>
           b.setAttribute("aria-selected", b.dataset.metric === m ? "true" : "false")
         );
+        $rankCurrent.textContent = RANK_LABEL[m];
         loadMetric(m).then(() => {
           rebuildYearOptions();
           buildTagRow();
@@ -169,7 +182,26 @@
         });
       });
       // initial state
-      if (btn.dataset.metric === state.metric) btn.setAttribute("aria-selected", "true");
+      btn.setAttribute("aria-selected", btn.dataset.metric === state.metric ? "true" : "false");
+    });
+    $rankCurrent.textContent = RANK_LABEL[state.metric];
+
+    $rankBtn.addEventListener("click", e => {
+      e.stopPropagation();
+      const open = $rankPanel.hidden;
+      $rankPanel.hidden = !open;
+      $rankBtn.setAttribute("aria-expanded", open ? "true" : "false");
+    });
+    document.addEventListener("click", e => {
+      if ($rankPanel.hidden) return;
+      if ($rankPanel.contains(e.target) || $rankBtn.contains(e.target)) return;
+      closeRank();
+    });
+    document.addEventListener("keydown", e => {
+      if (e.key === "Escape" && !$rankPanel.hidden) {
+        closeRank();
+        $rankBtn.focus();
+      }
     });
 
     // Years disclosure: same open/close pattern as the settings cog.
