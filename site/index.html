@@ -157,27 +157,27 @@
     <button class="close" data-close-about aria-label="Close">×</button>
     <h2>About <em>Book of Bangers</em></h2>
 
-    <p><em>Book of Bangers</em> is a quiet reading room for some of the best writing from <strong>TPOT</strong> — <em>This Part of Twitter</em> — a loose network of accounts that have been thinking out loud together for the better part of a decade. It is an anthology, not a feed. Browse it the way you would a printed collection: pick a metric, scroll until something catches you, sit with it.</p>
+    <p><em>Book of Bangers</em> is a quiet reading room for some of the best writing from <strong>TPOT</strong> — <em>This Part of Twitter</em> — a loose network of accounts that have been thinking out loud together for over a decade. It is an anthology, not a feed. Browse it the way you would a printed collection: leaf through until something catches you, sit with it.</p>
 
     <h3>Where the data comes from</h3>
-    <p>Every tweet here is drawn from the <a href="https://www.community-archive.org/" target="_blank" rel="noopener">Community Archive</a> — an open, public-domain archive of TPOT-adjacent accounts initiated by <a href="https://x.com/exgenesis" target="_blank" rel="noopener">@exgenesis</a> (xiq). The snapshot used for this site was taken in May 2026 and covers around 340 archived accounts. Counts shown are point-in-time at the moment of the snapshot.</p>
+    <p>Every tweet here is drawn from the <a href="https://www.community-archive.org/" target="_blank" rel="noopener">Community Archive</a> — an open, public-domain archive of TPOT and adjacent accounts initiated by <a href="https://x.com/exgenesis" target="_blank" rel="noopener">@exgenesis</a>. The snapshot used for this site was taken in May 2026 and covers tweets from the 340 accounts who had uploaded to the archive. From those, the site carries the top 5,000 tweets by each of the three metrics below.</p>
 
     <h3>The three metrics</h3>
-    <p>Likes, retweets and quote tweets each surface a different kind of tweet — roughly: resonance, endorsement, and response. They are not interchangeable, and the three lists overlap less than you might expect. <a href="metrics.html">More on the three metrics →</a></p>
+    <p>Likes, retweets and quote tweets each surface a different kind of tweet — roughly: enjoyment, endorsement, and conversation. They are not interchangeable: the likes and retweets lists overlap substantially, but the quote tweet list shares very little with either. <a href="metrics.html">More on the three metrics →</a></p>
+
+    <h3>Tags</h3>
+    <p>Every tweet carries up to four tags, drawn from a fixed set of 53 themes. The taxonomy was distilled from a hand-labelled seed set of 150 tweets; Claude then tagged the full anthology — reading each tweet with its reply and quote context, and the attached images where text alone wasn't enough — and the most visible tweets under each tag were audited afterwards. Treat tags as a browsing aid, not a verdict.</p>
 
     <h3>Caveats</h3>
     <ul>
       <li>Counts are a snapshot, not live.</li>
-      <li>QT counts are <em>corpus-internal</em> lower bounds: they only count quote tweets present in the archive itself.</li>
-      <li>Self-quotes are excluded from QT counts.</li>
-      <li>Retweets ("RT @…") by archive accounts are excluded from the primary set; only original tweets and replies are ranked.</li>
+      <li>Quote tweet counts are <em>corpus-internal</em> lower bounds: they only count quote tweets by other archive users.</li>
+      <li>Self-quotes are excluded from quote tweet counts.</li>
+      <li>Only tweets the 340 accounts wrote themselves are ranked; their retweets and likes of other people's tweets are excluded.</li>
     </ul>
 
-    <h3>Display options</h3>
-    <p>Behind the cog in the masthead. <strong>Reading mode</strong> hides avatars, names and dates, leaving only the text and the metrics — useful if you want to read without the social layer. The <strong>links toggle</strong> hides every outbound link to x.com and renders in-text URLs as plain text, so the anthology stays self-contained.</p>
-
-    <h3>Credits</h3>
-    <p>Built by Sam Clarke. Data from the Community Archive — thanks to xiq for the export and the conversation.</p>
+    <h3>Acknowledgements</h3>
+    <p>Built by Sam. Data from the Community Archive — thanks to xiq for the export and conversation.</p>
   </article>
 </dialog>
 
