@@ -19,10 +19,7 @@ import urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-IMG_DIR_SHARED = Path(
-    "/private/tmp/claude-502/-Users-sam-Developer-Book-of-Bangers--Opus-/"
-    "f7eb5622-075c-458f-bff8-f26da31d85bf/scratchpad/full/images"
-)
+IMG_DIR_SHARED = ROOT / "cache" / "review_images"
 BATCH_SIZE = 25
 HIDDEN = {"unclassified", "unknown"}
 
