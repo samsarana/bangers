@@ -13,7 +13,7 @@ import json
 import sys
 from pathlib import Path
 
-ROOT = Path("/Users/sam/Developer/Book of Bangers (Opus)")
+ROOT = Path(__file__).resolve().parents[2]
 BATCH_SIZE = 20
 
 scratch = Path(sys.argv[1])

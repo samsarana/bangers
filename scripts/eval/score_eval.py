@@ -12,7 +12,7 @@ import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 
-ROOT = Path("/Users/sam/Developer/Book of Bangers (Opus)")
+ROOT = Path(__file__).resolve().parents[2]
 
 # Known rubric boundaries, used to auto-draft mismatch hypotheses.
 CONFUSION_PAIRS = [

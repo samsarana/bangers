@@ -23,7 +23,7 @@ import sys
 from collections import Counter
 from pathlib import Path
 
-ROOT = Path("/Users/sam/Developer/Book of Bangers (Opus)")
+ROOT = Path(__file__).resolve().parents[2]
 work = Path(sys.argv[1])
 
 slugs = set(re.findall(r"^### (.+)$", (ROOT / "data/taxonomy.md").read_text(), re.M))

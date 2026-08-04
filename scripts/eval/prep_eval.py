@@ -15,7 +15,7 @@ import re
 import sys
 from pathlib import Path
 
-ROOT = Path("/Users/sam/Developer/Book of Bangers (Opus)")
+ROOT = Path(__file__).resolve().parents[2]
 SCRATCH = Path(sys.argv[1]) if len(sys.argv) > 1 else Path("/tmp/eval")
 PROMPT_DIR = SCRATCH / "eval" / "prompts"
 PROMPT_DIR.mkdir(parents=True, exist_ok=True)
