@@ -76,7 +76,7 @@ The dev preview server is configured in `.claude/launch.json` (`autoPort: true`,
 - **`<meta name="referrer" content="no-referrer">`** in `index.html` is critical. `video.twimg.com` returns 403 if the request includes a Referer pointing anywhere other than twitter.com. The `<video>` element does not support the `referrerpolicy` attribute (per spec it's only on `<a>`, `<img>`, `<iframe>`, `<link>`, `<script>`, `<area>`), so the page-level meta is the only way to make embedded videos play.
 - **Asset cache busting** — `index.html` references `css/style.css?v=N` and `js/app.js?v=N`. Bump the version (`Edit ... replace_all=true`) when you change CSS or JS, or browsers will serve stale files. Python's `http.server` doesn't send `Cache-Control` headers.
 - **HTML entities** — twitter syndication and the parquet text both contain `&amp;`, `&lt;` etc. `htmlDecode()` runs every body through a textarea trick before linkifying.
-- **Display toggles** are settings in a popover behind a cog icon (`#settings-btn`). Body classes: `.content-only` (hide avatars/handles/dates), `.no-links` (hide outbound x.com links + "Open on X"). Both persist via `localStorage` keys `bob.contentOnly` and `bob.hideLinks`.
+- **Display toggles** are settings in a popover behind a cog icon (`#settings-btn`). Body classes: `.content-only` (hide avatars/handles/dates), `.no-links` (hide outbound x.com links + "Open on X"), `.dark-mode` (dark palette). All persist via `localStorage` keys `bob.contentOnly`, `bob.hideLinks`, and `bob.darkMode`.
 - **Image / video error handling**: broken `<img>` removes itself silently; broken `<video>` keeps its poster visible (don't auto-remove videos — playback errors are common and removing them on click-to-play looks like the card is broken).
 
 ## Aesthetic constraints
@@ -85,7 +85,7 @@ The brief in `README.md` and `site/css/style.css` define the design language:
 
 - Warm parchment palette (`--bg: #f6f1e7`), deep cinnabar single accent (`--accent: #7a2a1f`), Source Serif body, Inter for chrome.
 - "Anthology, not feed" — pagination is intentional (no infinite scroll), animations are minimal, no drop shadows except a tiny one on dialogs/popovers, no playful motion. Don't add a "share" button or social affordances.
-- Light mode only. Mobile responsive (single media query at 640 px).
+- Light mode by default; opt-in dark mode via the settings-popover toggle (`body.dark-mode` overrides at the end of `style.css`), never via `prefers-color-scheme`. Mobile responsive (single media query at 640 px).
 
 ## Things to *not* do
 
