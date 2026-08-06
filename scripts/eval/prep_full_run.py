@@ -3,6 +3,9 @@
 - Dedupes primaries across the three per-metric JSONs.
 - Excludes the 146 human-labelled seed tweets (they enter tags.json with
   source: "human" directly).
+- Excludes tweets already present in data/tags.json, so an incremental
+  refresh only queues new top-N entrants. Pair with
+  `assemble_tags.py <dir> --merge` to fold results into the existing file.
 - Reuses scripts/eval/classifier_prompt_prefix.txt verbatim (the prompt
   validated in Phase 3b).
 
@@ -37,8 +40,13 @@ seed_ids = {
     r["tweet_id"]
     for r in csv.DictReader(open(ROOT / "scripts/eval/seed_labels_cleaned.csv"))
 }
-todo = sorted(primary_ids - seed_ids)
-print(f"Primaries: {len(primary_ids):,}; seed excluded: {len(seed_ids)}; to label: {len(todo):,}")
+tags_path = ROOT / "data/tags.json"
+tagged_ids = set(json.loads(tags_path.read_text())) if tags_path.exists() else set()
+todo = sorted(primary_ids - seed_ids - tagged_ids)
+print(
+    f"Primaries: {len(primary_ids):,}; seed excluded: {len(seed_ids)}; "
+    f"already tagged: {len(primary_ids & tagged_ids):,}; to label: {len(todo):,}"
+)
 
 
 def fmt(r):

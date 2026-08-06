@@ -1,6 +1,11 @@
 """Assemble data/tags.json from batch result files.
 
-Usage: python3 scripts/eval/assemble_tags.py <scratch_full_dir>
+Usage: python3 scripts/eval/assemble_tags.py <scratch_full_dir> [--merge]
+
+--merge preloads the existing data/tags.json and lays this run's results on
+top — the mode for incremental refreshes, where prep_full_run.py queued only
+new top-N entrants. Without it the output contains only this run's batches
+(plus seeds/overrides), which silently drops every previously tagged tweet.
 
 Inputs:
   <dir>/results/batch_*.json   — text-pass predictions (Phase 4)
@@ -25,12 +30,18 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 work = Path(sys.argv[1])
+merge = "--merge" in sys.argv[2:]
 
 slugs = set(re.findall(r"^### (.+)$", (ROOT / "data/taxonomy.md").read_text(), re.M))
 idmap = json.loads((work / "idmap.json").read_text())
 meta = json.loads((work / "meta.json").read_text())
 
 records = {}
+prior_n = 0
+if merge:
+    records = json.loads((ROOT / "data/tags.json").read_text())
+    prior_n = len(records)
+    print(f"merge mode: {prior_n:,} existing records loaded")
 problems = []
 seen_keys = set()
 
@@ -143,6 +154,8 @@ out.write_text(json.dumps(records, ensure_ascii=False, separators=(",", ":")))
 n = len(records)
 dist = Counter(t for r in records.values() for t in r["tags"])
 print(f"records: {n:,}  (vision-updated: {vision_n})")
+if merge:
+    print(f"new records this run: {n - prior_n:,}")
 print(f"missing text-pass items: {len(missing)}  (batches: {missing_batches[:20]})")
 print(f"confidence: {Counter(r['confidence'] for r in records.values())}")
 print(f"source: {Counter(r['source'] for r in records.values())}")
