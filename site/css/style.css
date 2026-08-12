@@ -960,6 +960,18 @@ body.dark-mode dialog.about {
   .feed { padding: 1.5rem 1rem 0; }
   .card { grid-template-columns: 2.2rem 1fr; gap: 0 0.7rem; padding: 1.5rem 0 1.75rem; }
   .card .open-x { top: 0.5rem; }
+  /* Glyph + count only: the worded labels can't fit on one line at phone
+     widths, and each wrapped line costs ~50px. Labels stay in the DOM,
+     visually hidden, so screen readers still hear "230,080 likes". */
+  .card .metrics { gap: 0.4rem 1.3rem; }
+  .card .metrics .metric-label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
   dialog.about article { padding: 2rem 1.25rem 2.5rem; }
   /* avoid tooltips that overflow viewport on mobile */
   [data-tip]:hover::after, [data-tip]:focus-visible::after { display: none; }

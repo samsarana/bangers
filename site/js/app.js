@@ -823,7 +823,11 @@
       g.className = "glyph";
       g.textContent = it.glyph;
       const v = document.createElement("span");
-      v.textContent = (it.n || 0).toLocaleString("en-GB") + " " + it.label;
+      v.textContent = (it.n || 0).toLocaleString("en-GB");
+      const lbl = document.createElement("span");
+      lbl.className = "metric-label";
+      lbl.textContent = " " + it.label;
+      v.appendChild(lbl);
       span.append(g, v);
       row.appendChild(span);
     }
