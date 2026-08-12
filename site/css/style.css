@@ -653,8 +653,11 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 600; letter-spacing: -0.005
   font-size: 0.95rem;
   color: var(--ink-soft);
 }
-.card .metrics .metric.is-rank-metric { color: var(--accent); font-weight: 500; }
-.card .metrics .metric.is-rank-metric .glyph { color: var(--accent); }
+/* Emphasis via ink contrast + weight, deliberately NOT the accent color —
+   cinnabar means "interactive" everywhere else on the page, and a cinnabar
+   count reads as a button (beta feedback). */
+.card .metrics .metric.is-rank-metric { color: var(--ink); font-weight: 500; }
+.card .metrics .metric.is-rank-metric .glyph { color: var(--ink); }
 
 .card .open-x {
   position: absolute;
