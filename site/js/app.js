@@ -812,9 +812,9 @@
     const row = document.createElement("div");
     row.className = "metrics";
     const items = [
-      { key: "likes", glyph: "♥", label: "likes",        n: t.favorite_count },
-      { key: "rt",    glyph: "↻", label: "retweets",     n: t.retweet_count },
-      { key: "qt",    glyph: "❝", label: "quote tweets", n: t.qt_count },
+      { key: "likes", glyph: "♥", one: "like",    many: "likes",    n: t.favorite_count },
+      { key: "rt",    glyph: "↻", one: "retweet", many: "retweets", n: t.retweet_count },
+      { key: "qt",    glyph: "❝", one: "quote within the archive", many: "quotes within the archive", n: t.qt_count },
     ];
     for (const it of items) {
       const span = document.createElement("span");
@@ -826,7 +826,7 @@
       v.textContent = (it.n || 0).toLocaleString("en-GB");
       const lbl = document.createElement("span");
       lbl.className = "metric-label";
-      lbl.textContent = " " + it.label;
+      lbl.textContent = " " + (it.n === 1 ? it.one : it.many);
       v.appendChild(lbl);
       span.append(g, v);
       row.appendChild(span);

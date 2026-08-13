@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400;1,8..60,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css?v=22">
+<link rel="stylesheet" href="css/style.css?v=25">
 </head>
 <body>
 <script>if (localStorage.getItem("bob.darkMode") === "1") document.body.classList.add("dark-mode");</script>
@@ -36,13 +36,15 @@
   <p>Tweets worth signal-boosting. A retweet is an explicit, public endorsement to one's own followers — costlier than a like, and so a stronger claim: <em>this deserves a bigger audience</em>.</p>
 
   <h3>Quote tweets</h3>
-  <p>Tweets people wanted to respond to or build on. The noisiest of the three: it captures generativity, but also disagreement, as well as tweets that explicitly ask to be quoted.</p>
+  <p>Tweets people wanted to respond to or build on. The noisiest of the three: it captures generativity, but also disagreement, as well as tweets that explicitly ask to be quoted. One important difference from the other two: this is <em>not</em> Twitter's global quote count — it counts only quote tweets written by other archive accounts. <a href="#qt-metric">More below</a>.</p>
 
   <h3>How the three relate</h3>
   <p>Empirically, likes and retweets correlate strongly across everything the 340 accounts wrote (Pearson 0.81); both are nearly uncorrelated with quote tweet count (0.10 and 0.09). The site's three top-5,000 lists reflect this: likes and retweets share about two-thirds of their entries, while the quote tweet list overlaps very little with either — it surfaces a distinctly different slice of the archive. Concretely: ~80% of tweets on the quote tweet list appear on neither of the other two.</p>
+  <p>Part of that decorrelation is mechanical rather than behavioural. Likes and retweets are global counts over all of Twitter; the quote tweet count is taken within the archive, where most tweets score zero or one — and counts that small are mostly noise to a correlation. But the difference is real too: the quote tweet list genuinely surfaces what resonated <em>inside</em> the community, rather than what travelled furthest outside it.</p>
 
-  <h3>About the quote tweet metric in particular</h3>
-  <p>Quote tweet count tracks <em>notable enough to respond to publicly</em>. That overlaps substantially with <em>worth including in an anthology of insight</em>, but the two are not identical. Expect to find ideas generative enough to inspire responses, but also things that provoked enough disagreement to warrant a public rebuttal, and the occasional <em>"quote this with your…"</em> prompt.</p>
+  <h3 id="qt-metric">About the quote tweet metric in particular</h3>
+  <p>Quote tweet counts here are <em>corpus-internal</em>: they count only quote tweets written by other archive accounts — a few hundred people, not all of Twitter. So the numbers are small (most tweets in the anthology have zero or one), and each is a lower bound on the tweet's true quote count.</p>
+  <p>What the count tracks is <em>notable enough that someone in the community responded publicly</em>. That overlaps substantially with <em>worth including in an anthology of insight</em>, but the two are not identical. Expect to find ideas generative enough to inspire responses, but also things that provoked enough disagreement to warrant a public rebuttal, and the occasional <em>"quote this with your…"</em> prompt.</p>
 
 </main>
 
