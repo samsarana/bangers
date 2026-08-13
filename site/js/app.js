@@ -814,7 +814,9 @@
     const items = [
       { key: "likes", glyph: "♥", one: "like",    many: "likes",    n: t.favorite_count },
       { key: "rt",    glyph: "↻", one: "retweet", many: "retweets", n: t.retweet_count },
-      { key: "qt",    glyph: "❝", one: "quote within the archive", many: "quotes within the archive", n: t.qt_count },
+      // At phone widths .metric-label is hidden and CSS swaps scope for
+      // scopeShort, so the corpus-internal quote count is never a bare number
+      { key: "qt",    glyph: "❝", one: "quote",   many: "quotes",   scope: "within the archive", scopeShort: "in TPOT", n: t.qt_count },
     ];
     for (const it of items) {
       const span = document.createElement("span");
@@ -828,6 +830,15 @@
       lbl.className = "metric-label";
       lbl.textContent = " " + (it.n === 1 ? it.one : it.many);
       v.appendChild(lbl);
+      if (it.scope) {
+        const sc = document.createElement("span");
+        sc.className = "metric-scope";
+        sc.textContent = " " + it.scope;
+        const scs = document.createElement("span");
+        scs.className = "metric-scope-sm";
+        scs.textContent = " " + it.scopeShort;
+        v.append(sc, scs);
+      }
       span.append(g, v);
       row.appendChild(span);
     }
